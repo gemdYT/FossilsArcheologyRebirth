@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:dirt",
+    "fossil:fossil_tar"
+  ],
+  "result": {
+    "id": "fossil:tarred_dirt",
+    "count": 1
+  }
+}

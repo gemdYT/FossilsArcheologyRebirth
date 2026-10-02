@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_elasmotherium"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_elasmotherium"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_elasmotherium"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_elasmotherium"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_elasmotherium"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_elasmotherium"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_elasmotherium"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_elasmotherium"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_elasmotherium"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:fur_elasmotherium"
+        }
+      ]
+    }
+  ]
+}

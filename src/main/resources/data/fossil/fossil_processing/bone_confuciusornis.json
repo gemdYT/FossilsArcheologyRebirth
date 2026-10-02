@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_confuciusornis",
+    "fossil:bone_foot_confuciusornis",
+    "fossil:bone_leg_confuciusornis",
+    "fossil:bone_ribcage_confuciusornis",
+    "fossil:bone_skull_confuciusornis",
+    "fossil:bone_tail_confuciusornis",
+    "fossil:bone_unique_confuciusornis",
+    "fossil:bone_vertebrae_confuciusornis"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:confuciusornis_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

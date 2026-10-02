@@ -1,7 +1,0 @@
-{
-  "animations": {
-    "animation.henodus.walk": {
-      "blocks_per_second": 0.1667
-    }
-  }
-}

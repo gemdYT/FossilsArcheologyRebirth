@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_dodo",
+    "fossil:bone_foot_dodo",
+    "fossil:bone_leg_dodo",
+    "fossil:bone_ribcage_dodo",
+    "fossil:bone_skull_dodo",
+    "fossil:bone_tail_dodo",
+    "fossil:bone_unique_dodo",
+    "fossil:bone_vertebrae_dodo"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:dodo_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fossil:meat_lonchodomas",
+  "result": {
+    "id": "fossil:cooked_lonchodomas"
+  },
+  "experience": 1.5,
+  "cookingtime": 200
+}

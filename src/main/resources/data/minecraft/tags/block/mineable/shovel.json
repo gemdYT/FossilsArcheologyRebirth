@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fossil:dense_sand",
+    "fossil:iced_dirt",
+    "fossil:permafrost_block",
+    "fossil:tarred_dirt",
+    "fossil:volcanic_ash"
+  ]
+}

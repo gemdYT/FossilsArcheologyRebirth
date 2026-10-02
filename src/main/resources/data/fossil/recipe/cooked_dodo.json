@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fossil:meat_dodo",
+  "result": {
+    "id": "fossil:cooked_dodo"
+  },
+  "experience": 1.5,
+  "cookingtime": 200
+}

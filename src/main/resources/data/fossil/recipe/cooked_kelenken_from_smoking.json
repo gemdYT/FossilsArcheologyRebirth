@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_kelenken",
+  "result": {
+    "id": "fossil:cooked_kelenken"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

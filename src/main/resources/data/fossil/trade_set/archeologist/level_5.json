@@ -1,0 +1,12 @@
+{
+  "amount": 2,
+  "trades": [
+    "fossil:archeologist/5/relic_scrap",
+    "fossil:archeologist/5/pottery_shard",
+    "fossil:archeologist/5/stone_tablet",
+    "fossil:archeologist/5/broken_sword",
+    "fossil:archeologist/5/broken_helmet",
+    "fossil:archeologist/5/ancient_key"
+  ],
+  "random_sequence": "fossil:trade_set/archeologist/level_5"
+}

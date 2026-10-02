@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_ankylosaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_ankylosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_ankylosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_ankylosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_ankylosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_ankylosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_ankylosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_ankylosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_ankylosaurus"
+        }
+      ]
+    }
+  ]
+}

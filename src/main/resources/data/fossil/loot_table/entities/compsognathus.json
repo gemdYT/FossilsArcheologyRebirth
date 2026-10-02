@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_compsognathus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_compsognathus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_compsognathus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_compsognathus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_compsognathus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_compsognathus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_compsognathus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_compsognathus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_compsognathus"
+        }
+      ]
+    }
+  ]
+}

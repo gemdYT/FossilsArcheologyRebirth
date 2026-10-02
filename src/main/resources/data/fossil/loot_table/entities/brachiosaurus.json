@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_brachiosaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_brachiosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_brachiosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_brachiosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_brachiosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_brachiosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_brachiosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_brachiosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_brachiosaurus"
+        }
+      ]
+    }
+  ]
+}

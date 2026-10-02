@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_parasaurolophus",
+    "fossil:bone_foot_parasaurolophus",
+    "fossil:bone_leg_parasaurolophus",
+    "fossil:bone_ribcage_parasaurolophus",
+    "fossil:bone_skull_parasaurolophus",
+    "fossil:bone_tail_parasaurolophus",
+    "fossil:bone_unique_parasaurolophus",
+    "fossil:bone_vertebrae_parasaurolophus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:parasaurolophus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "amount": 2,
+  "trades": [
+    "fossil:paleontologist/1/bio_fossil",
+    "fossil:paleontologist/1/bio_goo",
+    "fossil:paleontologist/1/fern_seed"
+  ],
+  "random_sequence": "fossil:trade_set/paleontologist/level_1"
+}

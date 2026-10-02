@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:tempskya_sapling",
+    "minecraft:bone_meal"
+  ],
+  "result": {
+    "id": "fossil:tempskya_leaf",
+    "count": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "machine": "culture_vat",
+  "inputs": [
+    "fossil:lonchodomas_dna"
+  ],
+  "fuel": "fossil:bio_goo",
+  "ticks": 200,
+  "results": [
+    {
+      "item": "fossil:egg_item_lonchodomas",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

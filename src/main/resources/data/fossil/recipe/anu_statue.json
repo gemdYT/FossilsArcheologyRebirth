@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "SGS",
+    "SSS"
+  ],
+  "key": {
+    "R": "fossil:relic_scrap",
+    "S": "minecraft:stone_bricks",
+    "G": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "fossil:anu_statue",
+    "count": 1
+  }
+}

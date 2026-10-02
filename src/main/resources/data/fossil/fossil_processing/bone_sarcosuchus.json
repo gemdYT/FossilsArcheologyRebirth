@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_sarcosuchus",
+    "fossil:bone_foot_sarcosuchus",
+    "fossil:bone_leg_sarcosuchus",
+    "fossil:bone_ribcage_sarcosuchus",
+    "fossil:bone_skull_sarcosuchus",
+    "fossil:bone_tail_sarcosuchus",
+    "fossil:bone_unique_sarcosuchus",
+    "fossil:bone_vertebrae_sarcosuchus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:sarcosuchus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_quetzalcoatlus",
+    "fossil:bone_foot_quetzalcoatlus",
+    "fossil:bone_leg_quetzalcoatlus",
+    "fossil:bone_ribcage_quetzalcoatlus",
+    "fossil:bone_skull_quetzalcoatlus",
+    "fossil:bone_tail_quetzalcoatlus",
+    "fossil:bone_unique_quetzalcoatlus",
+    "fossil:bone_vertebrae_quetzalcoatlus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:quetzalcoatlus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "R": "fossil:relic_scrap",
+    "S": "minecraft:stone_bricks"
+  },
+  "result": {
+    "id": "fossil:anubite_statue",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_psittacosaurus",
+    "fossil:bone_foot_psittacosaurus",
+    "fossil:bone_leg_psittacosaurus",
+    "fossil:bone_ribcage_psittacosaurus",
+    "fossil:bone_skull_psittacosaurus",
+    "fossil:bone_tail_psittacosaurus",
+    "fossil:bone_unique_psittacosaurus",
+    "fossil:bone_vertebrae_psittacosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:psittacosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

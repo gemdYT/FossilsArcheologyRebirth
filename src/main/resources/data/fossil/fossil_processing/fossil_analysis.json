@@ -1,0 +1,484 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bio_fossil",
+    "fossil:fossil_bio",
+    "fossil:fossil_shale",
+    "fossil:fossil_tar",
+    "fossil:frozen_meat"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:alligator_gar_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:allosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:ankylosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:aquilolamna_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:arthropleura_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:axolotl_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:bat_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:bee_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:brachiosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:cat_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:ceratosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:chicken_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:citipati_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:cod_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:coelacanth_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:compsognathus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:confuciusornis_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:cow_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:crassigyrinus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:deinonychus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:dicranurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:dilophosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:dimetrodon_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:dimorphodon_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:diplocaulus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:diplodocus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:dolphin_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:donkey_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:dryosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:edaphosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:elasmotherium_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fox_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:gallimimus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:gastornis_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:glow_squid_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:goat_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:henodus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:hoglin_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:horse_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:ichthyosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:kelenken_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:liopleurodon_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:llama_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:lonchodomas_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:mammoth_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:megalania_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:megaloceros_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:megalodon_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:megalograptus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:meganeura_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:mooshroom_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:mosasaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:nautilus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:ocelot_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:ornitholestes_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:pachycephalosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:pachyrhinosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:panda_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:parasaurolophus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:parrot_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:phorusrhacos_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:pig_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:platybelodon_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:plesiosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:polar_bear_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:postosuchus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:protoceratops_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:psittacosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:pteranodon_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:pufferfish_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:quagga_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:quetzalcoatlus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:rabbit_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:salmon_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:sarcosuchus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:scotoharpes_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:sheep_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:smilodon_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:spinosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:squid_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:stegosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:strider_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:sturgeon_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:therizinosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:tiktaalik_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:titanis_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:triceratops_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:tropical_fish_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:turtle_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:tyrannosaurus_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:velociraptor_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:walliserops_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:wolf_dna",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:dodo_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

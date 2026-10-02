@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_mosasaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_mosasaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_mosasaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_mosasaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_mosasaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_mosasaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_mosasaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_mosasaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_mosasaurus"
+        }
+      ]
+    }
+  ]
+}

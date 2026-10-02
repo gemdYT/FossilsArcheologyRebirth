@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_citipati"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_citipati"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_citipati"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_citipati"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_citipati"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_citipati"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_citipati"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_citipati"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_citipati"
+        }
+      ]
+    }
+  ]
+}

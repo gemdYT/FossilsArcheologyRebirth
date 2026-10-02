@@ -1,0 +1,27 @@
+{
+  "machine": "sifter",
+  "inputs": [
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:gravel"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:bio_fossil",
+      "count": 1,
+      "weight": 6
+    },
+    {
+      "item": "fossil:relic_scrap",
+      "count": 1,
+      "weight": 2
+    },
+    {
+      "item": "fossil:fossil_plant",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

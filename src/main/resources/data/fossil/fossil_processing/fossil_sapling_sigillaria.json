@@ -1,0 +1,15 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:fossil_sapling_sigillaria"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:sigillaria_sapling",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_deinonychus",
+    "fossil:bone_foot_deinonychus",
+    "fossil:bone_leg_deinonychus",
+    "fossil:bone_ribcage_deinonychus",
+    "fossil:bone_skull_deinonychus",
+    "fossil:bone_tail_deinonychus",
+    "fossil:bone_unique_deinonychus",
+    "fossil:bone_vertebrae_deinonychus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:deinonychus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

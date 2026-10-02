@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:relic_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:pottery_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:stone_tablet"
+        }
+      ]
+    }
+  ]
+}

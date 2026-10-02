@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_postosuchus",
+    "fossil:bone_foot_postosuchus",
+    "fossil:bone_leg_postosuchus",
+    "fossil:bone_ribcage_postosuchus",
+    "fossil:bone_skull_postosuchus",
+    "fossil:bone_tail_postosuchus",
+    "fossil:bone_unique_postosuchus",
+    "fossil:bone_vertebrae_postosuchus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:postosuchus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

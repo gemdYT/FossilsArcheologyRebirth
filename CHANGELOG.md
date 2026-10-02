@@ -1,3 +1,39 @@
+## 9.3.4.0-dev.6 — Rebirth name and credits
+
+- Renamed the mod, creative tab, guide and jar to Fossils and Archeology Rebirth.
+- Added gemdYT to the mod authors and project credits while preserving original attribution.
+
+## 9.3.4.0-dev.5 — Basic species instincts
+
+- Added autonomous diet/size-based hunting, vanilla fish prey and food gained from kills. New predators start hungry enough to hunt; satiated animals stop hunting.
+- Added proactive fleeing for timid animals and juveniles, plus ten defensive herbivore profiles.
+- Added owner combat assistance, pet/conspecific protections and command priority over opportunistic hunting.
+- Added pursuit time, distance and visibility limits; retained species attack timing, venom and knockback, and trigger attack animations on hits.
+- Mixed diets and omnivores accept appropriate fish, meat and plant foods.
+- Separated shared instincts from entity persistence and library composition; no additional runtime dependencies.
+
+## 9.3.4.0-dev.4 — Animal movement and wild aquatics
+
+- Fixed shared navigation cancelling its destination immediately, leaving spawned animals stationary.
+- Added natural alligator gar in swamps, sturgeon in rivers, and coelacanth/nautilus in oceans, with native fish limits and water placement.
+- Added focused runtime checks for real land/water/air movement, owner Follow/Stay, predator pursuit/damage and native aquatic spawning.
+- Runtime dependencies are unchanged.
+
+## 9.3.4.0-dev.3 — Fabric 26.3 development port
+
+- One native Fabric source tree; removed Forge, Architectury and old-version source support.
+- Registered 64 prehistoric species, 250 additional blocks and 879 catalog items.
+- Shared animal brains, care, ownership, commands, riding, capture, venom/knockback and large-animal damage targets.
+- Museum bone assembly and three display poses, plus a paginated dinopedia.
+- Five native machine interfaces, 191 reloadable processing recipes, restoration, hopper/item-transfer automation and optional power.
+- Native fossil/amber deposits, prehistoric vegetation, volcano biome/cones, ruins, temples, village buildings and two professions.
+- Native Anu encounter, defeat-gated treasury and saved portal return.
+- Converted loot to the 26.3 schema and added survival recipes, tool tags and excavation enchantments.
+- Added deliberate Failuresaurus cultures and Tar Slime crafting for survival access.
+- Build and representative normal-world client checks passed. Broad species/balance/modpack and dedicated-server gameplay testing remain open; see docs/PLAY_GUIDE.md.
+
+## Historical upstream release notes
+
 ### Added
 - Missing recipe for Tyrannosaurus tooth dagger
 - Analyzing frozen meat or tar fossils can now return turtle dna

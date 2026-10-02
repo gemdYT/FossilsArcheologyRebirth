@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_megalania",
+    "fossil:bone_foot_megalania",
+    "fossil:bone_leg_megalania",
+    "fossil:bone_ribcage_megalania",
+    "fossil:bone_skull_megalania",
+    "fossil:bone_tail_megalania",
+    "fossil:bone_unique_megalania",
+    "fossil:bone_vertebrae_megalania"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:megalania_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

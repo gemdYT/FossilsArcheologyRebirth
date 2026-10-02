@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fossil",
+  "version": "${modVersion}",
+  "name": "${modName}",
+  "description": "${modDescription}",
+  "authors": ${fabricModAuthors},
+  "contact": {"sources": "https://github.com/gemdYT/FossilsArcheologyRebirth"},
+  "license": "${modLicense}",
+  "icon": "fossils.png",
+  "environment": "*",
+  "mixins": ["fossil.mixins.json"],
+  "entrypoints": {
+    "main": ["com.github.teamfossilsarcheology.fossil.FossilMod"],
+    "client": ["com.github.teamfossilsarcheology.fossil.client.FossilClient"],
+    "terrablender": ["com.github.teamfossilsarcheology.fossil.NativeWorldGen"]
+  },
+  "depends": {
+    "fabricloader": ">=${fabricLoaderVersion}",
+    "minecraft": "~${minecraftVersion}",
+    "java": ">=25",
+    "fabric-api": ">=${fabricApiVersion}",
+    "geckolib": ">=${geckoLibVersion}",
+    "terrablender": ">=${terraBlenderVersion}",
+    "smartbrainlib": ">=${smartBrainLibVersion}",
+    "structure_pool_api": ">=${structurePoolApiVersion}"
+  }
+}
+

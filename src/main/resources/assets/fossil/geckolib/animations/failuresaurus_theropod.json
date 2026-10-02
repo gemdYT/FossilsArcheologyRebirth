@@ -1,0 +1,265 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "native.idle": {
+      "loop": true,
+      "bones": {
+        "body2": {
+          "rotation": {
+            "vector": [
+              "math.sin(query.anim_time * 150) * 5",
+              0,
+              "math.sin(query.anim_time * 300) * 3"
+            ]
+          }
+        },
+        "neck": {
+          "rotation": {
+            "vector": [
+              "math.sin(query.anim_time * 60) * 3",
+              0,
+              "math.sin(query.anim_time * 300) * 10"
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "vector": [
+              "math.sin(query.anim_time * 360) * 5",
+              0,
+              0
+            ]
+          }
+        },
+        "jaw": {
+          "rotation": {
+            "vector": [
+              0,
+              0,
+              "math.sin(query.anim_time * 3000) * 3"
+            ]
+          }
+        },
+        "tail1": {
+          "rotation": {
+            "vector": [
+              "math.sin(query.anim_time * 60) * 3",
+              0,
+              "math.sin(query.anim_time * 120) * 5"
+            ]
+          }
+        },
+        "tail2": {
+          "rotation": {
+            "vector": [
+              0,
+              0,
+              "math.sin(query.anim_time * 30) * 20"
+            ]
+          }
+        },
+        "tail3": {
+          "rotation": {
+            "vector": [
+              "math.sin(query.anim_time * 60) * 15",
+              0,
+              "math.sin(query.anim_time * 120) * 25"
+            ]
+          }
+        }
+      }
+    },
+    "native.walk": {
+      "loop": true,
+      "bones": {
+        "body2": {
+          "rotation": {
+            "vector": [
+              "math.sin(query.anim_time * 150) * 5",
+              0,
+              "math.sin(query.anim_time * 300) * 3"
+            ]
+          }
+        },
+        "neck": {
+          "rotation": {
+            "vector": [
+              "math.sin(query.anim_time * 60) * 3",
+              0,
+              "math.sin(query.anim_time * 300) * 10"
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "vector": [
+              "math.sin(query.anim_time * 360) * 5",
+              0,
+              0
+            ]
+          }
+        },
+        "jaw": {
+          "rotation": {
+            "vector": [
+              0,
+              0,
+              "math.sin(query.anim_time * 3000) * 3"
+            ]
+          }
+        },
+        "tail1": {
+          "rotation": {
+            "vector": [
+              "math.sin(query.anim_time * 60) * 3",
+              0,
+              "math.sin(query.anim_time * 120) * 5"
+            ]
+          }
+        },
+        "tail2": {
+          "rotation": {
+            "vector": [
+              0,
+              0,
+              "math.sin(query.anim_time * 30) * 20"
+            ]
+          }
+        },
+        "tail3": {
+          "rotation": {
+            "vector": [
+              "math.sin(query.anim_time * 60) * 15",
+              0,
+              "math.sin(query.anim_time * 120) * 25"
+            ]
+          }
+        }
+      }
+    },
+    "museum.pose0": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "neck": {
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "head": {
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "tail1": {
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "tail2": {
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        },
+        "tail3": {
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "museum.pose1": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "neck": {
+          "rotation": [
+            8,
+            0,
+            0
+          ]
+        },
+        "head": {
+          "rotation": [
+            8,
+            0,
+            0
+          ]
+        },
+        "tail1": {
+          "rotation": [
+            0,
+            10,
+            0
+          ]
+        },
+        "tail2": {
+          "rotation": [
+            0,
+            10,
+            0
+          ]
+        },
+        "tail3": {
+          "rotation": [
+            0,
+            10,
+            0
+          ]
+        }
+      }
+    },
+    "museum.pose2": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "neck": {
+          "rotation": [
+            16,
+            0,
+            0
+          ]
+        },
+        "head": {
+          "rotation": [
+            16,
+            0,
+            0
+          ]
+        },
+        "tail1": {
+          "rotation": [
+            0,
+            20,
+            0
+          ]
+        },
+        "tail2": {
+          "rotation": [
+            0,
+            20,
+            0
+          ]
+        },
+        "tail3": {
+          "rotation": [
+            0,
+            20,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "geckolib_format_version": 2
+}

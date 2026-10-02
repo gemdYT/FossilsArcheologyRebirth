@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_spinosaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_spinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_spinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_spinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_spinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_spinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_spinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_spinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_spinosaurus"
+        }
+      ]
+    }
+  ]
+}

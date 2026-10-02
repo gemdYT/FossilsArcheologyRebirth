@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "active=false,facing=north": {
+      "model": "fossil:block/dodo_egg",
+      "y": 0
+    },
+    "active=true,facing=north": {
+      "model": "fossil:block/dodo_egg",
+      "y": 0
+    },
+    "active=false,facing=east": {
+      "model": "fossil:block/dodo_egg",
+      "y": 90
+    },
+    "active=true,facing=east": {
+      "model": "fossil:block/dodo_egg",
+      "y": 90
+    },
+    "active=false,facing=south": {
+      "model": "fossil:block/dodo_egg",
+      "y": 180
+    },
+    "active=true,facing=south": {
+      "model": "fossil:block/dodo_egg",
+      "y": 180
+    },
+    "active=false,facing=west": {
+      "model": "fossil:block/dodo_egg",
+      "y": 270
+    },
+    "active=true,facing=west": {
+      "model": "fossil:block/dodo_egg",
+      "y": 270
+    }
+  }
+}

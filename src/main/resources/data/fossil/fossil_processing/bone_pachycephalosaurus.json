@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_pachycephalosaurus",
+    "fossil:bone_foot_pachycephalosaurus",
+    "fossil:bone_leg_pachycephalosaurus",
+    "fossil:bone_ribcage_pachycephalosaurus",
+    "fossil:bone_skull_pachycephalosaurus",
+    "fossil:bone_tail_pachycephalosaurus",
+    "fossil:bone_unique_pachycephalosaurus",
+    "fossil:bone_vertebrae_pachycephalosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:pachycephalosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

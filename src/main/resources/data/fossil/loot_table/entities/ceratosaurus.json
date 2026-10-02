@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_ceratosaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_ceratosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_ceratosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_ceratosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_ceratosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_ceratosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_ceratosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_ceratosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_ceratosaurus"
+        }
+      ]
+    }
+  ]
+}

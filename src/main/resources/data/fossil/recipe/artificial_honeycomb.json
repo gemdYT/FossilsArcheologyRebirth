@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GHG",
+    "GGG"
+  ],
+  "key": {
+    "G": "fossil:bio_goo",
+    "H": "minecraft:honeycomb"
+  },
+  "result": {
+    "id": "fossil:artificial_honeycomb",
+    "count": 1
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "ingredient": {
-    "item": "fossil:meat_postosuchus"
-  },
-  "result": "fossil:cooked_postosuchus",
-  "experience": 1.5,
-  "cookingtime": 100
-}

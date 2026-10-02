@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fossil:meat_psittacosaurus",
+  "result": {
+    "id": "fossil:cooked_psittacosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 200
+}

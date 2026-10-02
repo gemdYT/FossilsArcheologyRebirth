@@ -1,0 +1,135 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:fossil_plant"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:fossil_sapling_calamites",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_sapling_cordaites",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_sapling_palm",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_sapling_sigillaria",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_sapling_tempskya",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_bennettitales",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_cephalotaxus",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_crataegus",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_cyathea",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_dictyophyllum",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_dillhoffia",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_dipteris",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_duisbergia",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_ephedra",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_fern",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_florissantia",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_foozia",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_horsetail",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_licopodiophyta",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_osmunda",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_sagenopteris",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_sarracenia",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_vaccinium",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_welwitschia",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:fossil_seed_zamites",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

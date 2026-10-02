@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:fossil_tar",
+    "fossil:fossil_tar",
+    "fossil:fossil_tar",
+    "fossil:fossil_tar",
+    "fossil:fossil_tar",
+    "fossil:fossil_tar",
+    "fossil:fossil_tar",
+    "fossil:fossil_tar",
+    "fossil:bio_goo"
+  ],
+  "result": {
+    "id": "fossil:spawn_egg_tar_slime",
+    "count": 1
+  }
+}

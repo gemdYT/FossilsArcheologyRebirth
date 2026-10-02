@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_phorusrhacos",
+  "result": {
+    "id": "fossil:cooked_phorusrhacos"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

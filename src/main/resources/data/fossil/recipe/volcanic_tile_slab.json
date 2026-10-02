@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": "fossil:volcanic_tiles"
+  },
+  "result": {
+    "count": 6,
+    "id": "fossil:volcanic_tile_slab"
+  }
+}

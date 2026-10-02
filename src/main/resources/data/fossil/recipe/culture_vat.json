@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GIG",
+    "GWG",
+    "GIG"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "G": "minecraft:glass",
+    "W": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "fossil:culture_vat"
+  }
+}

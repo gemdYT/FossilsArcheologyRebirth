@@ -1,0 +1,11 @@
+{
+  "amount": 2,
+  "trades": [
+    "fossil:archeologist/3/relic_scrap",
+    "fossil:archeologist/3/pottery_shard",
+    "fossil:archeologist/3/stone_tablet",
+    "fossil:archeologist/3/broken_sword",
+    "fossil:archeologist/3/broken_helmet"
+  ],
+  "random_sequence": "fossil:trade_set/archeologist/level_3"
+}

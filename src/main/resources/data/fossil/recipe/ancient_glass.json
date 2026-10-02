@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:glass",
+    "fossil:relic_scrap"
+  ],
+  "result": {
+    "id": "fossil:ancient_glass",
+    "count": 4
+  }
+}

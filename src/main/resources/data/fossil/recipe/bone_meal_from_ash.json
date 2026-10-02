@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:volcanic_ash",
+    "fossil:volcanic_ash",
+    "fossil:volcanic_ash",
+    "fossil:volcanic_ash"
+  ],
+  "result": {
+    "id": "minecraft:bone_meal"
+  }
+}

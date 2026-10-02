@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_dryosaurus",
+    "fossil:bone_foot_dryosaurus",
+    "fossil:bone_leg_dryosaurus",
+    "fossil:bone_ribcage_dryosaurus",
+    "fossil:bone_skull_dryosaurus",
+    "fossil:bone_tail_dryosaurus",
+    "fossil:bone_unique_dryosaurus",
+    "fossil:bone_vertebrae_dryosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:dryosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

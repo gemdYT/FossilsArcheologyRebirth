@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:ancient_wood_log"
+  ],
+  "result": {
+    "id": "fossil:ancient_wood_planks",
+    "count": 4
+  }
+}

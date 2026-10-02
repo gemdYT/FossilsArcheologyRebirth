@@ -1,3 +1,9 @@
+# Fossils and Archeology Rebirth
+
+Rebirth project credits: [gemdYT](https://github.com/gemdYT). See the [credits](docs/CREDITS.md) and original contributor lists below.
+
+> **Fabric 26.3 development port — dev.6:** 64 prehistoric species with diet-based hunting, fleeing and defensive behavior, wild aquatic spawns, 250 additional blocks, 879 catalog items, five machine interfaces, museum skeletons, exploration and Anu progression. Read the [play guide](docs/PLAY_GUIDE.md) for installation, controls and testing limits, or the [architecture notes](docs/ARCHITECTURE.md) for maintenance. On Windows, launch `launch-game.cmd` or run `.\gradlew.bat runClient`. This checkout contains one Fabric source tree; Forge and old-version support have been removed.
+
 <p align="center">
     <img src="https://i.imgur.com/G18YFWC.jpeg" alt="Banner"/>
 </p>
@@ -27,7 +33,7 @@
 
 [Developer Wiki](https://github.com/TeamFossilsArcheology/FossilsArcheologyRevival/wiki)
 
-## Current Fossils and Archeology Revival Contributors
+## Original Fossils and Archeology Revival Contributors
 ###### Programmers
 [DarkPred](https://github.com/DarkPred)
 
@@ -118,4 +124,4 @@ Mirach (Polish)
 ###### Special Thanks
 Flammarilva (original mod creator) and the rest of Team July.
 
-The early Fossils Revival team (Shadowbeast007, Microjunk, Tyranno66, 4f6f3b).  
+The early Fossils Revival team (Shadowbeast007, Microjunk, Tyranno66, 4f6f3b).

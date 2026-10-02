@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_ankylosaurus",
+  "result": {
+    "id": "fossil:cooked_ankylosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

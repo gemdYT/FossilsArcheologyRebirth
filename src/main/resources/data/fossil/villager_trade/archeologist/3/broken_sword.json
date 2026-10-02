@@ -1,0 +1,12 @@
+{
+  "gives": {
+    "id": "fossil:broken_sword"
+  },
+  "max_uses": 8,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 6
+  },
+  "xp": 9
+}

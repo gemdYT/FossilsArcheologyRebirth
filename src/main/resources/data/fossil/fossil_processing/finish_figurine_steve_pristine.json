@@ -1,0 +1,15 @@
+{
+  "machine": "worktable",
+  "inputs": [
+    "fossil:figurine_steve_restored"
+  ],
+  "fuel": "fossil:pottery_shard",
+  "ticks": 160,
+  "results": [
+    {
+      "item": "fossil:figurine_steve_pristine",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

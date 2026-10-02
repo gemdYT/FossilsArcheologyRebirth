@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_triceratops",
+    "fossil:bone_foot_triceratops",
+    "fossil:bone_leg_triceratops",
+    "fossil:bone_ribcage_triceratops",
+    "fossil:bone_skull_triceratops",
+    "fossil:bone_tail_triceratops",
+    "fossil:bone_unique_triceratops",
+    "fossil:bone_vertebrae_triceratops"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:triceratops_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

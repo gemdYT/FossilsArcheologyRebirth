@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:diamond_sword",
+    "fossil:scarab_gem"
+  ],
+  "result": {
+    "id": "fossil:scarab_sword"
+  }
+}

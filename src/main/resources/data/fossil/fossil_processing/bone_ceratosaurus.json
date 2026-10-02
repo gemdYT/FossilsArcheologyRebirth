@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_ceratosaurus",
+    "fossil:bone_foot_ceratosaurus",
+    "fossil:bone_leg_ceratosaurus",
+    "fossil:bone_ribcage_ceratosaurus",
+    "fossil:bone_skull_ceratosaurus",
+    "fossil:bone_tail_ceratosaurus",
+    "fossil:bone_unique_ceratosaurus",
+    "fossil:bone_vertebrae_ceratosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:ceratosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

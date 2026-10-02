@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_tyrannosaurus",
+  "result": {
+    "id": "fossil:cooked_tyrannosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

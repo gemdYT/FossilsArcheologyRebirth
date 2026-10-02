@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_diplocaulus",
+    "fossil:bone_foot_diplocaulus",
+    "fossil:bone_leg_diplocaulus",
+    "fossil:bone_ribcage_diplocaulus",
+    "fossil:bone_skull_diplocaulus",
+    "fossil:bone_tail_diplocaulus",
+    "fossil:bone_unique_diplocaulus",
+    "fossil:bone_vertebrae_diplocaulus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:diplocaulus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

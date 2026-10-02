@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fossil:meat_aquilolamna",
+  "result": {
+    "id": "fossil:cooked_aquilolamna"
+  },
+  "experience": 1.5,
+  "cookingtime": 200
+}

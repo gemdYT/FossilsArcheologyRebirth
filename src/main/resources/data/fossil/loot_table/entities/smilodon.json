@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_smilodon"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_smilodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_smilodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_smilodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_smilodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_smilodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_smilodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_smilodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_smilodon"
+        }
+      ]
+    }
+  ]
+}

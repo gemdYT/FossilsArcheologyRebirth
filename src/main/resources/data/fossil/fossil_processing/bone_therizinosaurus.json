@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_therizinosaurus",
+    "fossil:bone_foot_therizinosaurus",
+    "fossil:bone_leg_therizinosaurus",
+    "fossil:bone_ribcage_therizinosaurus",
+    "fossil:bone_skull_therizinosaurus",
+    "fossil:bone_tail_therizinosaurus",
+    "fossil:bone_unique_therizinosaurus",
+    "fossil:bone_vertebrae_therizinosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:therizinosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_ichthyosaurus",
+    "fossil:bone_foot_ichthyosaurus",
+    "fossil:bone_leg_ichthyosaurus",
+    "fossil:bone_ribcage_ichthyosaurus",
+    "fossil:bone_skull_ichthyosaurus",
+    "fossil:bone_tail_ichthyosaurus",
+    "fossil:bone_unique_ichthyosaurus",
+    "fossil:bone_vertebrae_ichthyosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:ichthyosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

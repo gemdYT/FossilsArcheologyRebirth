@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_dodo",
+  "result": {
+    "id": "fossil:cooked_dodo"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

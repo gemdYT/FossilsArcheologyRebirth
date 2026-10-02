@@ -1,0 +1,1363 @@
+{
+  "allosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/allosaurus_ambient1",
+      "fossil:prehistoric/allosaurus_ambient2",
+      "fossil:prehistoric/allosaurus_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.allosaurus_ambient"
+  },
+  "allosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/allosaurus_hurt1",
+      "fossil:prehistoric/allosaurus_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.allosaurus_hurt"
+  },
+  "allosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/allosaurus_death1"
+    ],
+    "subtitle": "subtitle.fossil.allosaurus_death"
+  },
+  "ankylosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/ankylosaurus_ambient1",
+      "fossil:prehistoric/ankylosaurus_ambient2",
+      "fossil:prehistoric/ankylosaurus_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.ankylosaurus_ambient"
+  },
+  "ankylosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/ankylosaurus_hurt1",
+      "fossil:prehistoric/ankylosaurus_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.ankylosaurus_hurt"
+  },
+  "ankylosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/ankylosaurus_death"
+    ],
+    "subtitle": "subtitle.fossil.ankylosaurus_death"
+  },
+  "arthropleura_ambient": {
+    "sounds": [
+      "fossil:prehistoric/arthropleura_ambient1",
+      "fossil:prehistoric/arthropleura_ambient2",
+      "fossil:prehistoric/arthropleura_ambient3",
+      "fossil:prehistoric/arthropleura_ambient4",
+      "fossil:prehistoric/arthropleura_ambient5",
+      "fossil:prehistoric/arthropleura_ambient6",
+      "fossil:prehistoric/arthropleura_ambient7"
+    ],
+    "subtitle": "subtitle.fossil.arthropleura_ambient"
+  },
+  "arthropleura_hurt": {
+    "sounds": [
+      "fossil:prehistoric/arthropleura_hurt1",
+      "fossil:prehistoric/arthropleura_hurt2",
+      "fossil:prehistoric/arthropleura_hurt3",
+      "fossil:prehistoric/arthropleura_hurt4",
+      "fossil:prehistoric/arthropleura_hurt5"
+    ],
+    "subtitle": "subtitle.fossil.arthropleura_hurt"
+  },
+  "arthropleura_death": {
+    "sounds": [
+      "fossil:prehistoric/arthropleura_death1"
+    ],
+    "subtitle": "subtitle.fossil.arthropleura_death"
+  },
+  "brachiosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/brachiosaurus_ambient1",
+      "fossil:prehistoric/brachiosaurus_ambient2",
+      "fossil:prehistoric/brachiosaurus_ambient3",
+      "fossil:prehistoric/brachiosaurus_ambient4",
+      "fossil:prehistoric/brachiosaurus_ambient5",
+      "fossil:prehistoric/brachiosaurus_ambient6",
+      "fossil:prehistoric/brachiosaurus_ambient7",
+      "fossil:prehistoric/brachiosaurus_ambient8",
+      "fossil:prehistoric/brachiosaurus_ambient9"
+    ],
+    "subtitle": "subtitle.fossil.brachiosaurus_ambient"
+  },
+  "brachiosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/brachiosaurus_hurt1"
+    ],
+    "subtitle": "subtitle.fossil.brachiosaurus_hurt"
+  },
+  "brachiosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/brachiosaurus_death1"
+    ],
+    "subtitle": "subtitle.fossil.brachiosaurus_death"
+  },
+  "ceratosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/ceratosaurus_ambient1",
+      "fossil:prehistoric/ceratosaurus_ambient2",
+      "fossil:prehistoric/ceratosaurus_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.ceratosaurus_ambient"
+  },
+  "ceratosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/ceratosaurus_hurt1",
+      "fossil:prehistoric/ceratosaurus_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.ceratosaurus_hurt"
+  },
+  "ceratosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/ceratosaurus_death1"
+    ],
+    "subtitle": "subtitle.fossil.ceratosaurus_death"
+  },
+  "citipati_ambient": {
+    "sounds": [
+      "fossil:prehistoric/citipati_ambient1",
+      "fossil:prehistoric/citipati_ambient2",
+      "fossil:prehistoric/citipati_ambient3",
+      "fossil:prehistoric/citipati_ambient4",
+      "fossil:prehistoric/citipati_ambient5",
+      "fossil:prehistoric/citipati_ambient6",
+      "fossil:prehistoric/citipati_ambient7"
+    ],
+    "subtitle": "subtitle.fossil.citipati_ambient"
+  },
+  "citipati_hurt": {
+    "sounds": [
+      "fossil:prehistoric/citipati_hurt1",
+      "fossil:prehistoric/citipati_hurt2",
+      "fossil:prehistoric/citipati_hurt3"
+    ],
+    "subtitle": "subtitle.fossil.citipati_hurt"
+  },
+  "citipati_death": {
+    "sounds": [
+      "fossil:prehistoric/citipati_death1"
+    ],
+    "subtitle": "subtitle.fossil.citipati_death"
+  },
+  "compsognathus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/compsognathus_ambient1",
+      "fossil:prehistoric/compsognathus_ambient2"
+    ],
+    "subtitle": "subtitle.fossil.compsognathus_ambient"
+  },
+  "compsognathus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/compsognathus_hurt"
+    ],
+    "subtitle": "subtitle.fossil.compsognathus_hurt"
+  },
+  "compsognathus_death": {
+    "sounds": [
+      "fossil:prehistoric/compsognathus_death"
+    ],
+    "subtitle": "subtitle.fossil.compsognathus_death"
+  },
+  "confuciusornis_ambient": {
+    "sounds": [
+      "fossil:prehistoric/confuciusornis_ambient1",
+      "fossil:prehistoric/confuciusornis_ambient2",
+      "fossil:prehistoric/confuciusornis_ambient3",
+      "fossil:prehistoric/confuciusornis_ambient4",
+      "fossil:prehistoric/confuciusornis_ambient5"
+    ],
+    "subtitle": "subtitle.fossil.confuciusornis_ambient"
+  },
+  "confuciusornis_hurt": {
+    "sounds": [
+      "fossil:prehistoric/confuciusornis_hurt1",
+      "fossil:prehistoric/confuciusornis_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.confuciusornis_hurt"
+  },
+  "confuciusornis_death": {
+    "sounds": [
+      "fossil:prehistoric/confuciusornis_death1",
+      "fossil:prehistoric/confuciusornis_death2"
+    ],
+    "subtitle": "subtitle.fossil.confuciusornis_death"
+  },
+  "deinonychus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/deinonychus_ambient1",
+      "fossil:prehistoric/deinonychus_ambient2",
+      "fossil:prehistoric/deinonychus_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.deinonychus_ambient"
+  },
+  "deinonychus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/deinonychus_hurt"
+    ],
+    "subtitle": "subtitle.fossil.deinonychus_hurt"
+  },
+  "deinonychus_death": {
+    "sounds": [
+      "fossil:prehistoric/deinonychus_death"
+    ],
+    "subtitle": "subtitle.fossil.deinonychus_death"
+  },
+  "dilophosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/dilophosaurus_ambient"
+    ],
+    "subtitle": "subtitle.fossil.dilophosaurus_ambient"
+  },
+  "dilophosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/dilophosaurus_hurt"
+    ],
+    "subtitle": "subtitle.fossil.dilophosaurus_hurt"
+  },
+  "dilophosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/dilophosaurus_death"
+    ],
+    "subtitle": "subtitle.fossil.dilophosaurus_death"
+  },
+  "diplodocus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/diplodocus_ambient1",
+      "fossil:prehistoric/diplodocus_ambient2",
+      "fossil:prehistoric/diplodocus_ambient3",
+      "fossil:prehistoric/diplodocus_ambient4",
+      "fossil:prehistoric/diplodocus_ambient5",
+      "fossil:prehistoric/diplodocus_ambient6",
+      "fossil:prehistoric/diplodocus_ambient7",
+      "fossil:prehistoric/diplodocus_ambient8",
+      "fossil:prehistoric/diplodocus_ambient9"
+    ],
+    "subtitle": "subtitle.fossil.diplodocus_ambient"
+  },
+  "diplodocus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/diplodocus_hurt1",
+      "fossil:prehistoric/diplodocus_hurt2",
+      "fossil:prehistoric/diplodocus_hurt3",
+      "fossil:prehistoric/diplodocus_hurt4"
+    ],
+    "subtitle": "subtitle.fossil.diplodocus_hurt"
+  },
+  "diplodocus_death": {
+    "sounds": [
+      "fossil:prehistoric/diplodocus_death1"
+    ],
+    "subtitle": "subtitle.fossil.diplodocus_death"
+  },
+  "dodo_ambient": {
+    "sounds": [
+      "fossil:prehistoric/dodo_ambient1",
+      "fossil:prehistoric/dodo_ambient2"
+    ],
+    "subtitle": "subtitle.fossil.dodo_ambient"
+  },
+  "dodo_hurt": {
+    "sounds": [
+      "fossil:prehistoric/dodo_hurt1"
+    ],
+    "subtitle": "subtitle.fossil.dodo_hurt"
+  },
+  "dodo_death": {
+    "sounds": [
+      "fossil:prehistoric/dodo_death1"
+    ],
+    "subtitle": "subtitle.fossil.dodo_death"
+  },
+  "dryosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/dryosaurus_ambient1",
+      "fossil:prehistoric/dryosaurus_ambient2"
+    ],
+    "subtitle": "subtitle.fossil.dryosaurus_ambient"
+  },
+  "dryosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/dryosaurus_hurt1",
+      "fossil:prehistoric/dryosaurus_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.dryosaurus_hurt"
+  },
+  "dryosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/dryosaurus_death1",
+      "fossil:prehistoric/dryosaurus_death2"
+    ],
+    "subtitle": "subtitle.fossil.dryosaurus_death"
+  },
+  "edaphosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/edaphosaurus_ambient1",
+      "fossil:prehistoric/edaphosaurus_ambient2",
+      "fossil:prehistoric/edaphosaurus_ambient3",
+      "fossil:prehistoric/edaphosaurus_ambient4",
+      "fossil:prehistoric/edaphosaurus_ambient5",
+      "fossil:prehistoric/edaphosaurus_ambient6",
+      "fossil:prehistoric/edaphosaurus_ambient7"
+    ],
+    "subtitle": "subtitle.fossil.edaphosaurus_ambient"
+  },
+  "edaphosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/edaphosaurus_hurt1",
+      "fossil:prehistoric/edaphosaurus_hurt2",
+      "fossil:prehistoric/edaphosaurus_hurt3",
+      "fossil:prehistoric/edaphosaurus_hurt4"
+    ],
+    "subtitle": "subtitle.fossil.edaphosaurus_hurt"
+  },
+  "edaphosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/edaphosaurus_death1"
+    ],
+    "subtitle": "subtitle.fossil.edaphosaurus_death"
+  },
+  "elasmotherium_ambient": {
+    "sounds": [
+      "fossil:prehistoric/elasmotherium_ambient1"
+    ],
+    "subtitle": "subtitle.fossil.elasmotherium_ambient"
+  },
+  "elasmotherium_hurt": {
+    "sounds": [
+      "fossil:prehistoric/elasmotherium_hurt1"
+    ],
+    "subtitle": "subtitle.fossil.elasmotherium_hurt"
+  },
+  "elasmotherium_death": {
+    "sounds": [
+      "fossil:prehistoric/elasmotherium_death1"
+    ],
+    "subtitle": "subtitle.fossil.elasmotherium_death"
+  },
+  "gallimimus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/gallimimus_ambient"
+    ],
+    "subtitle": "subtitle.fossil.gallimimus_ambient"
+  },
+  "gallimimus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/gallimimus_hurt"
+    ],
+    "subtitle": "subtitle.fossil.gallimimus_hurt"
+  },
+  "gallimimus_death": {
+    "sounds": [
+      "fossil:prehistoric/gallimimus_death"
+    ],
+    "subtitle": "subtitle.fossil.gallimimus_death"
+  },
+  "henodus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/henodus_ambient1",
+      "fossil:prehistoric/henodus_ambient2"
+    ],
+    "subtitle": "subtitle.fossil.henodus_ambient"
+  },
+  "henodus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/henodus_hurt1",
+      "fossil:prehistoric/henodus_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.henodus_hurt"
+  },
+  "henodus_death": {
+    "sounds": [
+      "fossil:prehistoric/henodus_death1"
+    ],
+    "subtitle": "subtitle.fossil.henodus_death"
+  },
+  "ichthyosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/ichthyosaurus_ambient1",
+      "fossil:prehistoric/ichthyosaurus_ambient2"
+    ],
+    "subtitle": "subtitle.fossil.ichthyosaurus_ambient"
+  },
+  "ichthyosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/ichthyosaurus_hurt1"
+    ],
+    "subtitle": "subtitle.fossil.ichthyosaurus_hurt"
+  },
+  "ichthyosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/ichthyosaurus_hurt1"
+    ],
+    "subtitle": "subtitle.fossil.ichthyosaurus_death"
+  },
+  "liopleurodon_hurt": {
+    "sounds": [
+      "fossil:prehistoric/mosasaurus_hurt"
+    ],
+    "subtitle": "subtitle.fossil.liopleurodon_hurt"
+  },
+  "liopleurodon_death": {
+    "sounds": [
+      "fossil:prehistoric/mosasaurus_death1",
+      "fossil:prehistoric/mosasaurus_death2"
+    ],
+    "subtitle": "subtitle.fossil.liopleurodon_death"
+  },
+  "mammoth_ambient": {
+    "sounds": [
+      "fossil:prehistoric/mammoth_ambient"
+    ],
+    "subtitle": "subtitle.fossil.mammoth_ambient"
+  },
+  "mammoth_hurt": {
+    "sounds": [
+      "fossil:prehistoric/mammoth_hurt"
+    ],
+    "subtitle": "subtitle.fossil.mammoth_hurt"
+  },
+  "mammoth_death": {
+    "sounds": [
+      "fossil:prehistoric/mammoth_death"
+    ],
+    "subtitle": "subtitle.fossil.mammoth_death"
+  },
+  "megalania_ambient": {
+    "sounds": [
+      "fossil:prehistoric/megalania_ambient1",
+      "fossil:prehistoric/megalania_ambient2",
+      "fossil:prehistoric/megalania_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.megalania_ambient"
+  },
+  "megalania_hurt": {
+    "sounds": [
+      "fossil:prehistoric/megalania_hurt1",
+      "fossil:prehistoric/megalania_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.megalania_hurt"
+  },
+  "megalania_death": {
+    "sounds": [
+      "fossil:prehistoric/megalania_death1",
+      "fossil:prehistoric/megalania_death2"
+    ],
+    "subtitle": "subtitle.fossil.megalania_death"
+  },
+  "megaloceros_ambient": {
+    "sounds": [
+      "fossil:prehistoric/megaloceros_ambient1",
+      "fossil:prehistoric/megaloceros_ambient2"
+    ],
+    "subtitle": "subtitle.fossil.megaloceros_ambient"
+  },
+  "megaloceros_hurt": {
+    "sounds": [
+      "fossil:prehistoric/megaloceros_hurt1",
+      "fossil:prehistoric/megaloceros_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.megaloceros_hurt"
+  },
+  "megaloceros_death": {
+    "sounds": [
+      "fossil:prehistoric/megaloceros_death1"
+    ],
+    "subtitle": "subtitle.fossil.megaloceros_death"
+  },
+  "megalodon_ambient": {
+    "sounds": [
+      "fossil:prehistoric/megalodon_ambient1",
+      "fossil:prehistoric/megalodon_ambient2",
+      "fossil:prehistoric/megalodon_ambient3",
+      "fossil:prehistoric/megalodon_ambient4",
+      "fossil:prehistoric/megalodon_ambient5"
+    ],
+    "subtitle": "subtitle.fossil.megalodon_ambient"
+  },
+  "megalodon_hurt": {
+    "sounds": [
+      "fossil:prehistoric/megalodon_hurt0",
+      "fossil:prehistoric/megalodon_hurt1"
+    ],
+    "subtitle": "subtitle.fossil.megalodon_hurt"
+  },
+  "megalodon_death": {
+    "sounds": [
+      "fossil:prehistoric/megalodon_hurt0_outside"
+    ],
+    "subtitle": "subtitle.fossil.megalodon_death"
+  },
+  "megalograptus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/megalograptus_ambient1",
+      "fossil:prehistoric/megalograptus_ambient2"
+    ],
+    "subtitle": "subtitle.fossil.megalograptus_ambient"
+  },
+  "megalograptus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/megalograptus_hurt1",
+      "fossil:prehistoric/megalograptus_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.megalograptus_hurt"
+  },
+  "megalograptus_death": {
+    "sounds": [
+      "fossil:prehistoric/megalograptus_death1"
+    ],
+    "subtitle": "subtitle.fossil.megalograptus_death"
+  },
+  "meganeura_ambient": {
+    "sounds": [
+      "fossil:prehistoric/meganeura_ambient1",
+      "fossil:prehistoric/meganeura_ambient2"
+    ],
+    "subtitle": "subtitle.fossil.meganeura_ambient"
+  },
+  "meganeura_hurt": {
+    "sounds": [
+      "fossil:prehistoric/meganeura_hurt1",
+      "fossil:prehistoric/meganeura_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.meganeura_hurt"
+  },
+  "meganeura_death": {
+    "sounds": [
+      "fossil:prehistoric/meganeura_death1"
+    ],
+    "subtitle": "subtitle.fossil.meganeura_death"
+  },
+  "mosasaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/mosasaurus_hurt"
+    ],
+    "subtitle": "subtitle.fossil.mosasaurus_hurt"
+  },
+  "mosasaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/mosasaurus_death1",
+      "fossil:prehistoric/mosasaurus_death2"
+    ],
+    "subtitle": "subtitle.fossil.mosasaurus_death"
+  },
+  "ornitholestes_ambient": {
+    "sounds": [
+      "fossil:prehistoric/ornitholestes_ambient1",
+      "fossil:prehistoric/ornitholestes_ambient2",
+      "fossil:prehistoric/ornitholestes_ambient3",
+      "fossil:prehistoric/ornitholestes_ambient4",
+      "fossil:prehistoric/ornitholestes_ambient5",
+      "fossil:prehistoric/ornitholestes_ambient6",
+      "fossil:prehistoric/ornitholestes_ambient7",
+      "fossil:prehistoric/ornitholestes_ambient8",
+      "fossil:prehistoric/ornitholestes_ambient9",
+      "fossil:prehistoric/ornitholestes_ambient10",
+      "fossil:prehistoric/ornitholestes_ambient11"
+    ],
+    "subtitle": "subtitle.fossil.ornitholestes_ambient"
+  },
+  "ornitholestes_hurt": {
+    "sounds": [
+      "fossil:prehistoric/ornitholestes_hurt1",
+      "fossil:prehistoric/ornitholestes_hurt2",
+      "fossil:prehistoric/ornitholestes_hurt3"
+    ],
+    "subtitle": "subtitle.fossil.ornitholestes_hurt"
+  },
+  "ornitholestes_death": {
+    "sounds": [
+      "fossil:prehistoric/ornitholestes_death1"
+    ],
+    "subtitle": "subtitle.fossil.ornitholestes_death"
+  },
+  "pachycephalosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/pachycephalosaurus_ambient1",
+      "fossil:prehistoric/pachycephalosaurus_ambient2",
+      "fossil:prehistoric/pachycephalosaurus_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.pachycephalosaurus_ambient"
+  },
+  "pachycephalosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/pachycephalosaurus_hurt1",
+      "fossil:prehistoric/pachycephalosaurus_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.pachycephalosaurus_hurt"
+  },
+  "pachycephalosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/pachycephalosaurus_death"
+    ],
+    "subtitle": "subtitle.fossil.pachycephalosaurus_death"
+  },
+  "parasaurolophus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/parasaurolophus_ambient1",
+      "fossil:prehistoric/parasaurolophus_ambient2",
+      "fossil:prehistoric/parasaurolophus_ambient3",
+      "fossil:prehistoric/parasaurolophus_ambient4",
+      "fossil:prehistoric/parasaurolophus_ambient5"
+    ],
+    "subtitle": "subtitle.fossil.parasaurolophus_ambient"
+  },
+  "parasaurolophus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/parasaurolophus_hurt1",
+      "fossil:prehistoric/parasaurolophus_hurt2",
+      "fossil:prehistoric/parasaurolophus_hurt3"
+    ],
+    "subtitle": "subtitle.fossil.parasaurolophus_hurt"
+  },
+  "parasaurolophus_death": {
+    "sounds": [
+      "fossil:prehistoric/parasaurolophus_death1",
+      "fossil:prehistoric/parasaurolophus_death2"
+    ],
+    "subtitle": "subtitle.fossil.parasaurolophus_death"
+  },
+  "platybelodon_ambient": {
+    "sounds": [
+      "fossil:prehistoric/platybelodon_ambient1",
+      "fossil:prehistoric/platybelodon_ambient2",
+      "fossil:prehistoric/platybelodon_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.platybelodon_ambient"
+  },
+  "platybelodon_hurt": {
+    "sounds": [
+      "fossil:prehistoric/platybelodon_hurt1"
+    ],
+    "subtitle": "subtitle.fossil.platybelodon_hurt"
+  },
+  "platybelodon_death": {
+    "sounds": [
+      "fossil:prehistoric/platybelodon_death1"
+    ],
+    "subtitle": "subtitle.fossil.platybelodon_death"
+  },
+  "plesiosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/plesiosaurus_hurt"
+    ],
+    "subtitle": "subtitle.fossil.plesiosaurus_hurt"
+  },
+  "plesiosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/plesiosaurus_hurt"
+    ],
+    "subtitle": "subtitle.fossil.plesiosaurus_death"
+  },
+  "pteranodon_ambient": {
+    "sounds": [
+      "fossil:prehistoric/pteranodon_ambient1",
+      "fossil:prehistoric/pteranodon_ambient2",
+      "fossil:prehistoric/pteranodon_ambient3",
+      "fossil:prehistoric/pteranodon_ambient4"
+    ],
+    "subtitle": "subtitle.fossil.pteranodon_ambient"
+  },
+  "pteranodon_hurt": {
+    "sounds": [
+      "fossil:prehistoric/pteranodon_hurt1",
+      "fossil:prehistoric/pteranodon_hurt2",
+      "fossil:prehistoric/pteranodon_hurt3"
+    ],
+    "subtitle": "subtitle.fossil.pteranodon_hurt"
+  },
+  "pteranodon_death": {
+    "sounds": [
+      "fossil:prehistoric/pteranodon_death"
+    ],
+    "subtitle": "subtitle.fossil.pteranodon_death"
+  },
+  "quagga_ambient": {
+    "sounds": [
+      "fossil:prehistoric/quagga_ambient1",
+      "fossil:prehistoric/quagga_ambient2",
+      "fossil:prehistoric/quagga_ambient3",
+      "fossil:prehistoric/quagga_ambient4",
+      "fossil:prehistoric/quagga_ambient5",
+      "fossil:prehistoric/quagga_ambient6",
+      "fossil:prehistoric/quagga_ambient7",
+      "fossil:prehistoric/quagga_ambient8",
+      "fossil:prehistoric/quagga_ambient9",
+      "fossil:prehistoric/quagga_ambient10"
+    ],
+    "subtitle": "subtitle.fossil.quagga_ambient"
+  },
+  "quagga_hurt": {
+    "sounds": [
+      "fossil:prehistoric/quagga_hurt1",
+      "fossil:prehistoric/quagga_hurt2",
+      "fossil:prehistoric/quagga_hurt3"
+    ],
+    "subtitle": "subtitle.fossil.quagga_hurt"
+  },
+  "quagga_death": {
+    "sounds": [
+      "fossil:prehistoric/quagga_death"
+    ],
+    "subtitle": "subtitle.fossil.quagga_death"
+  },
+  "sarcosuchus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/sarcosuchus_ambient1",
+      "fossil:prehistoric/sarcosuchus_ambient2",
+      "fossil:prehistoric/sarcosuchus_ambient3",
+      "fossil:prehistoric/sarcosuchus_ambient4"
+    ],
+    "subtitle": "subtitle.fossil.sarcosuchus_ambient"
+  },
+  "sarcosuchus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/sarcosuchus_hurt1",
+      "fossil:prehistoric/sarcosuchus_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.sarcosuchus_hurt"
+  },
+  "sarcosuchus_death": {
+    "sounds": [
+      "fossil:prehistoric/sarcosuchus_hurt1",
+      "fossil:prehistoric/sarcosuchus_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.sarcosuchus_death"
+  },
+  "smilodon_ambient": {
+    "sounds": [
+      "fossil:prehistoric/smilodon_ambient1",
+      "fossil:prehistoric/smilodon_ambient2",
+      "fossil:prehistoric/smilodon_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.smilodon_ambient"
+  },
+  "smilodon_hurt": {
+    "sounds": [
+      "fossil:prehistoric/smilodon_hurt"
+    ],
+    "subtitle": "subtitle.fossil.smilodon_hurt"
+  },
+  "smilodon_death": {
+    "sounds": [
+      "fossil:prehistoric/smilodon_death"
+    ],
+    "subtitle": "subtitle.fossil.smilodon_death"
+  },
+  "spinosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/spinosaurus_ambient1",
+      "fossil:prehistoric/spinosaurus_ambient2",
+      "fossil:prehistoric/spinosaurus_ambient3",
+      "fossil:prehistoric/spinosaurus_ambient4",
+      "fossil:prehistoric/spinosaurus_ambient5",
+      "fossil:prehistoric/spinosaurus_ambient6"
+    ],
+    "subtitle": "subtitle.fossil.spinosaurus_ambient"
+  },
+  "spinosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/spinosaurus_hurt1",
+      "fossil:prehistoric/spinosaurus_hurt2",
+      "fossil:prehistoric/spinosaurus_hurt3"
+    ],
+    "subtitle": "subtitle.fossil.spinosaurus_hurt"
+  },
+  "spinosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/spinosaurus_death"
+    ],
+    "subtitle": "subtitle.fossil.spinosaurus_death"
+  },
+  "stegosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/stegosaurus_ambient1",
+      "fossil:prehistoric/stegosaurus_ambient2",
+      "fossil:prehistoric/stegosaurus_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.stegosaurus_ambient"
+  },
+  "stegosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/stegosaurus_hurt"
+    ],
+    "subtitle": "subtitle.fossil.stegosaurus_hurt"
+  },
+  "stegosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/stegosaurus_death"
+    ],
+    "subtitle": "subtitle.fossil.stegosaurus_death"
+  },
+  "therizinosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/therizinosaurus_ambient1",
+      "fossil:prehistoric/therizinosaurus_ambient2",
+      "fossil:prehistoric/therizinosaurus_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.therizinosaurus_ambient"
+  },
+  "therizinosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/therizinosaurus_hurt1",
+      "fossil:prehistoric/therizinosaurus_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.therizinosaurus_hurt"
+  },
+  "therizinosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/therizinosaurus_death1",
+      "fossil:prehistoric/therizinosaurus_death2"
+    ],
+    "subtitle": "subtitle.fossil.therizinosaurus_death"
+  },
+  "tiktaalik_ambient": {
+    "sounds": [
+      "fossil:prehistoric/tiktaalik_ambient1",
+      "fossil:prehistoric/tiktaalik_ambient2",
+      "fossil:prehistoric/tiktaalik_ambient3",
+      "fossil:prehistoric/tiktaalik_ambient4"
+    ],
+    "subtitle": "subtitle.fossil.tiktaalik_ambient"
+  },
+  "tiktaalik_hurt": {
+    "sounds": [
+      "fossil:prehistoric/tiktaalik_hurt1",
+      "fossil:prehistoric/tiktaalik_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.tiktaalik_hurt"
+  },
+  "tiktaalik_death": {
+    "sounds": [
+      "fossil:prehistoric/tiktaalik_death1",
+      "fossil:prehistoric/tiktaalik_death2"
+    ],
+    "subtitle": "subtitle.fossil.tiktaalik_death"
+  },
+  "triceratops_ambient": {
+    "sounds": [
+      "fossil:prehistoric/triceratops_ambient1",
+      "fossil:prehistoric/triceratops_ambient2",
+      "fossil:prehistoric/triceratops_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.triceratops_ambient"
+  },
+  "triceratops_hurt": {
+    "sounds": [
+      "fossil:prehistoric/triceratops_hurt"
+    ],
+    "subtitle": "subtitle.fossil.triceratops_hurt"
+  },
+  "triceratops_death": {
+    "sounds": [
+      "fossil:prehistoric/triceratops_death"
+    ],
+    "subtitle": "subtitle.fossil.triceratops_death"
+  },
+  "tyrannosaurus_ambient": {
+    "sounds": [
+      "fossil:prehistoric/trex_ambient1",
+      "fossil:prehistoric/trex_ambient2",
+      "fossil:prehistoric/trex_ambient3"
+    ],
+    "subtitle": "subtitle.fossil.tyrannosaurus_ambient"
+  },
+  "tyrannosaurus_hurt": {
+    "sounds": [
+      "fossil:prehistoric/trex_hurt"
+    ],
+    "subtitle": "subtitle.fossil.tyrannosaurus_hurt"
+  },
+  "tyrannosaurus_death": {
+    "sounds": [
+      "fossil:prehistoric/trex_death1",
+      "fossil:prehistoric/trex_death2"
+    ],
+    "subtitle": "subtitle.fossil.tyrannosaurus_death"
+  },
+  "velociraptor_ambient": {
+    "sounds": [
+      "fossil:prehistoric/velociraptor_ambient1",
+      "fossil:prehistoric/velociraptor_ambient2",
+      "fossil:prehistoric/velociraptor_ambient3",
+      "fossil:prehistoric/velociraptor_ambient4",
+      "fossil:prehistoric/velociraptor_ambient5",
+      "fossil:prehistoric/velociraptor_ambient6"
+    ],
+    "subtitle": "subtitle.fossil.velociraptor_ambient"
+  },
+  "velociraptor_hurt": {
+    "sounds": [
+      "fossil:prehistoric/velociraptor_hurt1",
+      "fossil:prehistoric/velociraptor_hurt2"
+    ],
+    "subtitle": "subtitle.fossil.velociraptor_hurt"
+  },
+  "velociraptor_death": {
+    "sounds": [
+      "fossil:prehistoric/velociraptor_death1"
+    ],
+    "subtitle": "subtitle.fossil.velociraptor_death"
+  },
+  "alligator_gar_ambient": {
+    "sounds": []
+  },
+  "alligator_gar_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "alligator_gar_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.death",
+        "type": "event"
+      }
+    ]
+  },
+  "aquilolamna_ambient": {
+    "sounds": []
+  },
+  "aquilolamna_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "aquilolamna_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.death",
+        "type": "event"
+      }
+    ]
+  },
+  "coelacanth_ambient": {
+    "sounds": []
+  },
+  "coelacanth_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "coelacanth_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.death",
+        "type": "event"
+      }
+    ]
+  },
+  "crassigyrinus_ambient": {
+    "sounds": []
+  },
+  "crassigyrinus_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "crassigyrinus_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.death",
+        "type": "event"
+      }
+    ]
+  },
+  "dimetrodon_ambient": {
+    "sounds": []
+  },
+  "dimetrodon_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "dimetrodon_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "dimorphodon_ambient": {
+    "sounds": []
+  },
+  "dimorphodon_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "dimorphodon_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "diplocaulus_ambient": {
+    "sounds": []
+  },
+  "diplocaulus_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "diplocaulus_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.death",
+        "type": "event"
+      }
+    ]
+  },
+  "gastornis_ambient": {
+    "sounds": []
+  },
+  "gastornis_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "gastornis_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "kelenken_ambient": {
+    "sounds": []
+  },
+  "kelenken_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "kelenken_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "liopleurodon_ambient": {
+    "sounds": []
+  },
+  "mosasaurus_ambient": {
+    "sounds": []
+  },
+  "nautilus_ambient": {
+    "sounds": []
+  },
+  "nautilus_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "nautilus_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.death",
+        "type": "event"
+      }
+    ]
+  },
+  "pachyrhinosaurus_ambient": {
+    "sounds": []
+  },
+  "pachyrhinosaurus_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "pachyrhinosaurus_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "phorusrhacos_ambient": {
+    "sounds": []
+  },
+  "phorusrhacos_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "phorusrhacos_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "plesiosaurus_ambient": {
+    "sounds": []
+  },
+  "postosuchus_ambient": {
+    "sounds": []
+  },
+  "postosuchus_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "postosuchus_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "protoceratops_ambient": {
+    "sounds": []
+  },
+  "protoceratops_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "protoceratops_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "psittacosaurus_ambient": {
+    "sounds": []
+  },
+  "psittacosaurus_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "psittacosaurus_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "quetzalcoatlus_ambient": {
+    "sounds": []
+  },
+  "quetzalcoatlus_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "quetzalcoatlus_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "sturgeon_ambient": {
+    "sounds": []
+  },
+  "sturgeon_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "sturgeon_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.cod.death",
+        "type": "event"
+      }
+    ]
+  },
+  "titanis_ambient": {
+    "sounds": []
+  },
+  "titanis_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "titanis_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "dicranurus_ambient": {
+    "sounds": []
+  },
+  "dicranurus_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "dicranurus_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "lonchodomas_ambient": {
+    "sounds": []
+  },
+  "lonchodomas_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "lonchodomas_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "scotoharpes_ambient": {
+    "sounds": []
+  },
+  "scotoharpes_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "scotoharpes_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "walliserops_ambient": {
+    "sounds": []
+  },
+  "walliserops_hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "walliserops_death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.chicken.death",
+        "type": "event"
+      }
+    ]
+  },
+  "music_bones": {
+    "sounds": [
+      {
+        "name": "fossil:music_bones",
+        "stream": true
+      }
+    ]
+  },
+  "music_anu": {
+    "sounds": [
+      {
+        "name": "fossil:music_anu",
+        "stream": true
+      }
+    ]
+  },
+  "music_scarab": {
+    "sounds": [
+      {
+        "name": "fossil:music_scarab",
+        "stream": true
+      }
+    ]
+  },
+  "music_discovery": {
+    "sounds": [
+      {
+        "name": "fossil:music_discovery",
+        "stream": true
+      }
+    ]
+  }
+}

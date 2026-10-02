@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "W": "fossil:tempskya_planks",
+    "#": "minecraft:stick"
+  },
+  "result": {
+    "count": 3,
+    "id": "fossil:tempskya_fence"
+  }
+}

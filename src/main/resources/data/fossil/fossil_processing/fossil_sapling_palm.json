@@ -1,0 +1,15 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:fossil_sapling_palm"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:palm_sapling",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

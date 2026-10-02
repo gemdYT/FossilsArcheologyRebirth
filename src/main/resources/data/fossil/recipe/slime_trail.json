@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": "minecraft:slime_ball"
+  },
+  "result": {
+    "id": "fossil:slime_trail",
+    "count": 16
+  }
+}

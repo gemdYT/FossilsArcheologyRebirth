@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fossil:meat_ornitholestes",
+  "result": {
+    "id": "fossil:cooked_ornitholestes"
+  },
+  "experience": 1.5,
+  "cookingtime": 200
+}

@@ -1,0 +1,15 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_unique_megalodon"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:megalodon_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

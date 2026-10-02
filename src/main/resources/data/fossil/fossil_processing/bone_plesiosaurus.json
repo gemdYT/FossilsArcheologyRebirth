@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_plesiosaurus",
+    "fossil:bone_foot_plesiosaurus",
+    "fossil:bone_leg_plesiosaurus",
+    "fossil:bone_ribcage_plesiosaurus",
+    "fossil:bone_skull_plesiosaurus",
+    "fossil:bone_tail_plesiosaurus",
+    "fossil:bone_unique_plesiosaurus",
+    "fossil:bone_vertebrae_plesiosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:plesiosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

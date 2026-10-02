@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_mammoth"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_mammoth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_mammoth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_mammoth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_mammoth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_mammoth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_mammoth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_mammoth"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_mammoth"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:frozen_meat"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:fur_mammoth"
+        }
+      ]
+    }
+  ]
+}

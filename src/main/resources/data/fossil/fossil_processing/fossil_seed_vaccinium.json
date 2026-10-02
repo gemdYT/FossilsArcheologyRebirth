@@ -1,0 +1,15 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:fossil_seed_vaccinium"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:seed_vaccinium",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

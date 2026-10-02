@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "fossil:ancient_wood_log",
+    "fossil:calamites_log",
+    "fossil:calamites_wood",
+    "fossil:cordaites_log",
+    "fossil:cordaites_wood",
+    "fossil:mutant_tree_log",
+    "fossil:mutant_tree_wood",
+    "fossil:palm_log",
+    "fossil:palm_wood",
+    "fossil:sigillaria_log",
+    "fossil:sigillaria_wood",
+    "fossil:stripped_calamites_log",
+    "fossil:stripped_calamites_wood",
+    "fossil:stripped_cordaites_log",
+    "fossil:stripped_cordaites_wood",
+    "fossil:stripped_mutant_tree_log",
+    "fossil:stripped_mutant_tree_wood",
+    "fossil:stripped_palm_log",
+    "fossil:stripped_palm_wood",
+    "fossil:stripped_sigillaria_log",
+    "fossil:stripped_sigillaria_wood",
+    "fossil:stripped_tempskya_log",
+    "fossil:stripped_tempskya_wood",
+    "fossil:tempskya_log",
+    "fossil:tempskya_wood"
+  ]
+}

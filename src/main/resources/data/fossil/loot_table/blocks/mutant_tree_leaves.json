@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "fossil:mutant_tree_leaves",
+              "condition": "minecraft:tool/can_shear"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "fossil:mutant_tree_sapling",
+              "condition": {
+                "type": "minecraft:all_of",
+                "terms": [
+                  {
+                    "type": "minecraft:random_chance",
+                    "chance": 0.08
+                  },
+                  {
+                    "type": "minecraft:survives_explosion"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

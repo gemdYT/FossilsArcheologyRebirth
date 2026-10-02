@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_confuciusornis",
+  "result": {
+    "id": "fossil:cooked_confuciusornis"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_tiktaalik",
+    "fossil:bone_foot_tiktaalik",
+    "fossil:bone_leg_tiktaalik",
+    "fossil:bone_ribcage_tiktaalik",
+    "fossil:bone_skull_tiktaalik",
+    "fossil:bone_tail_tiktaalik",
+    "fossil:bone_unique_tiktaalik",
+    "fossil:bone_vertebrae_tiktaalik"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:tiktaalik_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

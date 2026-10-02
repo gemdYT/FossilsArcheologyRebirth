@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_stegosaurus",
+    "fossil:bone_foot_stegosaurus",
+    "fossil:bone_leg_stegosaurus",
+    "fossil:bone_ribcage_stegosaurus",
+    "fossil:bone_skull_stegosaurus",
+    "fossil:bone_tail_stegosaurus",
+    "fossil:bone_unique_stegosaurus",
+    "fossil:bone_vertebrae_stegosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:stegosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

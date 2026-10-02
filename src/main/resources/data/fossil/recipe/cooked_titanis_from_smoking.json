@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_titanis",
+  "result": {
+    "id": "fossil:cooked_titanis"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

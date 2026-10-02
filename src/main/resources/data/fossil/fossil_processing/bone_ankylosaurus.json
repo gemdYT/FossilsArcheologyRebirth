@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_ankylosaurus",
+    "fossil:bone_foot_ankylosaurus",
+    "fossil:bone_leg_ankylosaurus",
+    "fossil:bone_ribcage_ankylosaurus",
+    "fossil:bone_skull_ankylosaurus",
+    "fossil:bone_tail_ankylosaurus",
+    "fossil:bone_unique_ankylosaurus",
+    "fossil:bone_vertebrae_ankylosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:ankylosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

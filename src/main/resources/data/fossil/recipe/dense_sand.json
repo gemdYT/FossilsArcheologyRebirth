@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:sand",
+    "minecraft:quartz"
+  ],
+  "result": {
+    "id": "fossil:dense_sand"
+  }
+}

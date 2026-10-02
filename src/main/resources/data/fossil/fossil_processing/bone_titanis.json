@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_titanis",
+    "fossil:bone_foot_titanis",
+    "fossil:bone_leg_titanis",
+    "fossil:bone_ribcage_titanis",
+    "fossil:bone_skull_titanis",
+    "fossil:bone_tail_titanis",
+    "fossil:bone_unique_titanis",
+    "fossil:bone_vertebrae_titanis"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:titanis_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

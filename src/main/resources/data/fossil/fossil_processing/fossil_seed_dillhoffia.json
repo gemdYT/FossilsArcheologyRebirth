@@ -1,0 +1,15 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:fossil_seed_dillhoffia"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:seed_dillhoffia",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

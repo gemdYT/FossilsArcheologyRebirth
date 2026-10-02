@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_allosaurus",
+    "fossil:bone_foot_allosaurus",
+    "fossil:bone_leg_allosaurus",
+    "fossil:bone_ribcage_allosaurus",
+    "fossil:bone_skull_allosaurus",
+    "fossil:bone_tail_allosaurus",
+    "fossil:bone_unique_allosaurus",
+    "fossil:bone_vertebrae_allosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:allosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

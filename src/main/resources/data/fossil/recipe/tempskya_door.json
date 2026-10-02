@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "fossil:tempskya_planks"
+  },
+  "result": {
+    "count": 3,
+    "id": "fossil:tempskya_door"
+  }
+}

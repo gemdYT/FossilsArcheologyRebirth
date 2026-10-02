@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:amber_chunk",
+    "fossil:bio_fossil"
+  ],
+  "result": {
+    "id": "fossil:amber_chunk_mosquito",
+    "count": 1
+  }
+}

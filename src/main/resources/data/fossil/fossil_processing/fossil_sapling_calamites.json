@@ -1,0 +1,15 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:fossil_sapling_calamites"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:calamites_sapling",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

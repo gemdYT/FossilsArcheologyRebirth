@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_crassigyrinus",
+    "fossil:bone_foot_crassigyrinus",
+    "fossil:bone_leg_crassigyrinus",
+    "fossil:bone_ribcage_crassigyrinus",
+    "fossil:bone_skull_crassigyrinus",
+    "fossil:bone_tail_crassigyrinus",
+    "fossil:bone_unique_crassigyrinus",
+    "fossil:bone_vertebrae_crassigyrinus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:crassigyrinus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

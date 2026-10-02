@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_gastornis"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_gastornis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_gastornis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_gastornis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_gastornis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_gastornis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_gastornis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_gastornis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_gastornis"
+        }
+      ]
+    }
+  ]
+}

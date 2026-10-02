@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fossil:meat_dryosaurus",
+  "result": {
+    "id": "fossil:cooked_dryosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 200
+}

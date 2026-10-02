@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "fossil-tests",
+  "version": "1.0.0",
+  "name": "Fossil native client integration tests",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-client-gametest": ["com.github.teamfossilsarcheology.fossil.ContentSmokeClientTest"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "machine": "culture_vat",
+  "inputs": [
+    "fossil:meganeura_dna"
+  ],
+  "fuel": "fossil:bio_goo",
+  "ticks": 200,
+  "results": [
+    {
+      "item": "fossil:egg_item_meganeura",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

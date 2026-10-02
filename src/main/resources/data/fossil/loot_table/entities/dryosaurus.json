@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_dryosaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_dryosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_dryosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_dryosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_dryosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_dryosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_dryosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_dryosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_dryosaurus"
+        }
+      ]
+    }
+  ]
+}

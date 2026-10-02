@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_mammoth",
+    "fossil:bone_foot_mammoth",
+    "fossil:bone_leg_mammoth",
+    "fossil:bone_ribcage_mammoth",
+    "fossil:bone_skull_mammoth",
+    "fossil:bone_tail_mammoth",
+    "fossil:bone_unique_mammoth",
+    "fossil:bone_vertebrae_mammoth"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:mammoth_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

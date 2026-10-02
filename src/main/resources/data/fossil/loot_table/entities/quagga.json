@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_quagga"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_quagga"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_quagga"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_quagga"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_quagga"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_quagga"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_quagga"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_quagga"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_quagga"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_pteranodon"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_pteranodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_pteranodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_pteranodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_pteranodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_pteranodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_pteranodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_pteranodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_pteranodon"
+        }
+      ]
+    }
+  ]
+}

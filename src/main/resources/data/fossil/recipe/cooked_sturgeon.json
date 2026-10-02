@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fossil:meat_sturgeon",
+  "result": {
+    "id": "fossil:cooked_sturgeon"
+  },
+  "experience": 1.5,
+  "cookingtime": 200
+}

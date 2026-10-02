@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_quagga",
+    "fossil:bone_foot_quagga",
+    "fossil:bone_leg_quagga",
+    "fossil:bone_ribcage_quagga",
+    "fossil:bone_skull_quagga",
+    "fossil:bone_tail_quagga",
+    "fossil:bone_unique_quagga",
+    "fossil:bone_vertebrae_quagga"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:quagga_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

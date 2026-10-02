@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_dilophosaurus",
+    "fossil:bone_foot_dilophosaurus",
+    "fossil:bone_leg_dilophosaurus",
+    "fossil:bone_ribcage_dilophosaurus",
+    "fossil:bone_skull_dilophosaurus",
+    "fossil:bone_tail_dilophosaurus",
+    "fossil:bone_unique_dilophosaurus",
+    "fossil:bone_vertebrae_dilophosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:dilophosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

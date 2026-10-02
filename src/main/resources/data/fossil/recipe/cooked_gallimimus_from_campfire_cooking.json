@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_gallimimus",
+  "result": {
+    "id": "fossil:cooked_gallimimus"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

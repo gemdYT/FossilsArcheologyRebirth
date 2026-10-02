@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:laser_pointer_active"
+  ],
+  "result": {
+    "id": "fossil:laser_pointer"
+  }
+}

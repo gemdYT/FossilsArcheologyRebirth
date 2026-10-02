@@ -1,0 +1,95 @@
+plugins {
+    id 'net.fabricmc.fabric-loom' version '1.17.21'
+    id 'maven-publish'
+}
+
+version = project.modVersion
+group = project.mavenGroup
+base.archivesName = "${project.archivesName}-fabric-${project.minecraftVersion}"
+
+repositories {
+    maven {
+        name = 'Modrinth'
+        url = 'https://api.modrinth.com/maven'
+        content { includeGroup 'maven.modrinth' }
+    }
+}
+
+// One Fabric 26.3 source tree; no legacy or alternate-loader compilation.
+sourceSets {
+    foundation {
+        java.setSrcDirs(['src/main/java', 'tests/java'])
+        java.include 'com/github/teamfossilsarcheology/fossil/config/*.java'
+        compileClasspath = sourceSets.main.compileClasspath
+        runtimeClasspath = output + compileClasspath
+    }
+}
+
+fabricApi {
+    configureTests {
+        createSourceSet = true
+        modId = 'fossil-tests'
+        enableGameTests = false
+        enableClientGameTests = true
+        // Read the user's existing acceptance; do not accept an agreement on their behalf.
+        eula = file('run/eula.txt').exists() && file('run/eula.txt').text.contains('eula=true')
+        clearRunDirectory = false
+    }
+}
+
+tasks.register('foundationTest', JavaExec) {
+    group = 'verification'
+    description = 'Checks configuration persistence and malformed-file protection.'
+    classpath = sourceSets.foundation.runtimeClasspath
+    mainClass = 'com.github.teamfossilsarcheology.fossil.config.JsonConfigTest'
+}
+tasks.named('check') { dependsOn 'foundationTest' }
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraftVersion}"
+    implementation "net.fabricmc:fabric-loader:${project.fabricLoaderVersion}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabricApiVersion}"
+    // Immutable Modrinth version IDs select the Fabric artifacts unambiguously.
+    implementation "maven.modrinth:geckolib:${project.geckoLibVersionId}"
+    implementation "maven.modrinth:terrablender:${project.terraBlenderVersionId}"
+    implementation "teamreborn:energy:${project.energyVersion}"
+    include "teamreborn:energy:${project.energyVersion}"
+    implementation "maven.modrinth:smartbrainlib:${project.smartBrainLibVersionId}"
+    implementation "maven.modrinth:structure-pool-api:${project.structurePoolApiVersionId}"
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(25)
+    withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
+    options.encoding = 'UTF-8'
+    options.compilerArgs += ['-Xmaxerrs', '10000']
+}
+
+processResources {
+    def props = [modId: project.modId, modName: project.modName,
+                 modVersion: project.modVersion, modDescription: project.modDescription,
+                 modLicense: project.modLicense, minecraftVersion: project.minecraftVersion,
+                 fabricLoaderVersion: project.fabricLoaderVersion,
+                 fabricApiVersion: project.fabricApiVersion,
+                 geckoLibVersion: project.geckoLibVersion,
+                 terraBlenderVersion: project.terraBlenderVersion,
+                 smartBrainLibVersion: project.smartBrainLibVersion,
+                 structurePoolApiVersion: project.structurePoolApiVersion,
+                 fabricModAuthors: groovy.json.JsonOutput.toJson(project.modAuthors.split(',').collect { it.trim() })]
+    inputs.properties(props)
+    filesMatching('fabric.mod.json') { expand(props) }
+}
+
+jar {
+    from('LICENSE') { rename { "${it}_${project.modId}" } }
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) { from components.java }
+    }
+}

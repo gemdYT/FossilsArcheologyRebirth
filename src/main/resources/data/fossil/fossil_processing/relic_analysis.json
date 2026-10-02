@@ -1,0 +1,85 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:relic_scrap"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:broken_sword",
+      "count": 1,
+      "weight": 3
+    },
+    {
+      "item": "fossil:broken_helmet",
+      "count": 1,
+      "weight": 3
+    },
+    {
+      "item": "fossil:pottery_shard",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:figurine_steve_destroyed",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:figurine_zombie_destroyed",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:figurine_piglin_destroyed",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:figurine_anu_destroyed",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:vase_volute_damaged",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:vase_kylix_damaged",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:vase_amphora_damaged",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:figurine_skeleton_destroyed",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:figurine_enderman_destroyed",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:ancient_javelin",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:music_disc_bones",
+      "count": 1,
+      "weight": 1
+    },
+    {
+      "item": "fossil:music_disc_discovery",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_edaphosaurus",
+  "result": {
+    "id": "fossil:cooked_edaphosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

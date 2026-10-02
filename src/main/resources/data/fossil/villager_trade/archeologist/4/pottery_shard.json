@@ -1,0 +1,12 @@
+{
+  "gives": {
+    "id": "fossil:pottery_shard"
+  },
+  "max_uses": 8,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 8
+  },
+  "xp": 12
+}

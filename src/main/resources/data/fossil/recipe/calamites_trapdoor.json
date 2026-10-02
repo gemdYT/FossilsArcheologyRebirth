@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_trapdoor",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "fossil:calamites_planks"
+  },
+  "result": {
+    "count": 2,
+    "id": "fossil:calamites_trapdoor"
+  }
+}

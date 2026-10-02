@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_protoceratops"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_protoceratops"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_protoceratops"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_protoceratops"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_protoceratops"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_protoceratops"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_protoceratops"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_protoceratops"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_protoceratops"
+        }
+      ]
+    }
+  ]
+}

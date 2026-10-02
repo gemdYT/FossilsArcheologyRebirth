@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GCG",
+    " R "
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "C": "minecraft:clock",
+    "R": "fossil:relic_scrap"
+  },
+  "result": {
+    "id": "fossil:ancient_clock",
+    "count": 1
+  }
+}

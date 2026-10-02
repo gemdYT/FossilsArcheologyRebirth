@@ -1,9 +1,0 @@
-{
-  "textureName": "hope",
-  "conditions": [
-    {
-      "type": "nametag",
-      "name": "Hope"
-    }
-  ]
-}

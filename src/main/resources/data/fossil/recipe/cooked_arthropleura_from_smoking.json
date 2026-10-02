@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_arthropleura",
+  "result": {
+    "id": "fossil:cooked_arthropleura"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

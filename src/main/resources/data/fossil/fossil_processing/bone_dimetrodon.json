@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_dimetrodon",
+    "fossil:bone_foot_dimetrodon",
+    "fossil:bone_leg_dimetrodon",
+    "fossil:bone_ribcage_dimetrodon",
+    "fossil:bone_skull_dimetrodon",
+    "fossil:bone_tail_dimetrodon",
+    "fossil:bone_unique_dimetrodon",
+    "fossil:bone_vertebrae_dimetrodon"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:dimetrodon_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

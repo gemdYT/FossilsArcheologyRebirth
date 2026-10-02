@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_megaloceros"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_megaloceros"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_megaloceros"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_megaloceros"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_megaloceros"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_megaloceros"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_megaloceros"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_megaloceros"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_megaloceros"
+        }
+      ]
+    }
+  ]
+}

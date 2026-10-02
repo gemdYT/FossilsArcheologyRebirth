@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "fossil:anu_castle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 1,
+    "spread": 1,
+    "count": 1,
+    "preferred_biomes": "fossil:anu_lair",
+    "salt": 72134589
+  }
+}

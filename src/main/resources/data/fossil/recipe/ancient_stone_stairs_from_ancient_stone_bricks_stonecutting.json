@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "fossil:ancient_stone_bricks",
+  "result": {
+    "id": "fossil:ancient_stone_stairs"
+  },
+  "count": 1
+}

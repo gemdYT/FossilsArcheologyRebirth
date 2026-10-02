@@ -1,0 +1,15 @@
+{
+  "machine": "culture_vat",
+  "inputs": [
+    "fossil:deinonychus_dna"
+  ],
+  "fuel": "fossil:bio_goo",
+  "ticks": 200,
+  "results": [
+    {
+      "item": "fossil:egg_item_deinonychus",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

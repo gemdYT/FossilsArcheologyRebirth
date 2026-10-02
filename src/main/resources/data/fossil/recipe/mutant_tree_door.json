@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "fossil:mutant_tree_planks"
+  },
+  "result": {
+    "count": 3,
+    "id": "fossil:mutant_tree_door"
+  }
+}

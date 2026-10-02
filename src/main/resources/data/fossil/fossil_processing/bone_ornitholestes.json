@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_ornitholestes",
+    "fossil:bone_foot_ornitholestes",
+    "fossil:bone_leg_ornitholestes",
+    "fossil:bone_ribcage_ornitholestes",
+    "fossil:bone_skull_ornitholestes",
+    "fossil:bone_tail_ornitholestes",
+    "fossil:bone_unique_ornitholestes",
+    "fossil:bone_vertebrae_ornitholestes"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:ornitholestes_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

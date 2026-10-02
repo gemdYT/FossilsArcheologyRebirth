@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_tiktaalik"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_tiktaalik"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_tiktaalik"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_tiktaalik"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_tiktaalik"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_tiktaalik"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_tiktaalik"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_tiktaalik"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_tiktaalik"
+        }
+      ]
+    }
+  ]
+}

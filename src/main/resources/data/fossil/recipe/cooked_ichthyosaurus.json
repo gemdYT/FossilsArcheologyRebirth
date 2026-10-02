@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fossil:meat_ichthyosaurus",
+  "result": {
+    "id": "fossil:cooked_ichthyosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 200
+}

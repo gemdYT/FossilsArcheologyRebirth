@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_kelenken",
+    "fossil:bone_foot_kelenken",
+    "fossil:bone_leg_kelenken",
+    "fossil:bone_ribcage_kelenken",
+    "fossil:bone_skull_kelenken",
+    "fossil:bone_tail_kelenken",
+    "fossil:bone_unique_kelenken",
+    "fossil:bone_vertebrae_kelenken"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:kelenken_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

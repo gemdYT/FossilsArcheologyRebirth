@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_elasmotherium",
+    "fossil:bone_foot_elasmotherium",
+    "fossil:bone_leg_elasmotherium",
+    "fossil:bone_ribcage_elasmotherium",
+    "fossil:bone_skull_elasmotherium",
+    "fossil:bone_tail_elasmotherium",
+    "fossil:bone_unique_elasmotherium",
+    "fossil:bone_vertebrae_elasmotherium"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:elasmotherium_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

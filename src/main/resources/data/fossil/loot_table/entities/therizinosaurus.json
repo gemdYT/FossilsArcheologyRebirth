@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_therizinosaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_therizinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_therizinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_therizinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_therizinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_therizinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_therizinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_therizinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_therizinosaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:fur_therizinosaurus"
+        }
+      ]
+    }
+  ]
+}

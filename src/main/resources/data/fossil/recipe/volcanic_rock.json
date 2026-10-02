@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:basalt",
+    "minecraft:blackstone"
+  ],
+  "result": {
+    "id": "fossil:volcanic_rock",
+    "count": 2
+  }
+}

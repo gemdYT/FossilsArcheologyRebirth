@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:amber_chunk",
+    "fossil:fossil_plant"
+  ],
+  "result": {
+    "id": "fossil:amber_chunk_dominican",
+    "count": 1
+  }
+}

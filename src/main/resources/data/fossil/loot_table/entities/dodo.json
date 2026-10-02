@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_dodo"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_dodo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_dodo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_dodo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_dodo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_dodo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_dodo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_dodo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_dodo"
+        }
+      ]
+    }
+  ]
+}

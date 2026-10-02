@@ -1,0 +1,15 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:fossil_seed_bennettitales"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:seed_bennettitales",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

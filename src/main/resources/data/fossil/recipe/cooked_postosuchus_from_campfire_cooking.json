@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_postosuchus",
+  "result": {
+    "id": "fossil:cooked_postosuchus"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

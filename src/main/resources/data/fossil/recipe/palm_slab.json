@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": "fossil:palm_planks"
+  },
+  "result": {
+    "count": 6,
+    "id": "fossil:palm_slab"
+  }
+}

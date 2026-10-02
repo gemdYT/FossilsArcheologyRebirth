@@ -1,0 +1,15 @@
+{
+  "machine": "culture_vat",
+  "inputs": [
+    "fossil:brachiosaurus_dna"
+  ],
+  "fuel": "fossil:bio_goo",
+  "ticks": 200,
+  "results": [
+    {
+      "item": "fossil:egg_item_brachiosaurus",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

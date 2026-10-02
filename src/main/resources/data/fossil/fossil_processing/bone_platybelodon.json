@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_platybelodon",
+    "fossil:bone_foot_platybelodon",
+    "fossil:bone_leg_platybelodon",
+    "fossil:bone_ribcage_platybelodon",
+    "fossil:bone_skull_platybelodon",
+    "fossil:bone_tail_platybelodon",
+    "fossil:bone_unique_platybelodon",
+    "fossil:bone_vertebrae_platybelodon"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:platybelodon_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

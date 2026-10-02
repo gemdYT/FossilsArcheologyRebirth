@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_dilophosaurus",
+  "result": {
+    "id": "fossil:cooked_dilophosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

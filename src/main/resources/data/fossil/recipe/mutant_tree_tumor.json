@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:mutant_tree_log",
+    "fossil:bio_goo"
+  ],
+  "result": {
+    "id": "fossil:mutant_tree_tumor",
+    "count": 1
+  }
+}

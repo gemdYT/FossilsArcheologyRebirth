@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L",
+    "C"
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "C": "minecraft:crafting_table"
+  },
+  "result": {
+    "id": "fossil:worktable"
+  }
+}

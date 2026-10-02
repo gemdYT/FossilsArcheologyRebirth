@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_deinonychus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_deinonychus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_deinonychus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_deinonychus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_deinonychus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_deinonychus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_deinonychus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_deinonychus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_deinonychus"
+        }
+      ]
+    }
+  ]
+}

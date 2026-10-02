@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_diplodocus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_diplodocus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_diplodocus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_diplodocus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_diplodocus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_diplodocus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_diplodocus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_diplodocus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_diplodocus"
+        }
+      ]
+    }
+  ]
+}

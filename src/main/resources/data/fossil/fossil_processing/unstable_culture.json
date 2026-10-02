@@ -1,0 +1,15 @@
+{
+  "machine": "culture_vat",
+  "inputs": [
+    "minecraft:rotten_flesh"
+  ],
+  "fuel": "fossil:bio_goo",
+  "ticks": 200,
+  "results": [
+    {
+      "item": "fossil:spawn_egg_failuresaurus",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

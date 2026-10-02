@@ -21,6 +21,8 @@ build
 # other
 eclipse
 run
-
-# Files from Forge MDK
-forge*changelog.txt
+# Local migration diagnostics
+fabric-port-*.log
+__pycache__/
+logs/
+dist/

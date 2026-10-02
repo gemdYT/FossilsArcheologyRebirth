@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fossil:meat_gallimimus",
+  "result": {
+    "id": "fossil:cooked_gallimimus"
+  },
+  "experience": 1.5,
+  "cookingtime": 200
+}

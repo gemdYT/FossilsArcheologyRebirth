@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GCG",
+    "GGG"
+  ],
+  "key": {
+    "G": "minecraft:glass_bottle",
+    "C": "fossil:chicken_soup_cooked"
+  },
+  "result": {
+    "count": 8,
+    "id": "fossil:essence_chicken"
+  }
+}

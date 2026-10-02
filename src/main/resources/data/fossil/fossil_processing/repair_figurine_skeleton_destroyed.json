@@ -1,0 +1,15 @@
+{
+  "machine": "worktable",
+  "inputs": [
+    "fossil:figurine_skeleton_destroyed"
+  ],
+  "fuel": "fossil:pottery_shard",
+  "ticks": 160,
+  "results": [
+    {
+      "item": "fossil:figurine_skeleton_restored",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

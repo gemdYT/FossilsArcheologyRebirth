@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_smilodon",
+    "fossil:bone_foot_smilodon",
+    "fossil:bone_leg_smilodon",
+    "fossil:bone_ribcage_smilodon",
+    "fossil:bone_skull_smilodon",
+    "fossil:bone_tail_smilodon",
+    "fossil:bone_unique_smilodon",
+    "fossil:bone_vertebrae_smilodon"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:smilodon_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:rotten_flesh"
+  ],
+  "result": {
+    "id": "fossil:bio_goo"
+  }
+}

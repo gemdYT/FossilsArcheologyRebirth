@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "S",
+    "L"
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "L": "minecraft:birch_log"
+  },
+  "result": {
+    "id": "fossil:toy_tethered_log_birch"
+  }
+}

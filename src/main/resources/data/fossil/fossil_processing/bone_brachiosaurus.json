@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_brachiosaurus",
+    "fossil:bone_foot_brachiosaurus",
+    "fossil:bone_leg_brachiosaurus",
+    "fossil:bone_ribcage_brachiosaurus",
+    "fossil:bone_skull_brachiosaurus",
+    "fossil:bone_tail_brachiosaurus",
+    "fossil:bone_unique_brachiosaurus",
+    "fossil:bone_vertebrae_brachiosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:brachiosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

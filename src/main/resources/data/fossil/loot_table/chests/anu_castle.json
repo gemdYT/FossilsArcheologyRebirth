@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:relic_scrap"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:pottery_shard"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:stone_tablet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:ancient_key"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:broken_sword"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:broken_helmet"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:music_disc_discovery"
+        }
+      ]
+    }
+  ]
+}

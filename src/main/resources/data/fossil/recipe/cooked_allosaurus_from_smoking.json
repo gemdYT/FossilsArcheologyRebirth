@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_allosaurus",
+  "result": {
+    "id": "fossil:cooked_allosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

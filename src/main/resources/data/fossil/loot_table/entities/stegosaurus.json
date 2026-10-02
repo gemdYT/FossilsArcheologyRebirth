@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_stegosaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_stegosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_stegosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_stegosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_stegosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_stegosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_stegosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_stegosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_stegosaurus"
+        }
+      ]
+    }
+  ]
+}

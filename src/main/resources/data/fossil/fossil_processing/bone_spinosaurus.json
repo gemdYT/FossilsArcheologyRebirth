@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_spinosaurus",
+    "fossil:bone_foot_spinosaurus",
+    "fossil:bone_leg_spinosaurus",
+    "fossil:bone_ribcage_spinosaurus",
+    "fossil:bone_skull_spinosaurus",
+    "fossil:bone_tail_spinosaurus",
+    "fossil:bone_unique_spinosaurus",
+    "fossil:bone_vertebrae_spinosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:spinosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

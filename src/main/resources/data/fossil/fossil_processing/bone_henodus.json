@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_henodus",
+    "fossil:bone_foot_henodus",
+    "fossil:bone_leg_henodus",
+    "fossil:bone_ribcage_henodus",
+    "fossil:bone_skull_henodus",
+    "fossil:bone_tail_henodus",
+    "fossil:bone_unique_henodus",
+    "fossil:bone_vertebrae_henodus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:henodus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

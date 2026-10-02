@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_edaphosaurus",
+    "fossil:bone_foot_edaphosaurus",
+    "fossil:bone_leg_edaphosaurus",
+    "fossil:bone_ribcage_edaphosaurus",
+    "fossil:bone_skull_edaphosaurus",
+    "fossil:bone_tail_edaphosaurus",
+    "fossil:bone_unique_edaphosaurus",
+    "fossil:bone_vertebrae_edaphosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:edaphosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

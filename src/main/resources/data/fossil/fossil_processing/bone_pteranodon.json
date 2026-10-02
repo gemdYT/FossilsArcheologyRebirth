@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_pteranodon",
+    "fossil:bone_foot_pteranodon",
+    "fossil:bone_leg_pteranodon",
+    "fossil:bone_ribcage_pteranodon",
+    "fossil:bone_skull_pteranodon",
+    "fossil:bone_tail_pteranodon",
+    "fossil:bone_unique_pteranodon",
+    "fossil:bone_vertebrae_pteranodon"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:pteranodon_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

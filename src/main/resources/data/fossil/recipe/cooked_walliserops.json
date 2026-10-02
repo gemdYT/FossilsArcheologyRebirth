@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": "fossil:meat_walliserops",
+  "result": {
+    "id": "fossil:cooked_walliserops"
+  },
+  "experience": 1.5,
+  "cookingtime": 200
+}

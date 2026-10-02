@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bone",
+    "minecraft:bone",
+    "fossil:relic_scrap"
+  ],
+  "result": {
+    "id": "fossil:skull",
+    "count": 1
+  }
+}

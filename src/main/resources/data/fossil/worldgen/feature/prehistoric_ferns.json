@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "id": "fossil:plant_ferns",
+    "properties": {
+      "age": "6"
+    }
+  }
+}

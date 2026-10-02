@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_megaloceros",
+    "fossil:bone_foot_megaloceros",
+    "fossil:bone_leg_megaloceros",
+    "fossil:bone_ribcage_megaloceros",
+    "fossil:bone_skull_megaloceros",
+    "fossil:bone_tail_megaloceros",
+    "fossil:bone_unique_megaloceros",
+    "fossil:bone_vertebrae_megaloceros"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:megaloceros_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

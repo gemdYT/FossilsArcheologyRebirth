@@ -1,0 +1,15 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:fossil_seed_florissantia"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:seed_florissantia",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

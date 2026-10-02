@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": "minecraft:bone"
+  },
+  "result": {
+    "id": "fossil:bone_chestplate",
+    "count": 1
+  }
+}

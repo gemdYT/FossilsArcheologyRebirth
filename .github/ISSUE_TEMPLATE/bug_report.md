@@ -26,7 +26,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Mod Version**
- - e.g. Forge 1.18.2-1.0.0.0
+ - Include the Minecraft version, Fabric Loader version, and mod version.
 
 **Additional context**
 Add any other context about the problem here.

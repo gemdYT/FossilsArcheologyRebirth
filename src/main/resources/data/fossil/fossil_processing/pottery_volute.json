@@ -1,0 +1,15 @@
+{
+  "machine": "worktable",
+  "inputs": [
+    "fossil:vase_volute_damaged"
+  ],
+  "fuel": "fossil:pottery_shard",
+  "ticks": 160,
+  "results": [
+    {
+      "item": "fossil:vase_volute_restored",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

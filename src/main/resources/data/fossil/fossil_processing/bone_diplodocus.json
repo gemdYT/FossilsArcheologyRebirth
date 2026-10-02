@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_diplodocus",
+    "fossil:bone_foot_diplodocus",
+    "fossil:bone_leg_diplodocus",
+    "fossil:bone_ribcage_diplodocus",
+    "fossil:bone_skull_diplodocus",
+    "fossil:bone_tail_diplodocus",
+    "fossil:bone_unique_diplodocus",
+    "fossil:bone_vertebrae_diplodocus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:diplodocus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

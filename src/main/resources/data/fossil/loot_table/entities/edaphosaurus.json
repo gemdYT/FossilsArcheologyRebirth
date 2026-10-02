@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_edaphosaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_edaphosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_edaphosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_edaphosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_edaphosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_edaphosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_edaphosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_edaphosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_edaphosaurus"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_plesiosaurus",
+  "result": {
+    "id": "fossil:cooked_plesiosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

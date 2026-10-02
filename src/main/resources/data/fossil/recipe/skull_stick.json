@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:stick",
+    "fossil:skull"
+  ],
+  "result": {
+    "id": "fossil:skull_stick"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "machine": "worktable",
+  "inputs": [
+    "fossil:broken_sword"
+  ],
+  "fuel": "minecraft:iron_ingot",
+  "ticks": 160,
+  "results": [
+    {
+      "item": "fossil:ancient_sword",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

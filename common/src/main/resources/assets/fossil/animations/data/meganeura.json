@@ -1,7 +1,0 @@
-{
-  "animations": {
-    "animation.meganeura.walk": {
-      "blocks_per_second": 0.625
-    }
-  }
-}

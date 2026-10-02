@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:tempskya_log",
+    "fossil:tempskya_leaf"
+  ],
+  "result": {
+    "id": "fossil:tempskya_top",
+    "count": 1
+  }
+}

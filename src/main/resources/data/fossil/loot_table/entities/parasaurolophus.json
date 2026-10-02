@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_parasaurolophus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_parasaurolophus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_parasaurolophus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_parasaurolophus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_parasaurolophus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_parasaurolophus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_parasaurolophus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_parasaurolophus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_parasaurolophus"
+        }
+      ]
+    }
+  ]
+}

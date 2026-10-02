@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_dimorphodon",
+  "result": {
+    "id": "fossil:cooked_dimorphodon"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

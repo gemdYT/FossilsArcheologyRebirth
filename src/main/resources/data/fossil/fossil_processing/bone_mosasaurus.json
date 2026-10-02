@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_mosasaurus",
+    "fossil:bone_foot_mosasaurus",
+    "fossil:bone_leg_mosasaurus",
+    "fossil:bone_ribcage_mosasaurus",
+    "fossil:bone_skull_mosasaurus",
+    "fossil:bone_tail_mosasaurus",
+    "fossil:bone_unique_mosasaurus",
+    "fossil:bone_vertebrae_mosasaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:mosasaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

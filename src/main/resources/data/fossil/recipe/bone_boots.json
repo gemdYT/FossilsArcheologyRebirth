@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "B B"
+  ],
+  "key": {
+    "B": "minecraft:bone"
+  },
+  "result": {
+    "id": "fossil:bone_boots",
+    "count": 1
+  }
+}

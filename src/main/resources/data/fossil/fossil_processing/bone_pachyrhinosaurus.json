@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_pachyrhinosaurus",
+    "fossil:bone_foot_pachyrhinosaurus",
+    "fossil:bone_leg_pachyrhinosaurus",
+    "fossil:bone_ribcage_pachyrhinosaurus",
+    "fossil:bone_skull_pachyrhinosaurus",
+    "fossil:bone_tail_pachyrhinosaurus",
+    "fossil:bone_unique_pachyrhinosaurus",
+    "fossil:bone_vertebrae_pachyrhinosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:pachyrhinosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

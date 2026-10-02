@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WSW",
+    " X "
+  ],
+  "key": {
+    "S": "minecraft:stick",
+    "X": "minecraft:jungle_slab",
+    "W": "#minecraft:wool"
+  },
+  "result": {
+    "id": "fossil:toy_scratching_post_jungle"
+  }
+}

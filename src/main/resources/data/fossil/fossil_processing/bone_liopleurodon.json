@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_liopleurodon",
+    "fossil:bone_foot_liopleurodon",
+    "fossil:bone_leg_liopleurodon",
+    "fossil:bone_ribcage_liopleurodon",
+    "fossil:bone_skull_liopleurodon",
+    "fossil:bone_tail_liopleurodon",
+    "fossil:bone_unique_liopleurodon",
+    "fossil:bone_vertebrae_liopleurodon"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:liopleurodon_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

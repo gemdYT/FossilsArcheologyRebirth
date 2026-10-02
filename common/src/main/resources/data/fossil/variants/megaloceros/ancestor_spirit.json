@@ -1,9 +1,0 @@
-{
-  "textureName": "ancestor_spirit",
-  "conditions": [
-    {
-      "type": "nametag",
-      "name": "Ancestor Spirit"
-    }
-  ]
-}

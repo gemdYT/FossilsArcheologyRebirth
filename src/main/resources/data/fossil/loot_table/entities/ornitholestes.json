@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_ornitholestes"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_ornitholestes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_ornitholestes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_ornitholestes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_ornitholestes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_ornitholestes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_ornitholestes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_ornitholestes"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_ornitholestes"
+        }
+      ]
+    }
+  ]
+}

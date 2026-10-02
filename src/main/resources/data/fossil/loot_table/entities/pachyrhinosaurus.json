@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_pachyrhinosaurus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_pachyrhinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_pachyrhinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_pachyrhinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_pachyrhinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_pachyrhinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_pachyrhinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_pachyrhinosaurus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_pachyrhinosaurus"
+        }
+      ]
+    }
+  ]
+}

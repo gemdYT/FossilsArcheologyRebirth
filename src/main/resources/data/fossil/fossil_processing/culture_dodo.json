@@ -1,0 +1,15 @@
+{
+  "machine": "culture_vat",
+  "inputs": [
+    "fossil:dodo_dna"
+  ],
+  "fuel": "fossil:bio_goo",
+  "ticks": 200,
+  "results": [
+    {
+      "item": "fossil:egg_item_dodo",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

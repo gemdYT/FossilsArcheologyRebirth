@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:dirt",
+    "minecraft:packed_ice"
+  ],
+  "result": {
+    "id": "fossil:permafrost_block",
+    "count": 1
+  }
+}

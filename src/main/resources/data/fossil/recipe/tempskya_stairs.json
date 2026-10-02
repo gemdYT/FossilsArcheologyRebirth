@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": "fossil:tempskya_planks"
+  },
+  "result": {
+    "count": 4,
+    "id": "fossil:tempskya_stairs"
+  }
+}

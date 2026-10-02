@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GRG",
+    "GGG"
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "R": "fossil:relic_scrap"
+  },
+  "result": {
+    "id": "fossil:ancient_key"
+  }
+}

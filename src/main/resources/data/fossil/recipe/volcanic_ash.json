@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:volcanic_rock",
+    "minecraft:charcoal"
+  ],
+  "result": {
+    "id": "fossil:volcanic_ash",
+    "count": 2
+  }
+}

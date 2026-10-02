@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "fossil:ancient_stone"
-  },
-  "result": "fossil:ancient_stone_wall",
-  "count": 1
-}

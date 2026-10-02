@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_titanis"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_titanis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_titanis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_titanis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_titanis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_titanis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_titanis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_titanis"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_titanis"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_smilodon",
+  "result": {
+    "id": "fossil:cooked_smilodon"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

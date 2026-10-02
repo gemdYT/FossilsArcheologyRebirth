@@ -1,0 +1,12 @@
+{
+  "gives": {
+    "id": "fossil:fossil_sapling_calamites"
+  },
+  "max_uses": 8,
+  "reputation_discount": 0.05,
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 10
+  },
+  "xp": 15
+}

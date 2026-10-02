@@ -1,0 +1,15 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:fossil_sapling_tempskya"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:tempskya_sapling",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

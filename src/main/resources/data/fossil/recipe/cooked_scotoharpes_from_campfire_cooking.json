@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_scotoharpes",
+  "result": {
+    "id": "fossil:cooked_scotoharpes"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_sarcosuchus",
+  "result": {
+    "id": "fossil:cooked_sarcosuchus"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

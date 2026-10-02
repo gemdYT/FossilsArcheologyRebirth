@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:oak_sapling",
+    "fossil:bio_goo"
+  ],
+  "result": {
+    "id": "fossil:mutant_tree_sapling",
+    "count": 1
+  }
+}

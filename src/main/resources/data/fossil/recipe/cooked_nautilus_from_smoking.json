@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_nautilus",
+  "result": {
+    "id": "fossil:cooked_nautilus"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_gastornis",
+    "fossil:bone_foot_gastornis",
+    "fossil:bone_leg_gastornis",
+    "fossil:bone_ribcage_gastornis",
+    "fossil:bone_skull_gastornis",
+    "fossil:bone_tail_gastornis",
+    "fossil:bone_unique_gastornis",
+    "fossil:bone_vertebrae_gastornis"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:gastornis_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

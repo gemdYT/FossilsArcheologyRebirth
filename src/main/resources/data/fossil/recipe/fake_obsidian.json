@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:obsidian",
+    "fossil:relic_scrap"
+  ],
+  "result": {
+    "id": "fossil:fake_obsidian",
+    "count": 1
+  }
+}

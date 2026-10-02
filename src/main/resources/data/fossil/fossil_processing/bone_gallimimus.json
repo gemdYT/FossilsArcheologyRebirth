@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_gallimimus",
+    "fossil:bone_foot_gallimimus",
+    "fossil:bone_leg_gallimimus",
+    "fossil:bone_ribcage_gallimimus",
+    "fossil:bone_skull_gallimimus",
+    "fossil:bone_tail_gallimimus",
+    "fossil:bone_unique_gallimimus",
+    "fossil:bone_vertebrae_gallimimus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:gallimimus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_velociraptor",
+    "fossil:bone_foot_velociraptor",
+    "fossil:bone_leg_velociraptor",
+    "fossil:bone_ribcage_velociraptor",
+    "fossil:bone_skull_velociraptor",
+    "fossil:bone_tail_velociraptor",
+    "fossil:bone_unique_velociraptor",
+    "fossil:bone_vertebrae_velociraptor"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:velociraptor_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

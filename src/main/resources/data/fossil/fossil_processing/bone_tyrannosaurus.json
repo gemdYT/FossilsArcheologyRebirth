@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_tyrannosaurus",
+    "fossil:bone_foot_tyrannosaurus",
+    "fossil:bone_leg_tyrannosaurus",
+    "fossil:bone_ribcage_tyrannosaurus",
+    "fossil:bone_skull_tyrannosaurus",
+    "fossil:bone_tail_tyrannosaurus",
+    "fossil:bone_unique_tyrannosaurus",
+    "fossil:bone_vertebrae_tyrannosaurus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:tyrannosaurus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

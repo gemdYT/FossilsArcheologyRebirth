@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_dimorphodon",
+    "fossil:bone_foot_dimorphodon",
+    "fossil:bone_leg_dimorphodon",
+    "fossil:bone_ribcage_dimorphodon",
+    "fossil:bone_skull_dimorphodon",
+    "fossil:bone_tail_dimorphodon",
+    "fossil:bone_unique_dimorphodon",
+    "fossil:bone_vertebrae_dimorphodon"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:dimorphodon_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

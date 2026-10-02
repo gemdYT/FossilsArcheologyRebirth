@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_phorusrhacos",
+    "fossil:bone_foot_phorusrhacos",
+    "fossil:bone_leg_phorusrhacos",
+    "fossil:bone_ribcage_phorusrhacos",
+    "fossil:bone_skull_phorusrhacos",
+    "fossil:bone_tail_phorusrhacos",
+    "fossil:bone_unique_phorusrhacos",
+    "fossil:bone_vertebrae_phorusrhacos"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:phorusrhacos_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

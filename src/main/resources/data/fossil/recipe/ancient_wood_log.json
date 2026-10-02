@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#minecraft:logs",
+    "fossil:relic_scrap"
+  ],
+  "result": {
+    "id": "fossil:ancient_wood_log",
+    "count": 4
+  }
+}

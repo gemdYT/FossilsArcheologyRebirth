@@ -1,0 +1,3621 @@
+[
+  {
+    "name": "amber_block",
+    "kind": "solid",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "amber_chunk",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "amber_chunk_dominican",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "amber_chunk_mosquito",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "amber_ore",
+    "kind": "ore",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "ancient_chest",
+    "kind": "storage",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "ancient_glass",
+    "kind": "glass",
+    "sound": "stone",
+    "properties": {
+      "up": [
+        "false",
+        "true"
+      ],
+      "down": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ],
+      "north": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "ancient_stone",
+    "kind": "solid",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "ancient_stone_bricks",
+    "kind": "solid",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "ancient_stone_slab",
+    "kind": "slab",
+    "sound": "stone",
+    "properties": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "ancient_stone_stairs",
+    "kind": "stairs",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "ancient_stone_wall",
+    "kind": "wall",
+    "sound": "stone",
+    "properties": {
+      "up": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "low",
+        "tall"
+      ],
+      "north": [
+        "low",
+        "tall"
+      ],
+      "south": [
+        "low",
+        "tall"
+      ],
+      "west": [
+        "low",
+        "tall"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "ancient_wood_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "ancient_wood_planks",
+    "kind": "solid",
+    "sound": "wood",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "ancient_wood_slab",
+    "kind": "slab",
+    "sound": "wood",
+    "properties": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "ancient_wood_stairs",
+    "kind": "stairs",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "anu_barrier_face",
+    "kind": "barrier",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "anu_barrier_origin",
+    "kind": "barrier",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "anu_portal",
+    "kind": "portal",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "anu_statue",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "anubite_statue",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "ash_vent",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {},
+    "light": 14
+  },
+  {
+    "name": "bennettitales_large",
+    "kind": "double_plant",
+    "sound": "grass",
+    "properties": {
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "bennettitales_small",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "bubble_blower",
+    "kind": "bubble",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "active": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "calamites_button",
+    "kind": "button",
+    "sound": "wood",
+    "properties": {
+      "face": [
+        "ceiling",
+        "floor",
+        "wall"
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "calamites_door",
+    "kind": "door",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "calamites_fence",
+    "kind": "fence",
+    "sound": "wood",
+    "properties": {
+      "north": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "calamites_fence_gate",
+    "kind": "gate",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "in_wall": [
+        "false",
+        "true"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "calamites_leaves",
+    "kind": "leaves",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "calamites_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "calamites_planks",
+    "kind": "solid",
+    "sound": "wood",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "calamites_pressure_plate",
+    "kind": "pressure",
+    "sound": "wood",
+    "properties": {
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "calamites_sapling",
+    "kind": "sapling",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "calamites_slab",
+    "kind": "slab",
+    "sound": "wood",
+    "properties": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "calamites_stairs",
+    "kind": "stairs",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "calamites_trapdoor",
+    "kind": "trapdoor",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "calamites_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cephalotaxus",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "comfy_bed",
+    "kind": "bed",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "part": [
+        "foot",
+        "head"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cordaites_button",
+    "kind": "button",
+    "sound": "wood",
+    "properties": {
+      "face": [
+        "ceiling",
+        "floor",
+        "wall"
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cordaites_door",
+    "kind": "door",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cordaites_fence",
+    "kind": "fence",
+    "sound": "wood",
+    "properties": {
+      "north": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cordaites_fence_gate",
+    "kind": "gate",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "in_wall": [
+        "false",
+        "true"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cordaites_leaves",
+    "kind": "leaves",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "cordaites_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cordaites_planks",
+    "kind": "solid",
+    "sound": "wood",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "cordaites_pressure_plate",
+    "kind": "pressure",
+    "sound": "wood",
+    "properties": {
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cordaites_sapling",
+    "kind": "sapling",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "cordaites_slab",
+    "kind": "slab",
+    "sound": "wood",
+    "properties": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cordaites_stairs",
+    "kind": "stairs",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cordaites_trapdoor",
+    "kind": "trapdoor",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cordaites_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "crataegus",
+    "kind": "double_plant",
+    "sound": "grass",
+    "properties": {
+      "age": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "cyathea",
+    "kind": "four_plant",
+    "sound": "grass",
+    "properties": {
+      "layer": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "dense_sand",
+    "kind": "sand",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "dictyophyllum",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "dillhoffia",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "dipteris",
+    "kind": "double_plant",
+    "sound": "grass",
+    "properties": {
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "drum",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "drums": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "duisbergia",
+    "kind": "double_plant",
+    "sound": "grass",
+    "properties": {
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "ephedra",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {
+      "age": [
+        "0",
+        "1"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "fake_obsidian",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "feeder",
+    "kind": "machine",
+    "sound": "stone",
+    "properties": {
+      "carn": [
+        "false",
+        "true"
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "herb": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_anu_destroyed",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_anu_pristine",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_anu_restored",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_enderman_destroyed",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_enderman_pristine",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_enderman_restored",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_piglin_destroyed",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_piglin_pristine",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_piglin_restored",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_skeleton_destroyed",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_skeleton_pristine",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_skeleton_restored",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_steve_destroyed",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_steve_pristine",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_steve_restored",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_zombie_destroyed",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_zombie_pristine",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "figurine_zombie_restored",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "florissantia",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "foozia",
+    "kind": "double_plant",
+    "sound": "grass",
+    "properties": {
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "fossil_calcite",
+    "kind": "fossil",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "fossil_deepslate",
+    "kind": "fossil",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "fossil_dripstone",
+    "kind": "fossil",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "fossil_red_sandstone",
+    "kind": "fossil",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "fossil_sandstone",
+    "kind": "fossil",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "fossil_stone",
+    "kind": "fossil",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "fossil_tuff",
+    "kind": "fossil",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "home_portal",
+    "kind": "portal",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "horsetail_large",
+    "kind": "double_plant",
+    "sound": "grass",
+    "properties": {
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "horsetail_small",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "iced_dirt",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "invisible_leaves",
+    "kind": "barrier",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "large_chain_fence",
+    "kind": "bars",
+    "sound": "stone",
+    "properties": {
+      "east": [
+        "false",
+        "true"
+      ],
+      "north": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "licopodiophyta",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "mutant_plant",
+    "kind": "double_plant",
+    "sound": "grass",
+    "properties": {
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_button",
+    "kind": "button",
+    "sound": "wood",
+    "properties": {
+      "face": [
+        "ceiling",
+        "floor",
+        "wall"
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_door",
+    "kind": "door",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_fence",
+    "kind": "fence",
+    "sound": "wood",
+    "properties": {
+      "north": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_fence_gate",
+    "kind": "gate",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "in_wall": [
+        "false",
+        "true"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_leaves",
+    "kind": "leaves",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_planks",
+    "kind": "solid",
+    "sound": "wood",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_pressure_plate",
+    "kind": "pressure",
+    "sound": "wood",
+    "properties": {
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_sapling",
+    "kind": "sapling",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_slab",
+    "kind": "slab",
+    "sound": "wood",
+    "properties": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_stairs",
+    "kind": "stairs",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_trapdoor",
+    "kind": "trapdoor",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_tumor",
+    "kind": "decor",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_vine",
+    "kind": "vine",
+    "sound": "grass",
+    "properties": {
+      "up": [
+        "false",
+        "true"
+      ],
+      "north": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "mutant_tree_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "obsidian_spikes",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "osmunda",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "palm_button",
+    "kind": "button",
+    "sound": "wood",
+    "properties": {
+      "face": [
+        "ceiling",
+        "floor",
+        "wall"
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "palm_door",
+    "kind": "door",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "palm_fence",
+    "kind": "fence",
+    "sound": "wood",
+    "properties": {
+      "north": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "palm_fence_gate",
+    "kind": "gate",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "in_wall": [
+        "false",
+        "true"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "palm_leaves",
+    "kind": "leaves",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "palm_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "palm_planks",
+    "kind": "solid",
+    "sound": "wood",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "palm_pressure_plate",
+    "kind": "pressure",
+    "sound": "wood",
+    "properties": {
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "palm_sapling",
+    "kind": "sapling",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "palm_slab",
+    "kind": "slab",
+    "sound": "wood",
+    "properties": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "palm_stairs",
+    "kind": "stairs",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "palm_trapdoor",
+    "kind": "trapdoor",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "palm_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "permafrost_block",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "plant_ferns",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {
+      "age": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "reinforced_glass",
+    "kind": "glass",
+    "sound": "stone",
+    "properties": {
+      "up": [
+        "false",
+        "true"
+      ],
+      "down": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ],
+      "north": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sagenopteris",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "sarcophagus",
+    "kind": "storage",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "sarracenia",
+    "kind": "double_plant",
+    "sound": "grass",
+    "properties": {
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "shell",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sifter",
+    "kind": "machine",
+    "sound": "stone",
+    "properties": {
+      "active": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sigillaria_button",
+    "kind": "button",
+    "sound": "wood",
+    "properties": {
+      "face": [
+        "ceiling",
+        "floor",
+        "wall"
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sigillaria_door",
+    "kind": "door",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sigillaria_fence",
+    "kind": "fence",
+    "sound": "wood",
+    "properties": {
+      "north": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sigillaria_fence_gate",
+    "kind": "gate",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "in_wall": [
+        "false",
+        "true"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sigillaria_leaves",
+    "kind": "leaves",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "sigillaria_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sigillaria_planks",
+    "kind": "solid",
+    "sound": "wood",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "sigillaria_pressure_plate",
+    "kind": "pressure",
+    "sound": "wood",
+    "properties": {
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sigillaria_sapling",
+    "kind": "sapling",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "sigillaria_slab",
+    "kind": "slab",
+    "sound": "wood",
+    "properties": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sigillaria_stairs",
+    "kind": "stairs",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sigillaria_trapdoor",
+    "kind": "trapdoor",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "sigillaria_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "skull",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "skull_lantern",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 14
+  },
+  {
+    "name": "slime_trail",
+    "kind": "rail",
+    "sound": "stone",
+    "properties": {
+      "shape": [
+        "ascending_east",
+        "ascending_north",
+        "ascending_south",
+        "ascending_west",
+        "east_west",
+        "north_east",
+        "north_south",
+        "north_west",
+        "south_east",
+        "south_west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "small_chain_fence",
+    "kind": "bars",
+    "sound": "stone",
+    "properties": {
+      "east": [
+        "false",
+        "true"
+      ],
+      "north": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_calamites_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_calamites_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_cordaites_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_cordaites_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_mutant_tree_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_mutant_tree_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_palm_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_palm_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_sigillaria_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_sigillaria_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_tempskya_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "stripped_tempskya_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tar",
+    "kind": "tar",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "tarred_dirt",
+    "kind": "solid",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "tempskya_button",
+    "kind": "button",
+    "sound": "wood",
+    "properties": {
+      "face": [
+        "ceiling",
+        "floor",
+        "wall"
+      ],
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_door",
+    "kind": "door",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ],
+      "hinge": [
+        "left",
+        "right"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_fence",
+    "kind": "fence",
+    "sound": "wood",
+    "properties": {
+      "north": [
+        "false",
+        "true"
+      ],
+      "south": [
+        "false",
+        "true"
+      ],
+      "west": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_fence_gate",
+    "kind": "gate",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "in_wall": [
+        "false",
+        "true"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_leaf",
+    "kind": "decor",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_log",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_planks",
+    "kind": "solid",
+    "sound": "wood",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "tempskya_pressure_plate",
+    "kind": "pressure",
+    "sound": "wood",
+    "properties": {
+      "powered": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_sapling",
+    "kind": "sapling",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "tempskya_slab",
+    "kind": "slab",
+    "sound": "wood",
+    "properties": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_stairs",
+    "kind": "stairs",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_top",
+    "kind": "decor",
+    "sound": "wood",
+    "properties": {
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_trapdoor",
+    "kind": "trapdoor",
+    "sound": "wood",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "open": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "tempskya_wood",
+    "kind": "pillar",
+    "sound": "wood",
+    "properties": {
+      "axis": [
+        "x",
+        "y",
+        "z"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vaccinium",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {
+      "age": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_black",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_blue",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_brown",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_cyan",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_damaged",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_gray",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_green",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_light_blue",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_light_gray",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_lime",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_magenta",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_orange",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_pink",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_purple",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_red",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_restored",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_white",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_amphora_yellow",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_black",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_blue",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_brown",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_cyan",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_damaged",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_gray",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_green",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_light_blue",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_light_gray",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_lime",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_magenta",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_orange",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_pink",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_purple",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_red",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_restored",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_white",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_kylix_yellow",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_black",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_blue",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_brown",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_cyan",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_damaged",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_gray",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_green",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_light_blue",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_light_gray",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_lime",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_magenta",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_orange",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_pink",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_purple",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_red",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_restored",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_white",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "vase_volute_yellow",
+    "kind": "decor",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "volcanic_ash",
+    "kind": "solid",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "volcanic_brick_slab",
+    "kind": "slab",
+    "sound": "stone",
+    "properties": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "volcanic_brick_stairs",
+    "kind": "stairs",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "volcanic_brick_wall",
+    "kind": "wall",
+    "sound": "stone",
+    "properties": {
+      "up": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "low",
+        "tall"
+      ],
+      "north": [
+        "low",
+        "tall"
+      ],
+      "south": [
+        "low",
+        "tall"
+      ],
+      "west": [
+        "low",
+        "tall"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "volcanic_bricks",
+    "kind": "solid",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "volcanic_rock",
+    "kind": "solid",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "volcanic_tile_slab",
+    "kind": "slab",
+    "sound": "stone",
+    "properties": {
+      "type": [
+        "bottom",
+        "double",
+        "top"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "volcanic_tile_stairs",
+    "kind": "stairs",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "half": [
+        "bottom",
+        "top"
+      ],
+      "shape": [
+        "inner_left",
+        "inner_right",
+        "outer_left",
+        "outer_right",
+        "straight"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "volcanic_tile_wall",
+    "kind": "wall",
+    "sound": "stone",
+    "properties": {
+      "up": [
+        "false",
+        "true"
+      ],
+      "east": [
+        "low",
+        "tall"
+      ],
+      "north": [
+        "low",
+        "tall"
+      ],
+      "south": [
+        "low",
+        "tall"
+      ],
+      "west": [
+        "low",
+        "tall"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "volcanic_tiles",
+    "kind": "solid",
+    "sound": "stone",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "welwitschia",
+    "kind": "plant",
+    "sound": "grass",
+    "properties": {},
+    "light": 0
+  },
+  {
+    "name": "worktable",
+    "kind": "machine",
+    "sound": "stone",
+    "properties": {
+      "facing": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "active": [
+        "false",
+        "true"
+      ]
+    },
+    "light": 0
+  },
+  {
+    "name": "zamites",
+    "kind": "double_plant",
+    "sound": "grass",
+    "properties": {
+      "half": [
+        "lower",
+        "upper"
+      ]
+    },
+    "light": 0
+  }
+]

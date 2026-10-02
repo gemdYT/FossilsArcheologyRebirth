@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "key": {
+    "S": "fossil:ancient_stone",
+    "C": "minecraft:barrel"
+  },
+  "result": {
+    "id": "fossil:sarcophagus",
+    "count": 1
+  }
+}

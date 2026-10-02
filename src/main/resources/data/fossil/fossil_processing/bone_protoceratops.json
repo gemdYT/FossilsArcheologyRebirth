@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_protoceratops",
+    "fossil:bone_foot_protoceratops",
+    "fossil:bone_leg_protoceratops",
+    "fossil:bone_ribcage_protoceratops",
+    "fossil:bone_skull_protoceratops",
+    "fossil:bone_tail_protoceratops",
+    "fossil:bone_unique_protoceratops",
+    "fossil:bone_vertebrae_protoceratops"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:protoceratops_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

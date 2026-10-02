@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": "fossil:palm_planks"
+  },
+  "result": {
+    "count": 3,
+    "id": "fossil:palm_door"
+  }
+}

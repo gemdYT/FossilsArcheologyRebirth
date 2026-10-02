@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_diplocaulus"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_diplocaulus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_diplocaulus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_diplocaulus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_diplocaulus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_diplocaulus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_diplocaulus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_diplocaulus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_diplocaulus"
+        }
+      ]
+    }
+  ]
+}

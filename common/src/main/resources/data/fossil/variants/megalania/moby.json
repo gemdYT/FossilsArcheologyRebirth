@@ -1,9 +1,0 @@
-{
-  "textureName": "moby",
-  "conditions": [
-    {
-      "type": "nametag",
-      "name": "Moby"
-    }
-  ]
-}

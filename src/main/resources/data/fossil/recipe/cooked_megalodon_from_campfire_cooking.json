@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_megalodon",
+  "result": {
+    "id": "fossil:cooked_megalodon"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

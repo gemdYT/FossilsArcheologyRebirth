@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "fossil:volcanic_rock",
+    "minecraft:magma_block"
+  ],
+  "result": {
+    "id": "fossil:ash_vent",
+    "count": 1
+  }
+}

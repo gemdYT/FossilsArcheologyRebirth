@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_megaloceros",
+  "result": {
+    "id": "fossil:cooked_megaloceros"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

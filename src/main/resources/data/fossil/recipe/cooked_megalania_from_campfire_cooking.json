@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_megalania",
+  "result": {
+    "id": "fossil:cooked_megalania"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_citipati",
+    "fossil:bone_foot_citipati",
+    "fossil:bone_leg_citipati",
+    "fossil:bone_ribcage_citipati",
+    "fossil:bone_skull_citipati",
+    "fossil:bone_tail_citipati",
+    "fossil:bone_unique_citipati",
+    "fossil:bone_vertebrae_citipati"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:citipati_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

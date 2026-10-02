@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": "fossil:meat_platybelodon",
+  "result": {
+    "id": "fossil:cooked_platybelodon"
+  },
+  "experience": 1.5,
+  "cookingtime": 100
+}

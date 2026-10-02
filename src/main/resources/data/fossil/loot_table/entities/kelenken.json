@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_kelenken"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_kelenken"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_kelenken"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_kelenken"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_kelenken"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_kelenken"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_kelenken"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_kelenken"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_kelenken"
+        }
+      ]
+    }
+  ]
+}

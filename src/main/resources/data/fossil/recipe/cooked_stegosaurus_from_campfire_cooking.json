@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_stegosaurus",
+  "result": {
+    "id": "fossil:cooked_stegosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

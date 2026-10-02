@@ -1,0 +1,22 @@
+{
+  "machine": "analyzer",
+  "inputs": [
+    "fossil:bone_arm_compsognathus",
+    "fossil:bone_foot_compsognathus",
+    "fossil:bone_leg_compsognathus",
+    "fossil:bone_ribcage_compsognathus",
+    "fossil:bone_skull_compsognathus",
+    "fossil:bone_tail_compsognathus",
+    "fossil:bone_unique_compsognathus",
+    "fossil:bone_vertebrae_compsognathus"
+  ],
+  "fuel": null,
+  "ticks": 100,
+  "results": [
+    {
+      "item": "fossil:compsognathus_dna",
+      "count": 1,
+      "weight": 1
+    }
+  ]
+}

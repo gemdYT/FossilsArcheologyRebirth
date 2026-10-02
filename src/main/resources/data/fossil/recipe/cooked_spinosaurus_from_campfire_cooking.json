@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": "fossil:meat_spinosaurus",
+  "result": {
+    "id": "fossil:cooked_spinosaurus"
+  },
+  "experience": 1.5,
+  "cookingtime": 600
+}

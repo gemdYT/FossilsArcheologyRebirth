@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:meat_liopleurodon"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_arm_liopleurodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_foot_liopleurodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_leg_liopleurodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_ribcage_liopleurodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_skull_liopleurodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_tail_liopleurodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_unique_liopleurodon"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fossil:bone_vertebrae_liopleurodon"
+        }
+      ]
+    }
+  ]
+}
