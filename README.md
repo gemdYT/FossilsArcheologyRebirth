@@ -1,103 +1,121 @@
-# Fossils and Archeology Rebirth
+<div align="center">
 
-Rebirth project credits: [gemdYT](https://github.com/gemdYT). See the [credits](docs/CREDITS.md) and original contributor lists below.
+![Fossils and Archeology Rebirth — excavate, revive, explore](docs/assets/rebirth-banner.svg)
 
-> **Fabric 26.3 development port — dev.8:** 64 prehistoric species with species movement speeds, smooth flight/swimming, diet-based hunting, fleeing and defensive behavior, wild aquatic spawns, 250 additional blocks, 879 catalog items, five machine interfaces, museum skeletons, exploration and Anu progression. Read the [play guide](docs/PLAY_GUIDE.md) for installation, controls and testing limits, or the [architecture notes](docs/ARCHITECTURE.md) for maintenance. On Windows, launch `launch-game.cmd` or run `.\gradlew.bat runClient`. This checkout contains one Fabric source tree; Forge and old-version support have been removed.
+**Bring prehistory back to Minecraft.**
 
-## Wikis
-[User Wiki](https://fossilsarcheology.wiki.gg/wiki/Fossils_and_Archeology_Wiki)
+Minecraft **26.3** · **Fabric** · Java **25** · Development build **dev.9**
 
-[Developer documentation](docs/ARCHITECTURE.md)
+[Installation](#installation) · [Play guide](docs/PLAY_GUIDE.md) · [Build from source](#build-from-source) · [Report a bug](https://github.com/gemdYT/FossilsArcheologyRebirth/issues)
 
-## Original Mod Contributors
-###### Programmers
-[DarkPred](https://github.com/DarkPred)
+</div>
 
-###### Texture/Model Artists
-[DDinoDan](https://www.instagram.com/ddinodan_/profilecard/), Dipple_Effect, Javaraptor, SealManVI, Totemaster
+---
 
-###### Animators
-Dafall, Indominator, MrDinosaurFan, TotallyNotAHobo
+Uncover fossils, recover ancient DNA, and raise prehistoric animals. Restore forgotten artifacts, build a museum, and explore ruins and volcanic terrain.
 
-###### Audio Artists
-Dipple_Effect
+Rebirth is a Fabric mod with its own development direction: lively animals, a complete archaeology progression, and a focused codebase maintained on **`main`**.
 
-###### Builders
-Robberto08
+## A prehistoric world to build
 
-###### Other
-Thylaconical
+| Discover | What you can do |
+| :--- | :--- |
+| 🦖 **64 prehistoric species** | Raise land animals, flying creatures and aquatic life with species movement speeds, hunting, fleeing, care and ownership. |
+| ⛏️ **Fossil excavation** | Mine fossil deposits and amber, sift sand and gravel, and analyze your discoveries for DNA and plant finds. |
+| 🧬 **Bring animals to life** | Culture DNA with Bio-Goo, incubate eggs or embryos, and feed, tame and care for the animals you raise. |
+| 🏺 **Archaeology and exploration** | Restore relics and equipment, discover ruins and temples, visit village buildings, and progress through the Anu encounter and treasury. |
+| 🦴 **Your own museum** | Assemble skeletons from matching bone groups, choose display poses, and consult the dinopedia. |
+| ⚙️ **Five machines** | Use the Analyzer, Culture Vat, Sifter, Worktable and Feeder, with hopper automation and optional energy support. |
+| 🌋 **Ancient landscapes** | Explore volcanic terrain and prehistoric trees and plants, with 250 catalog blocks and 879 catalog items. |
 
-###### Language Contributors
-Natalia_Bloom (Bulgarian),
-TillusoryZenos (Chinese Simplified),
-Roda (Chinese Traditional),
-Wietse Dekker, bananapowers01, Tim Versteeg (Dutch),
-BryanDev45 (French),
-legoaggelos (Greek),
-DarkPred (German),
-Matyi (Hungarian),
-Aang (Icelandic),
-BlackstarKitty (Indonesian),
-Yamazaki (Japanese),
-SaitoYang (Korean),
-bananapowers01 (Pirate English),
-Kubar0207, AdrianBrzek (Polish),
-MiguelPinto (Portuguese),
-Capivara, Presinha, Chrysocyon, MiguelPinto, Kodii (Portuguese Brazilian),
-Eviort, B0berchek (Russian),
-Stefan Makrin (Serbo-Croatian),
-EnderPro, Deter, Aguu21 (Spanish),
-Thelgend92 (Swedish),
-Og-flyer (Turkish),
-jafarov.said90 (Ukrainian)
+### Start your first expedition
 
-## Past Mod Contributors
+**Excavate → Analyze → Culture → Incubate → Care → Explore**
 
-###### Programmers
-[Shadowbeast007](https://github.com/Shadowbeast),
-[Microjunk](https://github.com/Microjunk),
-[4f6f3b](https://github.com/4f6f3b),
-[Totara](https://github.com/TotaraStudios),
-[Cannibal Vox](https://github.com/CannibalVox),
-[Roomon1](https://github.com/Roomon1),
-[JTGhawk137](https://github.com/JTGhawk137),
-[Alexthe666](https://github.com/Alex-the-666),
-[iLexiconn](https://github.com/iLexiconn),
-[gegy1000](https://github.com/gegy1000),
-[tmvkrpxl0](https://github.com/tmvkrpxl0)
+Start with fossil-bearing stone or a Sifter. Analyze biological finds, culture the recovered DNA, then place the resulting egg or embryo in a suitable habitat. Build enclosures, care for your animals, and turn your discoveries into a museum.
 
-###### Texture/Model Artists
-[tyranno66](https://github.com/tyranno66),
-[Chellre](https://github.com/Chellre),
-ExDragonith,
-Raptorfarian,
-[Bluestreak52](https://github.com/Bluestreak52),
-Coldrake,
-Lindstheginj/ASDFGirl,
-Totemaster
+The [play guide](docs/PLAY_GUIDE.md) covers recipes, animal commands, incubation, exhibits, exploration and progression.
 
-###### Audio Artists
-whitejoshman,
-Nanotyrano
+## Installation
 
-###### Builders
-Robberto08, Toastlord
+1. Use **Minecraft 26.3**, **Java 25**, and **Fabric Loader 0.19.5 or newer**.
+2. Create the install kit using the build steps below. Extract the kit and copy its **six jars** from `mods/` into your instance's `mods/` folder.
+3. Remove the previous Rebirth mod jar and restart Minecraft.
 
-###### Language Contributors
-Octo-Docto (Spanish),
-[Gusanito](https://github.com/Gusanito) (Spanish),
-Roody, DragonH (Dutch),
-Retro_King (German),
-Cronosus (Czech),
-[crafteverywhere](https://github.com/crafteverywhere), [sb023612](https://github.com/sb023612), oldjunyi (Simplified Chinese),
-Adaptivity, fewizz (Russian),
-LeGribouilleur (French),
-utoc123, dy126800, lalaladinosaur (Korean),
-Al-Myr, SteveOriginal (Portuguese),
-Mirach (Polish)
+The mod uses these Fabric libraries:
 
-###### Special Thanks
-Flammarilva (original mod creator) and the rest of Team July.
+| Library | Version |
+| :--- | :--- |
+| Fabric API | 0.161.0+26.3 |
+| GeckoLib | 5.5.7 |
+| TerraBlender | 26.3.0.0.9 |
+| SmartBrainLib | 2.0.2 |
+| Structure Pool API | 1.3.0+26.3-fabric |
 
-The early Fossils mod team (Shadowbeast007, Microjunk, Tyranno66, 4f6f3b).
+Team Reborn Energy **5.0.0** is bundled inside the mod jar.
+
+**Current status:** this is a playable development build. Representative movement, animation, hunting, machines and progression have been checked. Broad species balance, long-session stability, modpack compatibility and dedicated-server gameplay still need testing. See the [testing notes](docs/PLAY_GUIDE.md#testing-and-simplified-behavior).
+
+Minecraft 26.3 is the verified target. Future Minecraft versions will need their own compatibility checks.
+
+## Build from source
+
+Install a **Java 25 JDK** and clone the maintained branch:
+
+```shell
+git clone --branch main https://github.com/gemdYT/FossilsArcheologyRebirth.git
+cd FossilsArcheologyRebirth
+```
+
+On Windows:
+
+```powershell
+.\gradlew.bat build
+.\gradlew.bat runClient
+```
+
+On Linux or macOS:
+
+```shell
+./gradlew build
+./gradlew runClient
+```
+
+Build output is in `build/libs/`. Windows users can also launch the development client with `launch-game.cmd`.
+
+To create the install kit after a successful build, use Python:
+
+```shell
+python tools/package_build.py
+```
+
+The kit appears in `dist/` and includes the mod, its five external libraries, a checksum manifest and the play guide.
+
+For development checks, run `build`, `runClientGameTest`, and `python tools/audit_content.py`. The [architecture guide](docs/ARCHITECTURE.md) explains profiles, recipes, libraries and maintenance.
+
+## Active developer
+
+**[gemdYT](https://github.com/gemdYT)** — creator and maintainer of Fossils and Archeology Rebirth.
+
+Development happens on **`main`**. Report bugs or suggest improvements through this repository's [issues](https://github.com/gemdYT/FossilsArcheologyRebirth/issues). Include the mod version, Minecraft version, reproduction steps and relevant logs.
+
+## License
+
+Code is licensed under **MIT**. Original assets retain their stated **All Rights Reserved** terms. See [LICENSE](LICENSE) and the credits below.
+
+---
+
+## Original mod credits
+
+<details>
+<summary><strong>Expand the original developers and contributor credits</strong></summary>
+
+Rebirth builds on work contributed by TeamFossilsArcheology and the original mod community.
+
+**Original developers:** DarkPred, Shadowbeast007, Microjunk, 4f6f3b, Totara, Cannibal Vox, Roomon1, JTGhawk137, Alexthe666, iLexiconn, gegy1000 and tmvkrpxl0.
+
+The complete historical developer, artist, animator, audio, builder and translator lists are in the separate [original mod credits](docs/CREDITS.md). Additional translation attribution is preserved in [ORIGINAL_CONTRIBUTORS.txt](docs/ORIGINAL_CONTRIBUTORS.txt).
+
+Special thanks to Flammarilva, Team July and the early Fossils mod team.
+
+</details>

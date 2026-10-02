@@ -39,7 +39,10 @@ for source, name, origin in artifacts:
     manifest['files'].append({'path': 'mods/' + name, 'sha256': hashlib.sha256(source.read_bytes()).hexdigest(), 'origin': origin})
 for document in ['PLAY_GUIDE.md', 'ARCHITECTURE.md', 'CREDITS.md', 'ORIGINAL_CONTRIBUTORS.txt']:
     shutil.copyfile(ROOT / 'docs' / document, DEST / document)
-(DEST / 'README.md').write_text((ROOT / 'README.md').read_text(encoding='utf-8').replace('docs/PLAY_GUIDE.md', 'PLAY_GUIDE.md').replace('docs/ARCHITECTURE.md', 'ARCHITECTURE.md').replace('docs/CREDITS.md', 'CREDITS.md'), encoding='utf-8')
+assets = DEST / 'assets'
+assets.mkdir(exist_ok=True)
+shutil.copyfile(ROOT / 'docs/assets/rebirth-banner.svg', assets / 'rebirth-banner.svg')
+(DEST / 'README.md').write_text((ROOT / 'README.md').read_text(encoding='utf-8').replace('docs/PLAY_GUIDE.md', 'PLAY_GUIDE.md').replace('docs/ARCHITECTURE.md', 'ARCHITECTURE.md').replace('docs/CREDITS.md', 'CREDITS.md').replace('docs/ORIGINAL_CONTRIBUTORS.txt', 'ORIGINAL_CONTRIBUTORS.txt').replace('docs/assets/', 'assets/'), encoding='utf-8')
 shutil.copyfile(ROOT / 'LICENSE', DEST / 'LICENSE')
 (DEST / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
 screenshots = ROOT / 'build/run/clientGameTest/screenshots'

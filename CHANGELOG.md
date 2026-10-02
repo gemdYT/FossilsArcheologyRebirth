@@ -1,10 +1,16 @@
-## 9.3.4.0-dev.8 — Rebirth branding cleanup
+## 9.3.4.0-dev.9 â€” Rebirth project documentation
+
+- Revamped the README with a local flat banner, feature overview, installation/build instructions and a separate original-mod credits section.
+- gemdYT is the sole active author; original contributors remain credited separately in mod metadata and the full credits document.
+- Updated issue assignments and project documentation around the maintained `main` branch.
+
+## 9.3.4.0-dev.8 â€” Rebirth branding cleanup
 
 - Removed remaining old project branding from documentation, credits labels and build coordinates.
 - Culture-vat help and the dinopedia describe cultured eggs/embryos consistently; incubation code uses the same terminology.
 - Rebuilt the install kit with Rebirth metadata. Restart Minecraft after updating to reload tooltip branding.
 
-## 9.3.4.0-dev.7 — Animal locomotion and predator fixes
+## 9.3.4.0-dev.7 â€” Animal locomotion and predator fixes
 
 - Corrected movement/attack animation assignments, including Quetzalcoatlus flight and trilobite locomotion. Added separate movement and triggered attack controllers.
 - Added persistent air/water cruising with gradual acceleration, bounded turning, body-sized obstacle probes, flight takeoff/resting, and client banking/pitch.

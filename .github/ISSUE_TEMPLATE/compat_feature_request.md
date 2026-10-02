@@ -3,7 +3,7 @@ name: Mod compatability request(feature)
 about: Suggest a feature for better mod compatability
 title: ''
 labels: enhancement, mod-compatability
-assignees: ''
+assignees: gemdYT
 ---
 
 **The mod**

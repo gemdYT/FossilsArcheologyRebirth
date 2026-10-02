@@ -3,7 +3,7 @@ name: Bug report
 about: Create a bug report for something that does not work as intended
 title: ''
 labels: bug
-assignees: DarkPred
+assignees: gemdYT
 
 ---
 

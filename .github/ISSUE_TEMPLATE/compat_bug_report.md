@@ -3,7 +3,7 @@ name: Mod compatability request(bug)
 about: Request mod compatability because of a bug that occurs when both mods are installed
 title: ''
 labels: bug, mod-compatability
-assignees: ''
+assignees: gemdYT
 ---
 
 **Attach the instance crash report and `logs/latest.log`. Exit code 1 alone does not identify the problem.**

@@ -1,6 +1,6 @@
 # Fabric 26.3 architecture
 
-This checkout contains one active Fabric source tree. Forge, Architectury, previous-version Java sources and migration generators have been removed. Original content assets, structure templates, language text, contributor attribution and licensing are retained. Minecraft 26.3 is the verified target; future 26.3+ releases will require their own dependency/build checks.
+The maintained development branch is `main`, with gemdYT as the active developer. This checkout contains one active Fabric source tree. Forge, Architectury, previous-version Java sources and migration generators have been removed. Original content assets, structure templates, language text, contributor attribution and licensing are retained. Minecraft 26.3 is the verified target; future 26.3+ releases will require their own dependency/build checks.
 
 ## Runtime libraries
 

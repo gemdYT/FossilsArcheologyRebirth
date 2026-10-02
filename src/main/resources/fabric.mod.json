@@ -4,16 +4,28 @@
   "version": "${modVersion}",
   "name": "${modName}",
   "description": "${modDescription}",
-  "authors": ["gemdYT", "DarkPred", "DDinoDan", "Dipple_Effect", "Indominator", "Javaraptor", "Robberto08", "SealManVI", "TotallyNotAHobo", "Totemaster", "4f6f3b", "Alexthe666", "ASDFGirlS7", "Blue", "JTGhawk137", "gegy1000", "tmvkrpxl0", "tyranno66"],
-  "contact": {"sources": "https://github.com/gemdYT/FossilsArcheologyRebirth"},
+  "authors": [
+    "gemdYT"
+  ],
+  "contact": {
+    "sources": "https://github.com/gemdYT/FossilsArcheologyRebirth"
+  },
   "license": "${modLicense}",
   "icon": "fossils.png",
   "environment": "*",
-  "mixins": ["fossil.mixins.json"],
+  "mixins": [
+    "fossil.mixins.json"
+  ],
   "entrypoints": {
-    "main": ["com.github.teamfossilsarcheology.fossil.FossilMod"],
-    "client": ["com.github.teamfossilsarcheology.fossil.client.FossilClient"],
-    "terrablender": ["com.github.teamfossilsarcheology.fossil.NativeWorldGen"]
+    "main": [
+      "com.github.teamfossilsarcheology.fossil.FossilMod"
+    ],
+    "client": [
+      "com.github.teamfossilsarcheology.fossil.client.FossilClient"
+    ],
+    "terrablender": [
+      "com.github.teamfossilsarcheology.fossil.NativeWorldGen"
+    ]
   },
   "depends": {
     "fabricloader": ">=${fabricLoaderVersion}",
@@ -24,6 +36,24 @@
     "terrablender": ">=${terraBlenderVersion}",
     "smartbrainlib": ">=${smartBrainLibVersion}",
     "structure_pool_api": ">=${structurePoolApiVersion}"
-  }
+  },
+  "contributors": [
+    "DarkPred",
+    "DDinoDan",
+    "Dipple_Effect",
+    "Indominator",
+    "Javaraptor",
+    "Robberto08",
+    "SealManVI",
+    "TotallyNotAHobo",
+    "Totemaster",
+    "4f6f3b",
+    "Alexthe666",
+    "ASDFGirlS7",
+    "Blue",
+    "JTGhawk137",
+    "gegy1000",
+    "tmvkrpxl0",
+    "tyranno66"
+  ]
 }
-
