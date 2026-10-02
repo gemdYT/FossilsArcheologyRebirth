@@ -2,38 +2,14 @@
 
 Rebirth project credits: [gemdYT](https://github.com/gemdYT). See the [credits](docs/CREDITS.md) and original contributor lists below.
 
-> **Fabric 26.3 development port — dev.7:** 64 prehistoric species with species movement speeds, smooth flight/swimming, diet-based hunting, fleeing and defensive behavior, wild aquatic spawns, 250 additional blocks, 879 catalog items, five machine interfaces, museum skeletons, exploration and Anu progression. Read the [play guide](docs/PLAY_GUIDE.md) for installation, controls and testing limits, or the [architecture notes](docs/ARCHITECTURE.md) for maintenance. On Windows, launch `launch-game.cmd` or run `.\gradlew.bat runClient`. This checkout contains one Fabric source tree; Forge and old-version support have been removed.
-
-<p align="center">
-    <img src="https://i.imgur.com/G18YFWC.jpeg" alt="Banner"/>
-</p>
-<p align="center">
-    <a href="https://discord.gg/fossils-archaeology-revival-252498968695537664">
-        <img src="https://dcbadge.limes.pink/api/server/fossils-archaeology-revival-252498968695537664" alt="Discord"/>
-    </a>
-    <a href="https://twitter.com/FossilsRevival">
-        <img src="https://img.shields.io/twitter/follow/fossilsrevival?style=for-the-badge&logo=x&label=TWITTER" alt="Twitter"/>
-    </a>
-    <a href="https://www.youtube.com/@FossilsAndArcheology">
-        <img src="https://img.shields.io/youtube/channel/subscribers/UCeO0YnK5lTmPTGSLOhK-hgA?style=for-the-badge&logo=youtube&label=Youtube" alt="Youtube"/>
-    </a>
-    <a href="https://www.curseforge.com/minecraft/mc-mods/fossils">
-        <img src="http://cf.way2muchnoise.eu/full_223908_downloads.svg" alt="Curseforge Downloads">
-    </a>
-    <a href="https://modrinth.com/mod/fossils-and-archeology-revival">
-        <img src="https://img.shields.io/modrinth/dt/IJY7IqPP?style=for-the-badge&label=MODRINTH&color=1BD96A" alt="Modrinth Downloads">
-    </a>
-</p>
-
-[Imgur album of current and past banners](http://imgur.com/a/hBe0h)
-
+> **Fabric 26.3 development port — dev.8:** 64 prehistoric species with species movement speeds, smooth flight/swimming, diet-based hunting, fleeing and defensive behavior, wild aquatic spawns, 250 additional blocks, 879 catalog items, five machine interfaces, museum skeletons, exploration and Anu progression. Read the [play guide](docs/PLAY_GUIDE.md) for installation, controls and testing limits, or the [architecture notes](docs/ARCHITECTURE.md) for maintenance. On Windows, launch `launch-game.cmd` or run `.\gradlew.bat runClient`. This checkout contains one Fabric source tree; Forge and old-version support have been removed.
 
 ## Wikis
 [User Wiki](https://fossilsarcheology.wiki.gg/wiki/Fossils_and_Archeology_Wiki)
 
-[Developer Wiki](https://github.com/TeamFossilsArcheology/FossilsArcheologyRevival/wiki)
+[Developer documentation](docs/ARCHITECTURE.md)
 
-## Original Fossils and Archeology Revival Contributors
+## Original Mod Contributors
 ###### Programmers
 [DarkPred](https://github.com/DarkPred)
 
@@ -76,7 +52,7 @@ Thelgend92 (Swedish),
 Og-flyer (Turkish),
 jafarov.said90 (Ukrainian)
 
-## Past Fossils and Archeology Revival Contributors
+## Past Mod Contributors
 
 ###### Programmers
 [Shadowbeast007](https://github.com/Shadowbeast),
@@ -124,4 +100,4 @@ Mirach (Polish)
 ###### Special Thanks
 Flammarilva (original mod creator) and the rest of Team July.
 
-The early Fossils Revival team (Shadowbeast007, Microjunk, Tyranno66, 4f6f3b).
+The early Fossils mod team (Shadowbeast007, Microjunk, Tyranno66, 4f6f3b).

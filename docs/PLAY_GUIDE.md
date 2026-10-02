@@ -1,10 +1,10 @@
 # Fossils and Archeology Rebirth — Fabric 26.3 play guide
 
-Development version **9.3.4.0-dev.7** targets Minecraft **26.3**, Java **25**, and Fabric Loader **0.19.5 or newer**. An earlier Fabric development test world can be used; back it up first. Original mod saves are not supported migration inputs. Rebirth project credit: **gemdYT**; see CREDITS.md for attribution.
+Development version **9.3.4.0-dev.8** targets Minecraft **26.3**, Java **25**, and Fabric Loader **0.19.5 or newer**. An earlier Fabric development test world can be used; back it up first. Original mod saves are not supported migration inputs. Rebirth project credit: **gemdYT**; see CREDITS.md for attribution.
 
 ## Installation
 
-Extract `dist/fossil-fabric-26.3-dev.7.zip` and copy its **six** `mods/*.jar` files into a Fabric 26.3 instance. Remove the previous fossil mod jar when upgrading, including jars named `fossils-archeology-revival-*`. The new jar is named `fossils-archeology-rebirth-*`. The kit includes the mod, Fabric API 0.161.0+26.3, GeckoLib 5.5.7, TerraBlender 26.3.0.0.9, SmartBrainLib 2.0.2 and Structure Pool API 1.3.0+26.3-fabric. Team Reborn Energy 5.0.0 is bundled.
+Extract `dist/fossil-fabric-26.3-dev.8.zip` and copy its **six** `mods/*.jar` files into a Fabric 26.3 instance. Remove the previous fossil mod jar when upgrading. The mod jar is named `fossils-archeology-rebirth-*`. Restart Minecraft after replacing the jar so mod names and tooltip labels reload. The kit includes the mod, Fabric API 0.161.0+26.3, GeckoLib 5.5.7, TerraBlender 26.3.0.0.9, SmartBrainLib 2.0.2 and Structure Pool API 1.3.0+26.3-fabric. Team Reborn Energy 5.0.0 is bundled.
 
 For development, double-click `launch-game.cmd` or run `.\gradlew.bat runClient`. The creative Fossils and Archeology Rebirth tab contains the content. This is a development build; broad balance and modpack testing remain open.
 
@@ -35,7 +35,7 @@ Place a cultured egg/embryo to incubate for about 15 seconds. Keep the space abo
 
 The port registers 64 prehistoric species using shared profiles, original assets and available animations/sounds. Feed suitable food to tame: two juvenile feeds, four non-aggressive adult feeds or eight aggressive adult feeds. Quaggas retain Minecraft's horse behavior.
 
-Four surviving aquatic species now spawn naturally in water: alligator gar in swamps and mangrove swamps, sturgeon in rivers, and coelacanth/nautilus in oceans. They share Minecraft's fish population limit and require water around their spawn position below sea level. Wild fish can despawn; revived, bred, tamed, named or bucket-captured animals are retained. Extinct species still come from fossil revival. Datapacks can extend the `fossil:spawns/<species>` biome tags.
+Four surviving aquatic species now spawn naturally in water: alligator gar in swamps and mangrove swamps, sturgeon in rivers, and coelacanth/nautilus in oceans. They share Minecraft's fish population limit and require water around their spawn position below sea level. Wild fish can despawn; revived, bred, tamed, named or bucket-captured animals are retained. Extinct species still come from fossil incubation. Datapacks can extend the `fossil:spawns/<species>` biome tags.
 
 Use a whip, skull stick, or sneak with an empty hand to cycle your animal's Wander/Follow/Stay command. A laser pointer directs owned animals toward a clicked block; the magic conch recalls owned aquatic animals. Saddle eligible non-flying adults and interact with an empty hand to ride. The jump key hops on land or rises in water. Mounted animals stop autonomous pursuit and roaming so those goals do not compete with rider input.
 

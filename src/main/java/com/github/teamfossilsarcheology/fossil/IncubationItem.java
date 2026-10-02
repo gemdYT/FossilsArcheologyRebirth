@@ -5,9 +5,9 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.context.UseOnContext;
 
 /** Every species uses one incubation block; the species is persisted by its block entity. */
-public final class RevivalItem extends BlockItem {
+public final class IncubationItem extends BlockItem {
     private final String species;
-    public RevivalItem(String species, Properties properties) { super(ModContent.DODO_EGG, properties); this.species = species; }
+    public IncubationItem(String species, Properties properties) { super(ModContent.DODO_EGG, properties); this.species = species; }
     @Override protected boolean placeBlock(net.minecraft.world.item.context.BlockPlaceContext context, net.minecraft.world.level.block.state.BlockState state) {
         boolean placed = super.placeBlock(context, state);
         if (placed && !context.getLevel().isClientSide() && context.getLevel().getBlockEntity(context.getClickedPos()) instanceof MachineBlockEntity egg) egg.setSpecies(species);

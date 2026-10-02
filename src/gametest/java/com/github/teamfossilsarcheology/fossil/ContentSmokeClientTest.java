@@ -223,7 +223,7 @@ public final class ContentSmokeClientTest implements FabricClientGameTest {
                     for (int i = 0; i < 200; i++) MachineBlockEntity.tick(mc.overworld(), pos, machine.getBlockState(), machine);
                     var output = machine.getItem(2);
                     if (output.isEmpty() || machine.getItem(0).getCount() != 1) throw new AssertionError("Machine processing/consumption failed: " + kind);
-                    if (kind.equals("culture_vat") && (!output.is(NativeItems.REVIVAL_ITEMS.get("allosaurus")) || machine.getItem(1).getCount() != 1)) throw new AssertionError("Species revival or vat fuel failed");
+                    if (kind.equals("culture_vat") && (!output.is(NativeItems.INCUBATION_ITEMS.get("allosaurus")) || machine.getItem(1).getCount() != 1)) throw new AssertionError("Species incubation or vat fuel failed");
                     if (kind.equals("worktable") && !output.is(NativeItems.get("ancient_sword"))) throw new AssertionError("Artifact restoration failed");
                 }
             });

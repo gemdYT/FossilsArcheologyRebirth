@@ -28,7 +28,7 @@ public final class NativeMachineScreen extends AbstractContainerScreen<NativeMac
         if (!menu.kind.equals("feeder")) graphics.text(font, "Output", x + 126, y + 24, 0xff403a30, false);
         String hint = switch (menu.kind) {
             case "analyzer" -> "Fossils / relics → DNA / artifacts";
-            case "culture_vat" -> "DNA + Bio-Goo → revival item";
+            case "culture_vat" -> "DNA + Bio-Goo → egg or embryo";
             case "sifter" -> "Sand / gravel → fossils / relics";
             case "worktable" -> "Artifact + iron / shard → restored";
             default -> "Feeds animals within 8 blocks";

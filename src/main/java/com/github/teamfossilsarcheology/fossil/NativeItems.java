@@ -19,7 +19,7 @@ import java.util.*;
 public final class NativeItems {
     public static final Map<String, Item> ITEMS = new LinkedHashMap<>();
     public static final Map<Item, String> DNA_SPECIES = new LinkedHashMap<>();
-    public static final Map<String, Item> REVIVAL_ITEMS = new LinkedHashMap<>();
+    public static final Map<String, Item> INCUBATION_ITEMS = new LinkedHashMap<>();
     private NativeItems() {}
     private static final Set<String> VANILLA = Set.of("axolotl", "bat", "bee", "cat", "chicken", "cod", "cow", "dolphin", "donkey", "fox", "goat", "glow_squid", "hoglin", "horse", "llama", "mooshroom", "ocelot", "panda", "parrot", "pig", "polar_bear", "pufferfish", "rabbit", "salmon", "sheep", "squid", "strider", "tropical_fish", "turtle", "wolf");
     @SuppressWarnings("unchecked")
@@ -49,8 +49,8 @@ public final class NativeItems {
             if (NativeBlocks.TOYS.containsKey(name)) {
                 item = new BlockItem(NativeBlocks.TOYS.get(name), properties);
             } else if ((name.startsWith("egg_item_") || name.startsWith("syringe_")) && animal != null) {
-                item = new RevivalItem(species, properties);
-                REVIVAL_ITEMS.put(species, item);
+                item = new IncubationItem(species, properties);
+                INCUBATION_ITEMS.put(species, item);
             } else if (name.startsWith("bucket_item_") && animal != null) {
                 item = new MobBucketItem(animal, Fluids.WATER, SoundEvents.BUCKET_EMPTY_FISH, properties.stacksTo(1));
             } else if (name.equals("tar_bucket")) {

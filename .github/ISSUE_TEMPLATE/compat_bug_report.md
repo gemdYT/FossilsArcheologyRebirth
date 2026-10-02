@@ -6,7 +6,7 @@ labels: bug, mod-compatability
 assignees: ''
 ---
 
-**Note: Exit code 1 means nothing. Make sure to attach a proper crash report. See [Here](https://github.com/TeamFossilsArcheology/FossilsArcheologyRevival/wiki/How-to-get-log-files) if you don't know where to find logs**
+**Attach the instance crash report and `logs/latest.log`. Exit code 1 alone does not identify the problem.**
 
 **The mod**
 The other mod and its version

@@ -1,3 +1,9 @@
+## 9.3.4.0-dev.8 — Rebirth branding cleanup
+
+- Removed remaining old project branding from documentation, credits labels and build coordinates.
+- Culture-vat help and the dinopedia describe cultured eggs/embryos consistently; incubation code uses the same terminology.
+- Rebuilt the install kit with Rebirth metadata. Restart Minecraft after updating to reload tooltip branding.
+
 ## 9.3.4.0-dev.7 — Animal locomotion and predator fixes
 
 - Corrected movement/attack animation assignments, including Quetzalcoatlus flight and trilobite locomotion. Added separate movement and triggered attack controllers.
