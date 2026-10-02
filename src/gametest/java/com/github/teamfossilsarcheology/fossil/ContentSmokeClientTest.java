@@ -57,6 +57,37 @@ public final class ContentSmokeClientTest implements FabricClientGameTest {
             world.getServer().runOnServer(mc -> instincts.escape());
             context.waitTicks(30);
             world.getServer().runOnServer(mc -> instincts.verifyPursuit());
+            var dynamics = new AnimalDynamicsSmoke();
+            world.getServer().runCommand("forceload add 36 -74 132 4");
+            world.getServer().runOnServer(dynamics::setup);
+            for (int sample = 0; sample < 30; sample++) {
+                context.waitTicks(10);
+                world.getServer().runOnServer(mc -> dynamics.sample());
+            }
+            world.getServer().runOnServer(mc -> dynamics.verify());
+            world.getServer().runOnServer(dynamics::prepareAnimation);
+            world.getConnection().waitForChunksRender();
+            context.waitTicks(10);
+            context.runOnClient(dynamics::verifyAnimation);
+            context.waitTicks(10);
+            context.runOnClient(dynamics::verifyAnimation);
+            context.takeScreenshot("fossil-quetzalcoatlus-flight");
+            world.getServer().runCommand("effect give @a minecraft:resistance 15 4 true");
+            for (boolean aquatic : new boolean[]{false, true}) {
+                world.getServer().runOnServer(mc -> dynamics.prepareAggression(mc, aquatic));
+                context.waitTicks(30);
+                world.getServer().runOnServer(mc -> dynamics.verifyAggression(mc, aquatic));
+                context.waitTicks(20);
+            }
+            world.getServer().runCommand("effect clear @a");
+            world.getServer().runOnServer(dynamics::prepareShore);
+            context.waitTicks(100);
+            world.getServer().runOnServer(mc -> dynamics.verifyShore());
+            world.getServer().runOnServer(dynamics::prepareRiding);
+            context.waitTicks(30);
+            world.getServer().runOnServer(dynamics::verifyRiding);
+            world.getServer().runOnServer(mc -> dynamics.cleanup());
+            world.getServer().runCommand("forceload remove 36 -74 132 4");
             world.getServer().runCommand("tp @a 0 101 5 180 20");
             context.waitTicks(5);
             var wildAquatics = new AquaticSpawnSmoke();

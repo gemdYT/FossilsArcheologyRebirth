@@ -1,3 +1,15 @@
+## 9.3.4.0-dev.7 — Animal locomotion and predator fixes
+
+- Corrected movement/attack animation assignments, including Quetzalcoatlus flight and trilobite locomotion. Added separate movement and triggered attack controllers.
+- Added persistent air/water cruising with gradual acceleration, bounded turning, body-sized obstacle probes, flight takeoff/resting, and client banking/pitch.
+- Added species-specific walking, swimming, flight, cruise and chase speed profiles; refresh saved animals' movement attributes when loading.
+- Amphibious animals now use water steering while swimming and native amphibious navigation on land.
+- Rider input takes priority over autonomous movement/combat; swimming mounts use species speed and bounded acceleration.
+- Reset stale failed-path state when starting a hunt so an earlier unreachable wandering destination cannot cancel a fresh combat target.
+- Expanded wild predator aggression and retained diet, hunger, ownership, juvenile and command protections.
+- Added focused checks for large-predator hunts, Survival-player aggression, takeoff, rendered wing animation progression, sustained swimming and amphibious transitions. Profile audits now check speeds and animation references.
+- Runtime dependencies are unchanged; metadata templates now parse as valid JSON during Loom configuration.
+
 ## 9.3.4.0-dev.6 â€” Rebirth name and credits
 
 - Renamed the mod, creative tab, guide and jar to Fossils and Archeology Rebirth.

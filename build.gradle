@@ -78,8 +78,7 @@ processResources {
                  geckoLibVersion: project.geckoLibVersion,
                  terraBlenderVersion: project.terraBlenderVersion,
                  smartBrainLibVersion: project.smartBrainLibVersion,
-                 structurePoolApiVersion: project.structurePoolApiVersion,
-                 fabricModAuthors: groovy.json.JsonOutput.toJson(project.modAuthors.split(',').collect { it.trim() })]
+                 structurePoolApiVersion: project.structurePoolApiVersion]
     inputs.properties(props)
     filesMatching('fabric.mod.json') { expand(props) }
 }

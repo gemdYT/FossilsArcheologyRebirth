@@ -52,8 +52,8 @@ final class AnimalInstinctSmoke {
         var player = server.getPlayerList().getPlayers().getFirst();
         player.teleportTo(server.overworld(), -8, 110, -30, java.util.Set.of(), 180, 20, true);
         hunter = spawn(server, "allosaurus", -16, 110, -30);
-        player.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(Items.BEEF, 8));
-        for (int i = 0; i < 4; i++) hunter.mobInteract(player, net.minecraft.world.InteractionHand.MAIN_HAND);
+        player.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(Items.BEEF, 16));
+        for (int i = 0; i < 8; i++) hunter.mobInteract(player, net.minecraft.world.InteractionHand.MAIN_HAND);
         player.setItemSlot(EquipmentSlot.MAINHAND, ItemStack.EMPTY);
         if (!hunter.ownedBy(player)) throw new AssertionError("Owner-defense taming failed");
         spare = spawn(server, "dodo", -10, 110, -30); spare.setNoAi(true);
@@ -71,7 +71,7 @@ final class AnimalInstinctSmoke {
     }
     void beginPursuit(MinecraftServer server) {
         hunter = spawn(server, "velociraptor", -18, 110, -30);
-        meal = spawn(server, "dodo", -6, 110, -30); meal.setNoAi(true);
+        meal = spawn(server, "dodo", 4, 110, -30); meal.setNoAi(true);
         spare = spawn(server, "velociraptor", -20, 110, -28); spare.setNoAi(true);
     }
     void escape() {

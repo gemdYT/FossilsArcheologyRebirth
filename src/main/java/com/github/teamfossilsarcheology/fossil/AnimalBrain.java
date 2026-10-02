@@ -24,23 +24,26 @@ public final class AnimalBrain {
     // In SBL 2.0.2 start() clears WALK_TARGET, but shouldKeepRunning() requires it.
     // Preserve the selected destination so the new path survives its first tick.
     private static final class MoveToTarget extends MoveToWalkTarget<NativeAnimal> {
+        @Override protected boolean shouldKeepRunning(NativeAnimal animal) { return !AnimalLocomotion.spatial(animal) && super.shouldKeepRunning(animal); }
         @Override protected void start(NativeAnimal animal) {
             var destination = animal.getBrain().getMemory(MemoryModuleType.WALK_TARGET);
             super.start(animal);
             destination.ifPresent(target -> animal.getBrain().setMemory(MemoryModuleType.WALK_TARGET, target));
         }
     }
-    public static List<? extends ExtendedSensor<?>> sensors() { return List.of(new NearbyLivingEntitySensor<NativeAnimal>().setRadius(24).scanRate(20)); }
+    public static List<? extends ExtendedSensor<?>> sensors() { return List.of(new NearbyLivingEntitySensor<NativeAnimal>().setRadius(32).scanRate(10)); }
     public static List<? extends BehaviorControl<?>> core() {
         return List.of(new Intent().cooldownFor(10),
-                new LookAtTarget<NativeAnimal>(), new MoveToTarget().startCondition(a -> !a.staying() && !a.isInLove()));
+                new LookAtTarget<NativeAnimal>(), new MoveToTarget().startCondition(a -> !AnimalLocomotion.spatial(a) && !a.staying() && !a.isInLove()));
     }
     public static List<? extends BehaviorControl<?>> idle(NativeAnimal animal) {
-        var random = animal.species().aquatic() ? new SetRandomSwimTarget<NativeAnimal>() : animal.species().flying() ? new SetRandomFlyTarget<NativeAnimal>() : new SetRandomWalkTarget<NativeAnimal>();
-        return List.of(random.startCondition(NativeAnimal::canWander).cooldownFor(80));
+        if (AnimalLocomotion.spatial(animal)) return List.of();
+        return List.of(new SetRandomWalkTarget<NativeAnimal>().startCondition(a -> a.canWander() && !AnimalLocomotion.spatial(a)).speedModifier(animal.species().cruiseSpeed()).cooldownFor(30));
     }
     public static List<? extends BehaviorControl<?>> fight(NativeAnimal animal) {
         return List.of(new InvalidateAttackTarget<NativeAnimal>().invalidateIf((a, target) -> !a.canKeepAttacking(target)),
-                new SetWalkTargetToAttackTarget<NativeAnimal>(), new AnimatableMeleeAttack<NativeAnimal>(animal.species().attackDelay()).attackInterval(animal.species().attackInterval()));
+                new SetWalkTargetToAttackTarget<NativeAnimal>().speedModifier(animal.species().chaseSpeed()).closeEnoughDist(0),
+                new AnimatableMeleeAttack<NativeAnimal>(animal.species().attackDelay()).attackInterval(animal.species().attackInterval())
+                        .whenStarting(a -> a.triggerAnim("attack", "strike")));
     }
 }

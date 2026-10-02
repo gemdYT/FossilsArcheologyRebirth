@@ -43,7 +43,7 @@ for document in ['PLAY_GUIDE.md', 'ARCHITECTURE.md', 'CREDITS.md', 'ORIGINAL_CON
 shutil.copyfile(ROOT / 'LICENSE', DEST / 'LICENSE')
 (DEST / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
 screenshots = ROOT / 'build/run/clientGameTest/screenshots'
-for name in ['content-smoke', 'care-and-skeletons', 'dinopedia', 'machine-analyzer', 'machine-culture_vat', 'machine-sifter', 'machine-worktable', 'machine-feeder']:
+for name in ['quetzalcoatlus-flight', 'content-smoke', 'care-and-skeletons', 'dinopedia', 'machine-analyzer', 'machine-culture_vat', 'machine-sifter', 'machine-worktable', 'machine-feeder']:
     candidates = list(screenshots.glob('*fossil-' + name + '.png'))
     if candidates:
         screenshot = max(candidates, key=lambda path: path.stat().st_mtime)

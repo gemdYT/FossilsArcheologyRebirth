@@ -21,6 +21,7 @@ import net.minecraft.resources.Identifier;
 
 public final class FossilClient implements ClientModInitializer {
     private static final com.geckolib.constant.dataticket.DataTicket<Integer> DISPLAY_BONES = com.geckolib.constant.dataticket.DataTicket.create("fossil:display_bones", Integer.class);
+    private static final com.geckolib.constant.dataticket.DataTicket<float[]> FLIGHT_ATTITUDE = com.geckolib.constant.dataticket.DataTicket.create("fossil:flight_attitude", float[].class);
     @Override public void onInitializeClient() {
         net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking.registerGlobalReceiver(com.github.teamfossilsarcheology.fossil.DinopediaPayload.TYPE, (payload, context) -> context.client().gui.setScreen(new DinopediaScreen(payload.text())));
         EntityRendererRegistry.register(com.github.teamfossilsarcheology.fossil.AnimalPart.TYPE, net.minecraft.client.renderer.entity.NoopRenderer::new);
@@ -53,6 +54,17 @@ public final class FossilClient implements ClientModInitializer {
         AnimalRenderer(EntityRendererProvider.Context context, AnimalSpecies species, boolean display) {
             super(context, new AnimalModel(species, display));
             withScale(species.scale());
+            if (!display && species.flying()) withRenderLayer(new com.geckolib.renderer.layer.GeoRenderLayer<NativeAnimal, Void, LivingEntityRenderState>(this) {
+                @Override public void preRender(com.geckolib.renderer.base.RenderPassInfo<LivingEntityRenderState> pass, net.minecraft.client.renderer.SubmitNodeCollector collector) {
+                    float[] tilt = pass.getOrDefaultGeckolibData(FLIGHT_ATTITUDE, new float[]{0, 0});
+                    pass.addBoneUpdater((info, snapshots) -> {
+                        for (var root : info.model().topLevelBones()) {
+                            var pose = snapshots.get(root);
+                            pose.setRotX(pose.getRotX() + tilt[0]).setRotZ(pose.getRotZ() + tilt[1]);
+                        }
+                    });
+                }
+            });
             if (display) withRenderLayer(new com.geckolib.renderer.layer.GeoRenderLayer<NativeAnimal, Void, LivingEntityRenderState>(this) {
                 @Override public void preRender(com.geckolib.renderer.base.RenderPassInfo<LivingEntityRenderState> pass, net.minecraft.client.renderer.SubmitNodeCollector collector) {
                     int mask = pass.getOrDefaultGeckolibData(DISPLAY_BONES, 0);
@@ -77,7 +89,10 @@ public final class FossilClient implements ClientModInitializer {
         private final AnimalSpecies species;
         private final boolean display;
         AnimalModel(AnimalSpecies species, boolean display) { this.species = species; this.display = display; }
-        @Override public void addAdditionalStateData(NativeAnimal animal, Object relatedObject, GeoRenderState state) { if (display) state.addGeckolibData(DISPLAY_BONES, animal.displayBones()); }
+        @Override public void addAdditionalStateData(NativeAnimal animal, Object relatedObject, GeoRenderState state) {
+            if (display) state.addGeckolibData(DISPLAY_BONES, animal.displayBones());
+            else if (species.flying()) state.addGeckolibData(FLIGHT_ATTITUDE, new float[]{animal.flightPitch() * net.minecraft.util.Mth.DEG_TO_RAD, animal.flightBank() * net.minecraft.util.Mth.DEG_TO_RAD});
+        }
         @Override public Identifier getModelResource(GeoRenderState state) { return ModContent.id("entity/" + species.model()); }
         @Override public Identifier getTextureResource(GeoRenderState state) {
             if (display) return ModContent.id("textures/entity/" + species.name() + "/" + species.name() + "_skeleton.png");

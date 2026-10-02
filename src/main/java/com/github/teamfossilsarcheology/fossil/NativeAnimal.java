@@ -26,6 +26,7 @@ public class NativeAnimal extends Animal implements GeoEntity, NativeAgeLock, Bu
     private static final net.minecraft.network.syncher.EntityDataAccessor<Integer> HUNGER = net.minecraft.network.syncher.SynchedEntityData.defineId(NativeAnimal.class, net.minecraft.network.syncher.EntityDataSerializers.INT);
     private static final net.minecraft.network.syncher.EntityDataAccessor<Integer> MOOD = net.minecraft.network.syncher.SynchedEntityData.defineId(NativeAnimal.class, net.minecraft.network.syncher.EntityDataSerializers.INT);
     private static final net.minecraft.network.syncher.EntityDataAccessor<Boolean> SADDLED = net.minecraft.network.syncher.SynchedEntityData.defineId(NativeAnimal.class, net.minecraft.network.syncher.EntityDataSerializers.BOOLEAN);
+    private static final net.minecraft.network.syncher.EntityDataAccessor<Boolean> FLYING = net.minecraft.network.syncher.SynchedEntityData.defineId(NativeAnimal.class, net.minecraft.network.syncher.EntityDataSerializers.BOOLEAN);
     private java.util.UUID owner;
     private int command, trust, directedTicks;
     private net.minecraft.core.BlockPos directedTo;
@@ -52,6 +53,9 @@ public class NativeAnimal extends Animal implements GeoEntity, NativeAgeLock, Bu
     public String displayProgress() { return assembledBones.size() + " bone groups • pose " + (entityData.get(DISPLAY_POSE) + 1); }
     private boolean agingStopped, wildSpawn;
     private boolean fromBucket, riderJump;
+    private float flightBank, flightPitch;
+    public float flightBank() { return flightBank; }
+    public float flightPitch() { return flightPitch; }
     @Override public boolean fromBucket() { return fromBucket; }
     @Override public void setFromBucket(boolean value) { fromBucket = value; if (value) setPersistenceRequired(); }
     @Override public ItemStack getBucketItemStack() { return new ItemStack(NativeItems.get("bucket_item_" + species().name())); }
@@ -66,7 +70,7 @@ public class NativeAnimal extends Animal implements GeoEntity, NativeAgeLock, Bu
     @Override public void loadFromBucketTag(net.minecraft.nbt.CompoundTag tag) { readAdditionalSaveData(net.minecraft.world.level.storage.TagValueInput.create(net.minecraft.util.ProblemReporter.DISCARDING, level().registryAccess(), tag)); }
     @Override public void setAgingStopped(boolean stopped) { agingStopped = stopped; }
     @Override protected void defineSynchedData(net.minecraft.network.syncher.SynchedEntityData.Builder builder) {
-        super.defineSynchedData(builder); builder.define(HUNGER, species().carnivore() && !isDisplay() ? 70 : 100); builder.define(MOOD, 70); builder.define(SADDLED, false); builder.define(DISPLAY_POSE, 0); builder.define(DISPLAY_BONES, 0);
+        super.defineSynchedData(builder); builder.define(HUNGER, species().carnivore() && !isDisplay() ? 70 : 100); builder.define(MOOD, 70); builder.define(SADDLED, false); builder.define(FLYING, false); builder.define(DISPLAY_POSE, 0); builder.define(DISPLAY_BONES, 0);
     }
     @Override protected void addAdditionalSaveData(net.minecraft.world.level.storage.ValueOutput output) {
         super.addAdditionalSaveData(output); output.putBoolean("AgingStopped", agingStopped);
@@ -88,6 +92,9 @@ public class NativeAnimal extends Animal implements GeoEntity, NativeAgeLock, Bu
         assembledBones.clear(); for (String bone : input.getStringOr("DisplayBones", "").split(",")) if (bone.startsWith("bone_") && bone.endsWith("_" + species().name()) && NativeItems.get(bone) != null) assembledBones.add(bone);
         entityData.set(DISPLAY_POSE, Math.clamp(input.getIntOr("DisplayPose", 0), 0, 2));
         syncDisplayBones();
+        // Apply current locomotion tuning to animals loaded from an earlier development build.
+        getAttribute(Attributes.MOVEMENT_SPEED).setBaseValue(species().speed());
+        getAttribute(Attributes.FLYING_SPEED).setBaseValue(species().flightSpeed());
     }
     public int hunger() { return entityData.get(HUNGER); }
     public int mood() { return entityData.get(MOOD); }
@@ -137,7 +144,7 @@ public class NativeAnimal extends Animal implements GeoEntity, NativeAgeLock, Bu
     }
     @Override public LivingEntity getControllingPassenger() { return entityData.get(SADDLED) && getFirstPassenger() instanceof Player player ? player : null; }
     @Override protected Vec3 getRiddenInput(Player player, Vec3 input) { return new Vec3(player.xxa * .5, 0, player.zza); }
-    @Override protected float getRiddenSpeed(Player player) { return (float) getAttributeValue(Attributes.MOVEMENT_SPEED); }
+    @Override protected float getRiddenSpeed(Player player) { return (float) (species().amphibious() && isInWater() ? species().swimSpeed() : getAttributeValue(Attributes.MOVEMENT_SPEED)); }
     @Override protected void tickRidden(Player player, Vec3 input) {
         super.tickRidden(player, input); setYRot(player.getYRot()); setXRot(player.getXRot() * .5f); yBodyRot = getYRot(); yHeadRot = getYRot();
         if (riderJump) { if (isInWater()) setDeltaMovement(getDeltaMovement().add(0, .3, 0)); else if (onGround()) jumpFromGround(); riderJump = false; }
@@ -159,15 +166,19 @@ public class NativeAnimal extends Animal implements GeoEntity, NativeAgeLock, Bu
     public boolean canKeepAttacking(LivingEntity target) { return behavior.canKeepAttacking(target); }
     public boolean canWander() { return behavior.canWander(); }
     public void updateIntent() { behavior.update(); }
+    void cruise() { if (moveControl instanceof AnimalLocomotion movement) movement.cruise(); }
+    public boolean flyingNow() { return entityData.get(FLYING); }
+    void setFlyingState(boolean value) { if (!level().isClientSide()) entityData.set(FLYING, value); }
     private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
     public NativeAnimal(EntityType<? extends NativeAnimal> type, Level level) {
         super(type, level);
         if (isDisplay()) { setNoAi(true); setNoGravity(true); setSilent(true); setPersistenceRequired(); }
+        if ((species().flying() || species().amphibious()) && !isDisplay()) {
+            moveControl = new AnimalLocomotion(this);
+        }
         if (species().aquatic()) {
-            moveControl = new SmoothSwimmingMoveControl<>(this, 85, 10, 1, .1f, false);
             setPathfindingMalus(PathType.WATER, 0);
         } else if (species().flying()) {
-            moveControl = new FlyingMoveControl<>(this, 10, true);
             setPathfindingMalus(PathType.WATER, -1);
         } else if (species().amphibious()) {
             setPathfindingMalus(PathType.WATER, 0);
@@ -177,16 +188,17 @@ public class NativeAnimal extends Animal implements GeoEntity, NativeAgeLock, Bu
     public static AttributeSupplier.Builder attributes(AnimalSpecies species) {
         return Animal.createAnimalAttributes().add(Attributes.MAX_HEALTH, species.health())
                 .add(Attributes.MOVEMENT_SPEED, species.speed()).add(Attributes.ATTACK_DAMAGE, species.damage())
-                .add(Attributes.ARMOR, species.armor()).add(Attributes.ATTACK_KNOCKBACK, species.knockback()).add(Attributes.FLYING_SPEED, species.speed()).add(Attributes.FOLLOW_RANGE, 24);
+                .add(Attributes.ARMOR, species.armor()).add(Attributes.ATTACK_KNOCKBACK, species.knockback()).add(Attributes.FLYING_SPEED, species.flightSpeed()).add(Attributes.FOLLOW_RANGE, 32);
     }
     @Override protected PathNavigation createNavigation(Level level) {
         if (species().aquatic()) return new WaterBoundPathNavigation(this, level);
+        if (species().amphibious()) return new AmphibiousPathNavigation(this, level);
         if (species().flying()) return new FlyingPathNavigation(this, level);
         return super.createNavigation(level);
     }
     @Override protected void registerGoals() {
         if (isDisplay()) return;
-        if (!species().aquatic()) goalSelector.addGoal(0, new FloatGoal(this));
+        if (!species().amphibious()) goalSelector.addGoal(0, new FloatGoal(this));
         goalSelector.addGoal(3, new BreedGoal(this, 1));
     }
     @Override public boolean isFood(ItemStack stack) {
@@ -225,15 +237,23 @@ public class NativeAnimal extends Animal implements GeoEntity, NativeAgeLock, Bu
     @Override protected SoundEvent getHurtSound(DamageSource source) { return NativeAnimals.sound(species(), "hurt"); }
     @Override protected SoundEvent getDeathSound() { return NativeAnimals.sound(species(), "death"); }
     @Override public void travel(Vec3 input) {
-        if (species().amphibious() && isInWater()) {
-            moveRelative(.03f, input);
-            move(MoverType.SELF, getDeltaMovement());
-            setDeltaMovement(getDeltaMovement().scale(.9));
+        if (species().flying() && isNoGravity() || species().amphibious() && isInWater()) {
+            if (isEffectiveAi()) {
+                if (getControllingPassenger() != null) moveRelative((float) species().swimSpeed() * .15f, input);
+                move(MoverType.SELF, getDeltaMovement());
+                if (getControllingPassenger() != null) setDeltaMovement(getDeltaMovement().scale(.85));
+            }
         } else super.travel(input);
     }
     @Override public void aiStep() {
         super.aiStep();
         if (isDisplay()) return;
+        if (level().isClientSide() && species().flying()) {
+            float bank = flyingNow() ? net.minecraft.util.Mth.clamp(-net.minecraft.util.Mth.wrapDegrees(getYRot() - yRotO) * 3, -20, 20) : 0;
+            float pitch = flyingNow() ? (float) -Math.toDegrees(Math.atan2(getDeltaMovement().y, Math.max(.01, getDeltaMovement().horizontalDistance()))) : 0;
+            flightBank = net.minecraft.util.Mth.lerp(.2f, flightBank, bank);
+            flightPitch = net.minecraft.util.Mth.lerp(.15f, flightPitch, net.minecraft.util.Mth.clamp(pitch, -25, 25));
+        }
         if (level() instanceof ServerLevel server) {
             if (!isBaby() && getBbWidth() > 2) {
                 if (frontPart == null || frontPart.isRemoved()) frontPart = AnimalPart.create(this, true);
@@ -251,7 +271,6 @@ public class NativeAnimal extends Animal implements GeoEntity, NativeAgeLock, Bu
             }
         }
         if (agingStopped && isBaby()) setAge(-24000);
-        if (species().flying()) setNoGravity(!onGround());
         if (species().movement().equals("WALK_AND_GLIDE") && !onGround() && getDeltaMovement().y < 0) setDeltaMovement(getDeltaMovement().multiply(1, .6, 1));
         if (species().aquatic() && !isInWater() && onGround()) {
             setDeltaMovement(getDeltaMovement().add((random.nextDouble() - .5) * .2, .25, (random.nextDouble() - .5) * .2));
@@ -263,14 +282,15 @@ public class NativeAnimal extends Animal implements GeoEntity, NativeAgeLock, Bu
             controllers.add(new AnimationController<NativeAnimal>("display", 0, state -> state.setAndContinue(RawAnimation.begin().thenLoop("museum.pose" + entityData.get(DISPLAY_POSE)))));
             return;
         }
-        AnimalSpecies species = species();
-        RawAnimation idle = RawAnimation.begin().thenLoop(species.idle());
-        RawAnimation walking = RawAnimation.begin().thenLoop(species.walk());
-        RawAnimation swimming = RawAnimation.begin().thenLoop(species.swim());
-        RawAnimation flying = RawAnimation.begin().thenLoop(species.fly());
-        RawAnimation attack = RawAnimation.begin().thenPlay(species.attack());
-        controllers.add(new AnimationController<NativeAnimal>("movement", 5, state -> state.setAndContinue(
-                isSwinging() ? attack : isInWater() && species.amphibious() ? swimming : species.flying() && !onGround() ? flying : state.isMoving() ? walking : idle)));
+        controllers.add(new AnimationController<NativeAnimal>("movement", 4, state -> state.setAndContinue(RawAnimation.begin().thenLoop(movementAnimation()))));
+        controllers.add(new AnimationController<NativeAnimal>("attack", 2, state -> com.geckolib.animation.object.PlayState.STOP)
+                .triggerableAnim("strike", RawAnimation.begin().thenPlay(species().attack())));
+    }
+    public String movementAnimation() {
+        boolean fast = getDeltaMovement().horizontalDistance() > (species().amphibious() && isInWater() ? species().swimSpeed() : species().flying() ? species().flightSpeed() : species().speed()) * 1.05;
+        if (flyingNow()) return fast ? species().fastFly() : species().fly();
+        if (isInWater() && species().amphibious()) return fast ? species().fastSwim() : species().swim();
+        return getDeltaMovement().horizontalDistanceSqr() > .0004 ? fast ? species().run() : species().walk() : species().idle();
     }
     @Override public AnimatableInstanceCache getAnimatableInstanceCache() { return cache; }
     @Override public boolean doHurtTarget(ServerLevel level, Entity target) {

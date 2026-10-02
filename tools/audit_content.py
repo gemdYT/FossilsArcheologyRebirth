@@ -1,5 +1,6 @@
 """Audit the active 26.3 data; no old checkout or generator inputs are needed."""
 import json
+import math
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -11,6 +12,33 @@ species = json.loads((RESOURCES / 'assets/fossil/species.json').read_text(encodi
 registered = items | {b['name'] for b in blocks} | {'bio_fossil', 'bio_goo', 'dodo_dna', 'fossil_ore', 'analyzer', 'culture_vat', 'dodo_egg'}
 registered |= {'spawn_egg_' + s['name'] for s in species} | {'spawn_egg_anu', 'spawn_egg_sentry_piglin', 'spawn_egg_tar_slime', 'spawn_egg_failuresaurus'}
 outputs, errors = set(), []
+
+# A valid filename alone does not prove that the species can animate or move.
+for animal in species:
+    name = animal['name']
+    if name == 'quagga':  # Uses the native horse renderer and locomotion.
+        continue
+    animation_file = RESOURCES / 'assets/fossil/geckolib/animations' / (animal['model'] + '.json')
+    animations = json.loads(animation_file.read_text(encoding='utf-8'))['animations']
+    for role in ('idle', 'walk', 'run', 'swim', 'fastSwim', 'fly', 'fastFly', 'attack'):
+        if animal[role] not in animations:
+            errors.append(f'{name}: missing {role} animation {animal[role]}')
+    for field in ('speed', 'swimSpeed', 'flightSpeed', 'cruiseSpeed', 'chaseSpeed', 'turnRate', 'flightHeight'):
+        if not math.isfinite(animal[field]) or animal[field] <= 0:
+            errors.append(f'{name}: invalid {field} {animal[field]}')
+    if animal['chaseSpeed'] <= animal['cruiseSpeed']:
+        errors.append(f'{name}: chase speed must exceed cruise speed')
+    if animal['movement'] == 'FLIGHT' and animal['fly'] == animal['idle']:
+        errors.append(f'{name}: flight incorrectly uses idle animation')
+    if animal['movement'] == 'FLIGHT':
+        geometry_file = RESOURCES / 'assets/fossil/geckolib/models/entity' / (animal['model'] + '.json')
+        geometry = json.loads(geometry_file.read_text(encoding='utf-8'))['minecraft:geometry']
+        bones = {bone['name'] for model in geometry for bone in model['bones']}
+        animated = set(animations[animal['fly']].get('bones', {}))
+        if not animated.intersection(bones):
+            errors.append(f'{name}: flight animation does not animate any model bones')
+    if animal['movement'] == 'AQUATIC' and animal['swim'] == animal['idle']:
+        errors.append(f'{name}: swimming incorrectly uses idle animation')
 
 def loot_items(value):
     if isinstance(value, dict):

@@ -65,6 +65,9 @@ final class AnimalBehavior {
 
     void update() {
         directedMovement = false;
+        if (animal.getControllingPassenger() != null) {
+            stopPursuit(false); animal.getNavigation().stop(); directedMovement = true; return;
+        }
         if (animal.staying()) { stopPursuit(false); animal.getNavigation().stop(); animal.getBrain().eraseMemory(MemoryModuleType.WALK_TARGET); return; }
         if (animal.isInLove()) { if (pursuit != null) stopPursuit(false); return; }
         LivingEntity current = animal.getBrain().getMemory(MemoryModuleType.ATTACK_TARGET).orElse(null);
@@ -119,19 +122,26 @@ final class AnimalBehavior {
         LivingEntity herd = nearby.stream().filter(e -> e.getType() == animal.getType() && e instanceof Animal a && !a.isBaby())
                 .min(java.util.Comparator.comparingDouble(animal::distanceToSqr)).orElse(null);
         if (herd != null && animal.distanceToSqr(herd) > (animal.isBaby() ? 9 : 100)) approach(herd, 1);
+        else if (AnimalLocomotion.spatial(animal)) animal.cruise();
     }
 
     private void attack(LivingEntity target, boolean forFood) {
-        if (pursuit != target) { pursuit = target; pursuitStarted = animal.tickCount; lastVisible = animal.tickCount; }
+        if (pursuit != target) {
+            pursuit = target; pursuitStarted = animal.tickCount; lastVisible = animal.tickCount;
+            // An unreachable roaming destination must not cancel a fresh hunt.
+            animal.getBrain().eraseMemory(MemoryModuleType.CANT_REACH_WALK_TARGET_SINCE);
+        }
         if (animal.hasLineOfSight(target)) lastVisible = animal.tickCount;
         hunting = forFood;
         animal.getBrain().setMemory(MemoryModuleType.ATTACK_TARGET, target);
+        animal.setAggressive(true);
         look(target);
         directedMovement = true;
     }
     private void stopPursuit(boolean ignore) {
         if (ignore && pursuit != null) { ignoredTarget = pursuit; ignoreUntil = animal.tickCount + 120; }
         pursuit = null;
+        animal.setAggressive(false);
         animal.getBrain().eraseMemory(MemoryModuleType.ATTACK_TARGET);
         animal.getBrain().eraseMemory(MemoryModuleType.WALK_TARGET);
         animal.getNavigation().stop();
@@ -140,7 +150,7 @@ final class AnimalBehavior {
         if (pursuit != null) stopPursuit(false);
         Vec3 away = DefaultRandomPos.getPosAway(animal, 12, 5, threat.position());
         if (away == null) away = animal.position().add(animal.position().subtract(threat.position()).normalize().scale(8));
-        walk(away, 1.4f);
+        walk(away, animal.species().chaseSpeed());
     }
     private void approach(LivingEntity target, float speed) { look(target); walk(target.position(), speed); }
     private void look(LivingEntity target) { animal.getBrain().setMemory(MemoryModuleType.LOOK_TARGET, new EntityTracker(target, true)); }

@@ -4,7 +4,7 @@
   "version": "${modVersion}",
   "name": "${modName}",
   "description": "${modDescription}",
-  "authors": ${fabricModAuthors},
+  "authors": ["gemdYT", "DarkPred", "DDinoDan", "Dipple_Effect", "Indominator", "Javaraptor", "Robberto08", "SealManVI", "TotallyNotAHobo", "Totemaster", "4f6f3b", "Alexthe666", "ASDFGirlS7", "Blue", "JTGhawk137", "gegy1000", "tmvkrpxl0", "tyranno66"],
   "contact": {"sources": "https://github.com/gemdYT/FossilsArcheologyRebirth"},
   "license": "${modLicense}",
   "icon": "fossils.png",
