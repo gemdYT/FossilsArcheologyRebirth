@@ -1,12 +1,12 @@
 # Fossils and Archeology Rebirth — Fabric 26.3 play guide
 
-Development version **9.3.4.0-dev.9** targets Minecraft **26.3**, Java **25**, and Fabric Loader **0.19.5 or newer**. An earlier Fabric development test world can be used; back it up first. Original mod saves are not supported migration inputs. Rebirth project credit: **gemdYT**; see CREDITS.md for attribution.
+Version **0.0.1** targets Minecraft **26.3**, Java **25**, and Fabric Loader **0.19.5 or newer**. This starts Rebirth's own release version sequence. An earlier Fabric development test world can be used; back it up first. Original mod saves are not supported migration inputs. Rebirth project credit: **gemdYT**; see CREDITS.md for attribution.
 
 ## Installation
 
-Extract `dist/fossil-fabric-26.3-dev.9.zip` and copy its **six** `mods/*.jar` files into a Fabric 26.3 instance. Remove the previous fossil mod jar when upgrading. The mod jar is named `fossils-archeology-rebirth-*`. Restart Minecraft after replacing the jar so mod names and tooltip labels reload. The kit includes the mod, Fabric API 0.161.0+26.3, GeckoLib 5.5.7, TerraBlender 26.3.0.0.9, SmartBrainLib 2.0.2 and Structure Pool API 1.3.0+26.3-fabric. Team Reborn Energy 5.0.0 is bundled.
+Extract `fossils-archeology-rebirth-fabric-26.3-0.0.1-install-kit.zip` and copy its **six** `mods/*.jar` files into a Fabric 26.3 instance. Remove the previous fossil mod jar when upgrading. The standalone mod jar is `fossils-archeology-rebirth-fabric-26.3-0.0.1.jar`; it requires the five external libraries when installed separately. Restart Minecraft after replacing the jar so mod names and tooltip labels reload. The kit includes the mod, Fabric API 0.161.0+26.3, GeckoLib 5.5.7, TerraBlender 26.3.0.0.9, SmartBrainLib 2.0.2 and Structure Pool API 1.3.0+26.3-fabric. Team Reborn Energy 5.0.0 is bundled.
 
-For development, double-click `launch-game.cmd` or run `.\gradlew.bat runClient`. The creative Fossils and Archeology Rebirth tab contains the content. This is a development build; broad balance and modpack testing remain open.
+For development, double-click `launch-game.cmd` or run `.\gradlew.bat runClient`. The creative Fossils and Archeology Rebirth tab contains the content. This is the first Rebirth release; broad balance and modpack testing remain open.
 
 ## Survival and machines
 

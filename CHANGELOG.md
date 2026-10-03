@@ -1,3 +1,13 @@
+## 0.0.1 — First Rebirth release
+
+- Started a new version sequence for Fossils and Archeology Rebirth, maintained by gemdYT on Minecraft 26.3 with Fabric.
+- Includes the completed port's 64 prehistoric species, fossil/DNA incubation progression, five machines, museum displays, archaeology, volcanic terrain and Anu exploration.
+- Includes species movement profiles, flying/swimming animation and steering, hunting, defensive behavior, animal care and ownership.
+- Prepared a standalone mod jar, a complete six-jar install kit, release notes and SHA-256 checksums for GitHub distribution.
+- Representative gameplay checks passed during port development; broad species balance, modpack compatibility and dedicated-server gameplay still need testing.
+
+## Port development history
+
 ## 9.3.4.0-dev.9 — Rebirth project documentation
 
 - Revamped the README with a local flat banner, feature overview, installation/build instructions and a separate original-mod credits section.

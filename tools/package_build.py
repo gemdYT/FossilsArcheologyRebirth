@@ -1,4 +1,4 @@
-"""Package the development build and its pinned runtime artifacts for local testing."""
+"""Prepare a release jar, install kit and upload checksums from a completed build."""
 import hashlib
 import json
 import shutil
@@ -12,15 +12,21 @@ for line in (ROOT / 'gradle.properties').read_text(encoding='utf-8').splitlines(
     if '=' in line and not line.startswith('#'):
         key, value = line.split('=', 1)
         props[key.strip()] = value.strip()
-DEST = ROOT / f"dist/fossil-fabric-{props['minecraftVersion']}-{props['modVersion'].split('-', 1)[1]}"
+release_name = f"{props['archivesName']}-fabric-{props['minecraftVersion']}-{props['modVersion']}"
+DEST = ROOT / 'dist' / (release_name + '-install-kit')
+mod_name = release_name + '.jar'
+mod_source = ROOT / 'build/libs' / mod_name
+with zipfile.ZipFile(mod_source) as built_mod:
+    metadata = json.loads(built_mod.read('fabric.mod.json'))
+    if metadata['version'] != props['modVersion'] or metadata['id'] != props['modId']:
+        raise RuntimeError('Built mod metadata does not match gradle.properties; rebuild first.')
 MODS = DEST / 'mods'
 MODS.mkdir(parents=True, exist_ok=True)
-mod_name = f"{props['archivesName']}-fabric-{props['minecraftVersion']}-{props['modVersion']}.jar"
 # Remove only superseded copies of this project's jar from its managed local kit.
 for previous in MODS.glob(f"{props['archivesName']}-fabric-{props['minecraftVersion']}-*.jar"):
     if previous.name != mod_name:
         previous.unlink()
-artifacts = [(ROOT / 'build/libs' / mod_name, mod_name, 'local build'),
+artifacts = [(mod_source, mod_name, 'local build'),
     (CACHE / 'net.fabricmc.fabric-api/fabric-api' / props['fabricApiVersion'], f"fabric-api-{props['fabricApiVersion']}.jar", 'https://modrinth.com/mod/fabric-api'),
     (CACHE / 'maven.modrinth/geckolib' / props['geckoLibVersionId'], f"geckolib-fabric-{props['geckoLibVersion']}.jar", 'https://modrinth.com/mod/geckolib/version/' + props['geckoLibVersionId']),
     (CACHE / 'maven.modrinth/terrablender' / props['terraBlenderVersionId'], f"terrablender-fabric-{props['terraBlenderVersion']}.jar", 'https://modrinth.com/mod/terrablender/version/' + props['terraBlenderVersionId']),
@@ -42,8 +48,13 @@ for document in ['PLAY_GUIDE.md', 'ARCHITECTURE.md', 'CREDITS.md', 'ORIGINAL_CON
 assets = DEST / 'assets'
 assets.mkdir(exist_ok=True)
 shutil.copyfile(ROOT / 'docs/assets/rebirth-banner.svg', assets / 'rebirth-banner.svg')
-(DEST / 'README.md').write_text((ROOT / 'README.md').read_text(encoding='utf-8').replace('docs/PLAY_GUIDE.md', 'PLAY_GUIDE.md').replace('docs/ARCHITECTURE.md', 'ARCHITECTURE.md').replace('docs/CREDITS.md', 'CREDITS.md').replace('docs/ORIGINAL_CONTRIBUTORS.txt', 'ORIGINAL_CONTRIBUTORS.txt').replace('docs/assets/', 'assets/'), encoding='utf-8')
+(DEST / 'README.md').write_text((ROOT / 'README.md').read_text(encoding='utf-8').replace('docs/PLAY_GUIDE.md', 'PLAY_GUIDE.md').replace('docs/ARCHITECTURE.md', 'ARCHITECTURE.md').replace('docs/CREDITS.md', 'CREDITS.md').replace('docs/ORIGINAL_CONTRIBUTORS.txt', 'ORIGINAL_CONTRIBUTORS.txt').replace('docs/assets/', 'assets/').replace('docs/releases/' + props['modVersion'] + '.md', 'RELEASE_NOTES.md'), encoding='utf-8')
 shutil.copyfile(ROOT / 'LICENSE', DEST / 'LICENSE')
+shutil.copyfile(ROOT / 'CHANGELOG.md', DEST / 'CHANGELOG.md')
+release_notes = ROOT / 'docs/releases' / (props['modVersion'] + '.md')
+if release_notes.is_file():
+    shutil.copyfile(release_notes, DEST / 'RELEASE_NOTES.md')
+    shutil.copyfile(release_notes, DEST.parent / ('release-notes-' + props['modVersion'] + '.md'))
 (DEST / 'manifest.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
 screenshots = ROOT / 'build/run/clientGameTest/screenshots'
 for name in ['quetzalcoatlus-flight', 'content-smoke', 'care-and-skeletons', 'dinopedia', 'machine-analyzer', 'machine-culture_vat', 'machine-sifter', 'machine-worktable', 'machine-feeder']:
@@ -56,5 +67,11 @@ with zipfile.ZipFile(archive, 'w', zipfile.ZIP_DEFLATED) as output:
     for entry in sorted(DEST.rglob('*')):
         if entry.is_file():
             output.write(entry, str(Path(DEST.name) / entry.relative_to(DEST)))
-print('Development kit:', archive)
+release_jar = DEST.parent / mod_name
+shutil.copyfile(mod_source, release_jar)
+checksums = DEST.parent / ('SHA256SUMS-' + props['modVersion'] + '.txt')
+checksums.write_text(''.join(f'{hashlib.sha256(path.read_bytes()).hexdigest()}  {path.name}\n' for path in [release_jar, archive]), encoding='utf-8')
+print('Release jar:', release_jar)
+print('Install kit:', archive)
+print('Checksums:', checksums)
 print('Runtime jars:', len(manifest['files']))

@@ -4,7 +4,7 @@
 
 **Bring prehistory back to Minecraft.**
 
-Minecraft **26.3** · **Fabric** · Java **25** · Development build **dev.9**
+Minecraft **26.3** · **Fabric** · Java **25** · Version **0.0.1**
 
 [Installation](#installation) · [Play guide](docs/PLAY_GUIDE.md) · [Build from source](#build-from-source) · [Report a bug](https://github.com/gemdYT/FossilsArcheologyRebirth/issues)
 
@@ -39,10 +39,10 @@ The [play guide](docs/PLAY_GUIDE.md) covers recipes, animal commands, incubation
 ## Installation
 
 1. Use **Minecraft 26.3**, **Java 25**, and **Fabric Loader 0.19.5 or newer**.
-2. Create the install kit using the build steps below. Extract the kit and copy its **six jars** from `mods/` into your instance's `mods/` folder.
+2. Download the **0.0.1 install kit** from [GitHub Releases](https://github.com/gemdYT/FossilsArcheologyRebirth/releases). Extract the kit and copy its **six jars** from `mods/` into your instance's `mods/` folder. You can also create the kit using the build steps below.
 3. Remove the previous Rebirth mod jar and restart Minecraft.
 
-The mod uses these Fabric libraries:
+If you download the standalone mod jar instead, install these Fabric libraries alongside it:
 
 | Library | Version |
 | :--- | :--- |
@@ -54,7 +54,7 @@ The mod uses these Fabric libraries:
 
 Team Reborn Energy **5.0.0** is bundled inside the mod jar.
 
-**Current status:** this is a playable development build. Representative movement, animation, hunting, machines and progression have been checked. Broad species balance, long-session stability, modpack compatibility and dedicated-server gameplay still need testing. See the [testing notes](docs/PLAY_GUIDE.md#testing-and-simplified-behavior).
+**Current status:** 0.0.1 is the first Rebirth release, starting a new version sequence for the Fabric port. Representative movement, animation, hunting, machines and progression have been checked. Broad species balance, long-session stability, modpack compatibility and dedicated-server gameplay still need testing. See the [testing notes](docs/PLAY_GUIDE.md#testing-and-simplified-behavior).
 
 Minecraft 26.3 is the verified target. Future Minecraft versions will need their own compatibility checks.
 
@@ -89,7 +89,7 @@ To create the install kit after a successful build, use Python:
 python tools/package_build.py
 ```
 
-The kit appears in `dist/` and includes the mod, its five external libraries, a checksum manifest and the play guide.
+Release files appear in `dist/`: the standalone mod jar, an `-install-kit.zip` containing the mod and its five external libraries, and `SHA256SUMS-0.0.1.txt`. The kit includes the play guide, credits and a checksum manifest. [Release notes](docs/releases/0.0.1.md) are ready to use when publishing the GitHub release with tag `v0.0.1`.
 
 For development checks, run `build`, `runClientGameTest`, and `python tools/audit_content.py`. The [architecture guide](docs/ARCHITECTURE.md) explains profiles, recipes, libraries and maintenance.
 
